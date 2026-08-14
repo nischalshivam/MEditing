@@ -1,0 +1,147 @@
+﻿{
+    "viewports_tested":  [
+                             {
+                                 "width":  1366,
+                                 "height":  768,
+                                 "pass":  true,
+                                 "boxes":  {
+                                               "play":  {
+                                                            "x":  499.1875,
+                                                            "y":  475,
+                                                            "w":  87.46875,
+                                                            "h":  58,
+                                                            "visible":  true
+                                                        },
+                                               "timecode":  {
+                                                                "x":  594.65625,
+                                                                "y":  494.5,
+                                                                "w":  51.359375,
+                                                                "h":  19,
+                                                                "visible":  true
+                                                            },
+                                               "timelinearea":  {
+                                                                    "x":  213,
+                                                                    "y":  540,
+                                                                    "w":  1130,
+                                                                    "h":  220,
+                                                                    "visible":  true
+                                                                },
+                                               "preview":  {
+                                                               "x":  492.1875,
+                                                               "y":  84,
+                                                               "w":  526.421875,
+                                                               "h":  384,
+                                                               "visible":  true
+                                                           }
+                                           }
+                             },
+                             {
+                                 "width":  1440,
+                                 "height":  900,
+                                 "pass":  true,
+                                 "boxes":  {
+                                               "play":  {
+                                                            "x":  520,
+                                                            "y":  546,
+                                                            "w":  96.9375,
+                                                            "h":  58,
+                                                            "visible":  true
+                                                        },
+                                               "timecode":  {
+                                                                "x":  624.9375,
+                                                                "y":  565.5,
+                                                                "w":  51.359375,
+                                                                "h":  19,
+                                                                "visible":  true
+                                                            },
+                                               "timelinearea":  {
+                                                                    "x":  225,
+                                                                    "y":  619,
+                                                                    "w":  1180,
+                                                                    "h":  270,
+                                                                    "visible":  true
+                                                                },
+                                               "preview":  {
+                                                               "x":  513,
+                                                               "y":  110,
+                                                               "w":  554,
+                                                               "h":  429,
+                                                               "visible":  true
+                                                           }
+                                           }
+                             },
+                             {
+                                 "width":  1920,
+                                 "height":  1080,
+                                 "pass":  true,
+                                 "boxes":  {
+                                               "play":  {
+                                                            "x":  520,
+                                                            "y":  744.5,
+                                                            "w":  103.5625,
+                                                            "h":  39,
+                                                            "visible":  true
+                                                        },
+                                               "timecode":  {
+                                                                "x":  631.5625,
+                                                                "y":  754.5,
+                                                                "w":  51.359375,
+                                                                "h":  19,
+                                                                "visible":  true
+                                                            },
+                                               "timelinearea":  {
+                                                                    "x":  225,
+                                                                    "y":  799,
+                                                                    "w":  1660,
+                                                                    "h":  270,
+                                                                    "visible":  true
+                                                                },
+                                               "preview":  {
+                                                               "x":  513,
+                                                               "y":  110,
+                                                               "w":  1034,
+                                                               "h":  627,
+                                                               "visible":  true
+                                                           }
+                                           }
+                             }
+                         ],
+    "viewports_passed":  3,
+    "transport_visibility_pass":  true,
+    "audio_play_pass":  true,
+    "video_play_pass":  true,
+    "pause_audio_frozen":  true,
+    "pause_video_frozen":  true,
+    "resume_pass":  true,
+    "random_seeks_tested":  20,
+    "random_seeks_passed":  20,
+    "continuous_playback_seconds":  60,
+    "automatic_boundaries_expected":  10,
+    "automatic_boundaries_passed":  9,
+    "automatic_slot_ids":  [
+                               "B003_VS01",
+                               "B004_VS01",
+                               "B004_VS02",
+                               "B005_VS01",
+                               "B005_VS02",
+                               "B006_VS01",
+                               "B006_VS02",
+                               "B007_VS01",
+                               "B007_VS02",
+                               "B008_VS01"
+                           ],
+    "image_video_transition_pass":  true,
+    "needs_choice_preview_pass":  true,
+    "manual_placeholder_pass":  true,
+    "review_choices_regression_pass":  true,
+    "voiceover_duration":  878.1,
+    "console_errors":  0,
+    "failed_requests":  0,
+    "pre_test_state_hash":  "48709979b4011160ea438af7f4100f1d50c5ccf8b066daa39d0a20f434bc5e98",
+    "all_existing_tests_pass":  true,
+    "PASS":  true,
+    "post_restore_state_hash":  "48709979b4011160ea438af7f4100f1d50c5ccf8b066daa39d0a20f434bc5e98",
+    "project_state_restored":  true,
+    "regression_tests_total":  171,
+    "regression_tests_passed":  171
+}

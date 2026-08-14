@@ -1,0 +1,32 @@
+=== VTEXT INSTRUCTION FILE v1 ===
+VIDEO_TITLE: Why Akatsuki Waited Acceptance
+NICHE: CARTOON_ESSAY
+LANGUAGE: en
+TOTAL_EVENTS: 3
+--- EVENT 001 ---
+NARRATION_CUE: "Two men in red clouds walk into Konoha"
+EVENT_TYPE: HOOK
+DISPLAY_TEXT: Two Men / In Red Clouds
+EMPHASIS_WORDS: Red Clouds
+INTENSITY: HIGH
+TEXT_ROLE: IMPACT
+VISUAL_FREEDOM: HIGH
+SEQUENCE_GROUP: NONE
+--- EVENT 002 ---
+NARRATION_CUE: "They get past the gate. They get past the patrols"
+EVENT_TYPE: HOOK
+DISPLAY_TEXT: Past The Gate / Past The Patrols
+EMPHASIS_WORDS: Past The Patrols
+INTENSITY: HIGH
+TEXT_ROLE: IMPACT
+VISUAL_FREEDOM: HIGH
+SEQUENCE_GROUP: 01
+--- EVENT 003 ---
+NARRATION_CUE: "and Kisame pulls Samehada off his back and says he'll take"
+EVENT_TYPE: HOOK
+DISPLAY_TEXT: Take The Boy's / Legs Off
+EMPHASIS_WORDS: Legs Off
+INTENSITY: HIGH
+TEXT_ROLE: IMPACT
+VISUAL_FREEDOM: HIGH
+SEQUENCE_GROUP: 01

@@ -1,0 +1,63 @@
+{
+  "library_pass": true,
+  "new_project_pass": true,
+  "script_upload_pass": true,
+  "voiceover_upload_pass": true,
+  "clue_upload_pass": true,
+  "source_scope_pass": true,
+  "media_thumbnail_total": 180,
+  "media_thumbnail_passed": 180,
+  "candidate_thumbnail_total": 483,
+  "candidate_thumbnail_passed": 483,
+  "black_thumbnails": 0,
+  "replace_candidate_pass": true,
+  "replace_project_media_pass": true,
+  "replace_manual_image_pass": true,
+  "replace_manual_video_pass": true,
+  "non_ripple_pass": true,
+  "gap_created_pass": true,
+  "gap_fill_pass": true,
+  "trim_left_pass": true,
+  "trim_right_pass": true,
+  "duration_pass": true,
+  "source_in_pass": true,
+  "crop_pass": true,
+  "transform_pass": true,
+  "split_pass": true,
+  "delete_pass": true,
+  "undo_redo_pass": true,
+  "video_10_sec_limit_pass": true,
+  "presentation_clip_count": 203,
+  "presentation_average_duration": 4.328035658666158,
+  "presentation_median_duration": 4.342550189592072,
+  "presentation_p90_duration": 4.823964124637348,
+  "presentation_max_video_duration": 6.105114678308855,
+  "forbidden_duplicate_clip_count": 0,
+  "max_exact_scene_usage": 2,
+  "continuous_playback_seconds": 119.99260000038821,
+  "boundaries_expected": 30,
+  "boundaries_passed": 30,
+  "persistence_pass": true,
+  "export_smoke_pass": true,
+  "viewports": [
+    {
+      "width": 1366,
+      "height": 768,
+      "pass": true
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "pass": true
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "pass": true
+    }
+  ],
+  "console_errors": 0,
+  "failed_requests": 0,
+  "PASS": true,
+  "state_restored": true
+}

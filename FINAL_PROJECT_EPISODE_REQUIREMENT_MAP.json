@@ -1,0 +1,182 @@
+{
+  "version": "final-project-episode-requirement-map/2.0",
+  "project_id": "walter_book_project",
+  "authority": "ADMIN_SOURCE_CORRECTION",
+  "canonical_events": [
+    {
+      "canonical_event_id": "PRISON_MURDERS",
+      "episode": "S05E08",
+      "source_id": "src_cc76ce00ec8f3acd309e"
+    },
+    {
+      "canonical_event_id": "WALT_REDISCOVERS_LEAVES_OF_GRASS",
+      "episode": "S05E03",
+      "source_id": "src_9498b0938b8521a877dc"
+    },
+    {
+      "canonical_event_id": "GALE_WHITMAN_BOND",
+      "episode": "S03E06",
+      "source_id": "src_31ccffbdcbe2361f1aaa"
+    },
+    {
+      "canonical_event_id": "GALE_LEAVES_OF_GRASS_INSCRIPTION",
+      "episode": "S05E08",
+      "source_id": "src_cc76ce00ec8f3acd309e"
+    },
+    {
+      "canonical_event_id": "GALE_NOTEBOOK_WW_CLUE",
+      "episode": "S04E04",
+      "source_id": "src_6d5c7fd780bfdc14dd72"
+    },
+    {
+      "canonical_event_id": "WALT_REVIEWS_GALE_CASE_FILE",
+      "episode": "S04E04",
+      "source_id": "src_6d5c7fd780bfdc14dd72"
+    },
+    {
+      "canonical_event_id": "WALT_DEFLECTS_WW_SUSPICION",
+      "episode": "S04E04",
+      "source_id": "src_6d5c7fd780bfdc14dd72"
+    },
+    {
+      "canonical_event_id": "HANK_FINDS_LEAVES_OF_GRASS",
+      "episode": "S05E08",
+      "source_id": "src_cc76ce00ec8f3acd309e"
+    },
+    {
+      "canonical_event_id": "BOOK_MISSING_TRACKER_GARAGE",
+      "episode": "S05E09",
+      "source_id": "src_f9cbfaee385f981c3d29"
+    },
+    {
+      "canonical_event_id": "FAMILY_POOL_BEFORE_DISCOVERY",
+      "episode": "S05E08",
+      "source_id": "src_cc76ce00ec8f3acd309e"
+    },
+    {
+      "canonical_event_id": "HANK_ASSUMES_GALE_IS_HEISENBERG",
+      "episode": "S04E04",
+      "source_id": "src_6d5c7fd780bfdc14dd72"
+    },
+    {
+      "canonical_event_id": "WALT_REOPENS_CASE_AT_DINNER",
+      "episode": "S04E05",
+      "source_id": "src_510e74c8ad80d07b9f38"
+    },
+    {
+      "canonical_event_id": "GALE_MURDER",
+      "episode": "S03E13",
+      "source_id": "src_b6d08cb3e0f9ea44925d"
+    },
+    {
+      "canonical_event_id": "WALT_KILLS_MIKE",
+      "episode": "S05E07",
+      "source_id": "src_6099080b4e2daa66ec5f"
+    },
+    {
+      "canonical_event_id": "HANK_REBUILDS_CASE",
+      "episode": "S05E09",
+      "source_id": "src_f9cbfaee385f981c3d29"
+    }
+  ],
+  "required_unique_episodes": 8,
+  "episodes": [
+    {
+      "episode": "S03E06",
+      "source_id": "src_31ccffbdcbe2361f1aaa",
+      "relative_path": "Breaking Bad/Breaking Bad Season 3/Breaking Bad Season 3 Episode 6.mp4",
+      "strong_sha256": null,
+      "canonical_events": [
+        "GALE_WHITMAN_BOND"
+      ],
+      "current_library_maturity": "SEARCHABLE",
+      "rich_required": "YES"
+    },
+    {
+      "episode": "S03E13",
+      "source_id": "src_b6d08cb3e0f9ea44925d",
+      "relative_path": "Breaking Bad/Breaking Bad Season 3/Breaking Bad Season 3 Episode 13.mp4",
+      "strong_sha256": null,
+      "canonical_events": [
+        "GALE_MURDER"
+      ],
+      "current_library_maturity": "SEARCHABLE",
+      "rich_required": "YES"
+    },
+    {
+      "episode": "S04E04",
+      "source_id": "src_6d5c7fd780bfdc14dd72",
+      "relative_path": "Breaking Bad/Breaking Bad Season 4/Breaking Bad Season 4 Episode 4.mp4",
+      "strong_sha256": null,
+      "canonical_events": [
+        "GALE_NOTEBOOK_WW_CLUE",
+        "WALT_REVIEWS_GALE_CASE_FILE",
+        "WALT_DEFLECTS_WW_SUSPICION",
+        "HANK_ASSUMES_GALE_IS_HEISENBERG"
+      ],
+      "current_library_maturity": "SEARCHABLE",
+      "rich_required": "YES"
+    },
+    {
+      "episode": "S04E05",
+      "source_id": "src_510e74c8ad80d07b9f38",
+      "relative_path": "Breaking Bad/Breaking Bad Season 4/Breaking Bad Season 4 Episode 5.mp4",
+      "strong_sha256": null,
+      "canonical_events": [
+        "WALT_REOPENS_CASE_AT_DINNER"
+      ],
+      "current_library_maturity": "SEARCHABLE",
+      "rich_required": "YES"
+    },
+    {
+      "episode": "S05E03",
+      "source_id": "src_9498b0938b8521a877dc",
+      "relative_path": "Breaking Bad/Breaking Bad Season 5/Breaking Bad Season 5 Episode 3.mp4",
+      "strong_sha256": null,
+      "canonical_events": [
+        "WALT_REDISCOVERS_LEAVES_OF_GRASS"
+      ],
+      "current_library_maturity": "SEARCHABLE",
+      "rich_required": "YES"
+    },
+    {
+      "episode": "S05E07",
+      "source_id": "src_6099080b4e2daa66ec5f",
+      "relative_path": "Breaking Bad/Breaking Bad Season 5/Breaking Bad Season 5 Episode 7.mp4",
+      "strong_sha256": null,
+      "canonical_events": [
+        "WALT_KILLS_MIKE"
+      ],
+      "current_library_maturity": "SEARCHABLE",
+      "rich_required": "YES"
+    },
+    {
+      "episode": "S05E08",
+      "source_id": "src_cc76ce00ec8f3acd309e",
+      "relative_path": "Breaking Bad/Breaking Bad Season 5/Breaking Bad Season 5 Episode 8.mp4",
+      "strong_sha256": null,
+      "canonical_events": [
+        "PRISON_MURDERS",
+        "GALE_LEAVES_OF_GRASS_INSCRIPTION",
+        "HANK_FINDS_LEAVES_OF_GRASS",
+        "FAMILY_POOL_BEFORE_DISCOVERY"
+      ],
+      "current_library_maturity": "SEARCHABLE",
+      "rich_required": "YES"
+    },
+    {
+      "episode": "S05E09",
+      "source_id": "src_f9cbfaee385f981c3d29",
+      "relative_path": "Breaking Bad/Breaking Bad Season 5/Breaking Bad Season 5 Episode 9.mp4",
+      "strong_sha256": null,
+      "canonical_events": [
+        "BOOK_MISSING_TRACKER_GARAGE",
+        "HANK_REBUILDS_CASE"
+      ],
+      "current_library_maturity": "SEARCHABLE",
+      "rich_required": "YES"
+    }
+  ],
+  "expected_set_verified": true,
+  "frozen_at": "2026-08-13T14:05:28.443449+00:00"
+}

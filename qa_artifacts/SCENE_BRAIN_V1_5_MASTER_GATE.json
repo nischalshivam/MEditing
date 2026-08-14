@@ -1,0 +1,468 @@
+{
+  "architecture_modules_pass": true,
+  "project_manifest_pass": true,
+  "project_planner_pass": true,
+  "character_analysis_pass": true,
+  "clue_consistency_pass": true,
+  "query_compiler_pass": true,
+  "character_gallery_pass": true,
+  "character_recognition_benchmark": {
+    "samples": 2,
+    "known_correct": 1,
+    "unknown_correct": 1,
+    "wrong_character": 0,
+    "go_no_go": "NO_GO_DEFAULT_NO_TRUSTED_HELD_OUT_GALLERY",
+    "default_enabled": false,
+    "safety_cases": [
+      {
+        "status": "KNOWN_CHARACTER",
+        "character_id": "Hank",
+        "score": 0.8
+      },
+      {
+        "status": "UNKNOWN",
+        "character_id": null,
+        "score": 0.2
+      }
+    ]
+  },
+  "memory_pass": true,
+  "memory_hit_support": true,
+  "Gemini_configured": false,
+  "Gemini_benchmark": {
+    "configured": false,
+    "default_enabled": false,
+    "benchmark_source": "human candidate oracle Sprint 9C (192 labels)",
+    "old_video": {
+      "literal_recall": 0.14285714285714285,
+      "literal_precision": 0.2,
+      "literal_f1": 0.16666666666666666,
+      "false_positives": 4,
+      "false_negatives": 6,
+      "confusion_matrix": {
+        "LITERAL": {
+          "LITERAL_MATCH": 1,
+          "PARTIAL_MATCH": 0,
+          "NO_MATCH": 0,
+          "ERROR": 6
+        },
+        "PARTIAL": {
+          "LITERAL_MATCH": 2,
+          "PARTIAL_MATCH": 0,
+          "NO_MATCH": 1,
+          "ERROR": 7
+        },
+        "NO_MATCH": {
+          "LITERAL_MATCH": 2,
+          "PARTIAL_MATCH": 0,
+          "NO_MATCH": 53,
+          "ERROR": 120
+        }
+      },
+      "by_category": {
+        "CLOSEUP_INSERT": {
+          "n": 24,
+          "literal": 1,
+          "recall": 1.0,
+          "precision": 1.0,
+          "f1": 1.0,
+          "fp": 0,
+          "fn": 0
+        },
+        "DIALOGUE_LINKED_VISUAL": {
+          "n": 24,
+          "literal": 0,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "fp": 0,
+          "fn": 0
+        },
+        "ENTER_LEAVE": {
+          "n": 24,
+          "literal": 0,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "fp": 4,
+          "fn": 0
+        },
+        "EXACT_VISIBLE_ACTION": {
+          "n": 24,
+          "literal": 0,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "fp": 0,
+          "fn": 0
+        },
+        "NONE": {
+          "n": 24,
+          "literal": 0,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "fp": 0,
+          "fn": 0
+        },
+        "OBJECT_ACTION": {
+          "n": 48,
+          "literal": 5,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "fp": 0,
+          "fn": 5
+        },
+        "REACTION": {
+          "n": 24,
+          "literal": 1,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "fp": 0,
+          "fn": 1
+        }
+      }
+    },
+    "ordered_frames": {
+      "literal_recall": 0.14285714285714285,
+      "literal_precision": 0.125,
+      "literal_f1": 0.13333333333333333,
+      "false_positives": 7,
+      "false_negatives": 6,
+      "confusion_matrix": {
+        "LITERAL": {
+          "LITERAL_MATCH": 1,
+          "PARTIAL_MATCH": 0,
+          "NO_MATCH": 0,
+          "ERROR": 6
+        },
+        "PARTIAL": {
+          "LITERAL_MATCH": 3,
+          "PARTIAL_MATCH": 1,
+          "NO_MATCH": 3,
+          "ERROR": 3
+        },
+        "NO_MATCH": {
+          "LITERAL_MATCH": 4,
+          "PARTIAL_MATCH": 0,
+          "NO_MATCH": 75,
+          "ERROR": 96
+        }
+      },
+      "by_category": {
+        "EXACT_VISIBLE_ACTION": {
+          "n": 24,
+          "literal": 0,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "fp": 0,
+          "fn": 0
+        },
+        "OBJECT_ACTION": {
+          "n": 48,
+          "literal": 5,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "fp": 1,
+          "fn": 5
+        },
+        "ENTER_LEAVE": {
+          "n": 24,
+          "literal": 0,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "fp": 4,
+          "fn": 0
+        },
+        "DIALOGUE_LINKED_VISUAL": {
+          "n": 24,
+          "literal": 0,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "fp": 0,
+          "fn": 0
+        },
+        "CLOSEUP_INSERT": {
+          "n": 24,
+          "literal": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "f1": 0.5,
+          "fp": 2,
+          "fn": 0
+        },
+        "REACTION": {
+          "n": 24,
+          "literal": 1,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "fp": 0,
+          "fn": 1
+        },
+        "NONE": {
+          "n": 24,
+          "literal": 0,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "fp": 0,
+          "fn": 0
+        }
+      }
+    },
+    "go_no_go": "NO_GO_DEFAULT_NEGLIGIBLE_GAIN",
+    "cost_usd": 0,
+    "bounded_contract_pass": true,
+    "cache_hit_pass": true,
+    "budget_pass": true
+  },
+  "Gemini_cost": 0,
+  "candidate_ranker_pass": true,
+  "fake_slicing_count": 0,
+  "max_scene_reuse": 2,
+  "duplicate_clip_count": 0,
+  "max_video_duration": 10,
+  "progress_ui_pass": true,
+  "health_ui_pass": true,
+  "support_report_pass": true,
+  "resume_pass": true,
+  "editor_replace_pass": true,
+  "editor_manual_media_pass": true,
+  "editor_non_ripple_pass": true,
+  "editor_crop_pass": true,
+  "editor_persistence_pass": true,
+  "benchmark_A": {
+    "source": "Sprint 9C human oracle",
+    "literal_recall": 0.14285714285714285,
+    "literal_precision": 0.2
+  },
+  "benchmark_B": {
+    "samples": 2,
+    "known_correct": 1,
+    "unknown_correct": 1,
+    "wrong_character": 0,
+    "go_no_go": "NO_GO_DEFAULT_NO_TRUSTED_HELD_OUT_GALLERY",
+    "default_enabled": false,
+    "safety_cases": [
+      {
+        "status": "KNOWN_CHARACTER",
+        "character_id": "Hank",
+        "score": 0.8
+      },
+      {
+        "status": "UNKNOWN",
+        "character_id": null,
+        "score": 0.2
+      }
+    ]
+  },
+  "benchmark_C": {
+    "configured": false,
+    "default_enabled": false,
+    "benchmark_source": "human candidate oracle Sprint 9C (192 labels)",
+    "old_video": {
+      "literal_recall": 0.14285714285714285,
+      "literal_precision": 0.2,
+      "literal_f1": 0.16666666666666666,
+      "false_positives": 4,
+      "false_negatives": 6,
+      "confusion_matrix": {
+        "LITERAL": {
+          "LITERAL_MATCH": 1,
+          "PARTIAL_MATCH": 0,
+          "NO_MATCH": 0,
+          "ERROR": 6
+        },
+        "PARTIAL": {
+          "LITERAL_MATCH": 2,
+          "PARTIAL_MATCH": 0,
+          "NO_MATCH": 1,
+          "ERROR": 7
+        },
+        "NO_MATCH": {
+          "LITERAL_MATCH": 2,
+          "PARTIAL_MATCH": 0,
+          "NO_MATCH": 53,
+          "ERROR": 120
+        }
+      },
+      "by_category": {
+        "CLOSEUP_INSERT": {
+          "n": 24,
+          "literal": 1,
+          "recall": 1.0,
+          "precision": 1.0,
+          "f1": 1.0,
+          "fp": 0,
+          "fn": 0
+        },
+        "DIALOGUE_LINKED_VISUAL": {
+          "n": 24,
+          "literal": 0,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "fp": 0,
+          "fn": 0
+        },
+        "ENTER_LEAVE": {
+          "n": 24,
+          "literal": 0,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "fp": 4,
+          "fn": 0
+        },
+        "EXACT_VISIBLE_ACTION": {
+          "n": 24,
+          "literal": 0,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "fp": 0,
+          "fn": 0
+        },
+        "NONE": {
+          "n": 24,
+          "literal": 0,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "fp": 0,
+          "fn": 0
+        },
+        "OBJECT_ACTION": {
+          "n": 48,
+          "literal": 5,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "fp": 0,
+          "fn": 5
+        },
+        "REACTION": {
+          "n": 24,
+          "literal": 1,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "fp": 0,
+          "fn": 1
+        }
+      }
+    },
+    "ordered_frames": {
+      "literal_recall": 0.14285714285714285,
+      "literal_precision": 0.125,
+      "literal_f1": 0.13333333333333333,
+      "false_positives": 7,
+      "false_negatives": 6,
+      "confusion_matrix": {
+        "LITERAL": {
+          "LITERAL_MATCH": 1,
+          "PARTIAL_MATCH": 0,
+          "NO_MATCH": 0,
+          "ERROR": 6
+        },
+        "PARTIAL": {
+          "LITERAL_MATCH": 3,
+          "PARTIAL_MATCH": 1,
+          "NO_MATCH": 3,
+          "ERROR": 3
+        },
+        "NO_MATCH": {
+          "LITERAL_MATCH": 4,
+          "PARTIAL_MATCH": 0,
+          "NO_MATCH": 75,
+          "ERROR": 96
+        }
+      },
+      "by_category": {
+        "EXACT_VISIBLE_ACTION": {
+          "n": 24,
+          "literal": 0,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "fp": 0,
+          "fn": 0
+        },
+        "OBJECT_ACTION": {
+          "n": 48,
+          "literal": 5,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "fp": 1,
+          "fn": 5
+        },
+        "ENTER_LEAVE": {
+          "n": 24,
+          "literal": 0,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "fp": 4,
+          "fn": 0
+        },
+        "DIALOGUE_LINKED_VISUAL": {
+          "n": 24,
+          "literal": 0,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "fp": 0,
+          "fn": 0
+        },
+        "CLOSEUP_INSERT": {
+          "n": 24,
+          "literal": 1,
+          "recall": 1.0,
+          "precision": 0.3333333333333333,
+          "f1": 0.5,
+          "fp": 2,
+          "fn": 0
+        },
+        "REACTION": {
+          "n": 24,
+          "literal": 1,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "fp": 0,
+          "fn": 1
+        },
+        "NONE": {
+          "n": 24,
+          "literal": 0,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "fp": 0,
+          "fn": 0
+        }
+      }
+    },
+    "go_no_go": "NO_GO_DEFAULT_NEGLIGIBLE_GAIN",
+    "cost_usd": 0,
+    "bounded_contract_pass": true,
+    "cache_hit_pass": true,
+    "budget_pass": true
+  },
+  "presentation_bug_fixture_pass": true,
+  "generic_second_title_pass": true,
+  "console_errors": 0,
+  "failed_requests": 0,
+  "regression_tests_total": 184,
+  "regression_tests_passed": 184,
+  "employee_browser_qa_pass": true,
+  "PASS": true
+}

@@ -1,0 +1,22 @@
+{
+  "pre_test_state_hash": "48709979b4011160ea438af7f4100f1d50c5ccf8b066daa39d0a20f434bc5e98",
+  "PASS": true,
+  "voiceover_duration": 878.1,
+  "master_audio_playback": true,
+  "master_time_advanced": true,
+  "B001_active": true,
+  "B001_visual_visible": true,
+  "B001_pixel_nonblack": true,
+  "approved_video_tested": true,
+  "approved_video_visible": true,
+  "timeline_sample_count": 5,
+  "timeline_samples_passed": 5,
+  "slot_boundaries_crossed": 3,
+  "automatic_visual_switch_pass": true,
+  "audio_visual_sync_pass": true,
+  "black_unexplained_frames": 0,
+  "console_errors": 0,
+  "failed_requests": 0,
+  "post_restore_state_hash": "48709979b4011160ea438af7f4100f1d50c5ccf8b066daa39d0a20f434bc5e98",
+  "test_state_restored": true
+}

@@ -1,0 +1,32 @@
+{
+  "version": "real-walter-review-ui-qa/2.0",
+  "project_id": "walter_book_project",
+  "slot_id_tested": "B001_VS01",
+  "candidate_count_from_backend": 2,
+  "candidate_cards_rendered": 2,
+  "preview_media_loaded": true,
+  "preview_ready_state": 4,
+  "preview_source_current_time_seconds": 904.09,
+  "approval_persisted": true,
+  "remaining_count_before": 65,
+  "remaining_count_after": 64,
+  "next_unresolved_slot": "B002_VS01",
+  "next_slot_candidate_cards_rendered": 2,
+  "browser_reload_persisted": true,
+  "console_errors": 0,
+  "launcher_cache_bust": "walter-review-v2",
+  "server_cache_control": "no-store",
+  "screenshots": {
+    "candidate_cards": "E:\\Movies\\.scene_brain\\projects\\walter_book_project\\qa\\A_CANDIDATE_CARDS_VISIBLE.png",
+    "candidate_preview": "E:\\Movies\\.scene_brain\\projects\\walter_book_project\\qa\\B_CANDIDATE_PREVIEW_VISIBLE.png",
+    "approved_state": "E:\\Movies\\.scene_brain\\projects\\walter_book_project\\qa\\C_APPROVED_AND_ADVANCED.png"
+  },
+  "safety": {
+    "visual_plan_slots": 70,
+    "visual_plan_modified": false,
+    "rich_builds": 0,
+    "retrieval_reruns": 0,
+    "source_routing_runs": 0,
+    "cloud_cost_usd": 0
+  }
+}

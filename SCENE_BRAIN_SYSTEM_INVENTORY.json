@@ -1,0 +1,17 @@
+{
+  "version": "scene-brain-system-inventory/1.1",
+  "generated_at": "2026-08-14T00:00:00+05:30",
+  "volume": {"scene_brain_volume_id": "b844b9d0-31d9-488f-afd8-2da7c57ce781", "current_media_root": "E:\\Movies", "drive_letter_authoritative": false},
+  "catalog": {"titles": 6, "present_sources": 619, "searchable_sources": 273, "rich_atlas_ready": 9, "database": "E:\\Movies\\.scene_brain\\catalog.db"},
+  "titles": ["Better Call Saul", "Breaking Bad", "Game of Thrones", "Joker (2019)", "The Big Bang Theory", "Young Sheldon"],
+  "editor": {"product": "ResearchCut Editor", "version": "2.1.0", "launcher": "START_SCENE_BRAIN.bat", "host": "127.0.0.1", "default_port": 43127},
+  "character_library": {"title": "Breaking Bad", "characters": 7, "unique_references": 24, "trusted_references": 0, "state": "PARTIAL", "originals_modified": false},
+  "gpu": {"name": "Quadro P1000", "vram_mib": 4096, "driver": "582.16", "framework_device": "cuda:0", "selected_profile": "AUTO", "selected_backend": "CPU", "gpu_workloads_validated": 0},
+  "runtime_policy": {"cpu_workers_max": 4, "gpu_workers_max": 1, "heavy_gpu_concurrency": 1, "vram_headroom_mib": 768},
+  "security": {"credentials_persisted": false, "loopback_only": true, "session_token_required": true},
+  "ui_polish": {"encoding": "UTF-8", "svg_transport": true, "single_title": true, "franchise_expansion": true, "custom_multi_title": true, "clue_v4_prompt": "docs/prompts/SCENE_BRAIN_CLUE_SCRIPT_V4_MASTER_PROMPT.md", "clue_independent_validation": true, "character_reference_management": true},
+  "canonical_code_repository": {"url": "https://github.com/nischalshivam/MEditing", "branch": "main"},
+  "frozen_projects_preserved": ["Skyler money project", "walter_book_project"],
+  "mass_transcription_performed": false,
+  "mass_rich_indexing_performed": false
+}

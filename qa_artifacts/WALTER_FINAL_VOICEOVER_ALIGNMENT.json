@@ -1,0 +1,28 @@
+{
+  "voiceover_hash": "851ab9102c2fffb397888fbd870a5c46c4090081a8cef826bb0de69f96887b62",
+  "duration_seconds": 878.1,
+  "sample_rate": 24000,
+  "channels": 1,
+  "words_aligned": 2808,
+  "beats_total": 41,
+  "beats_aligned": 41,
+  "slots_total": 70,
+  "slots_aligned": 70,
+  "project_duration_ms": 878100,
+  "retrieval_reruns": 0,
+  "rich_builds": 0,
+  "cloud_calls": 0,
+  "alignment_confidence_counts": {
+    "high": 39,
+    "medium": 2,
+    "low": 0
+  },
+  "timing_integrity_pass": true,
+  "existing_candidate_state_preserved": true,
+  "PASS": true,
+  "browser_audio_playback_pass": true,
+  "browser_seek_pass": true,
+  "sample_beat_sync_pass": true,
+  "console_errors": 0,
+  "failed_requests": 0
+}

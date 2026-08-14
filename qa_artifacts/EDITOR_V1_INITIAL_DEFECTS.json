@@ -1,0 +1,10 @@
+{
+  "initial_defects": [
+    "layout_fixed_height_overflow",
+    "transport_not_master_state_machine",
+    "audio_ontimeupdate_not_rendering_visual",
+    "pause_not_stopping_visual",
+    "unapproved_source_drift_mapping"
+  ],
+  "remaining_defects": []
+}

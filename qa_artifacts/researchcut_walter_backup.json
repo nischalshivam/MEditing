@@ -1,0 +1,4198 @@
+{
+  "schemaVersion": 3,
+  "id": "walter_book_project",
+  "name": "Why Walter White Kept the Book That Exposed Him",
+  "createdAt": "2026-08-13T19:52:50.723039+00:00",
+  "updatedAt": "2026-08-13T19:52:50.723039+00:00",
+  "revision": 1,
+  "settings": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "aspect": "16:9",
+    "background": "#090b10"
+  },
+  "assets": [
+    {
+      "id": "sb_4b87c7ece528dbcf",
+      "name": "Breaking Bad Season 5 Episode 8.mp4",
+      "storedName": "Breaking Bad Season 5 Episode 8.mp4",
+      "externalPath": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+      "kind": "video",
+      "duration": 950.282,
+      "width": 1920,
+      "height": 1080,
+      "hasAudio": true,
+      "sceneBrainProvenance": {
+        "slot_id": "B001_VS01",
+        "candidate": 0
+      }
+    },
+    {
+      "id": "sb_13e3035845736643",
+      "name": "Breaking Bad Season 5 Episode 3.mp4",
+      "storedName": "Breaking Bad Season 5 Episode 3.mp4",
+      "externalPath": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 3.mp4",
+      "kind": "video",
+      "duration": 313.689,
+      "width": 1920,
+      "height": 1080,
+      "hasAudio": true,
+      "sceneBrainProvenance": {
+        "slot_id": "B003_VS01",
+        "candidate": 0
+      }
+    },
+    {
+      "id": "sb_c34e4bc1ea85bad8",
+      "name": "manual-placeholder.svg",
+      "storedName": "manual-placeholder.svg",
+      "externalPath": "C:\\Users\\Dell\\Documents\\Codex\\2026-07-30\\m-ek-automation-tool-banwa-rha\\film_tv_scene_brain_v2\\runtime\\researchcut_integration\\production\\public\\manual-placeholder.svg",
+      "kind": "image",
+      "duration": 8.390357153646221,
+      "width": 1920,
+      "height": 1080,
+      "hasAudio": false,
+      "sceneBrainProvenance": {
+        "slot_id": "B004_VS02",
+        "source_id": null
+      }
+    },
+    {
+      "id": "sb_35a67f4394673b10",
+      "name": "Breaking Bad Season 3 Episode 6.mp4",
+      "storedName": "Breaking Bad Season 3 Episode 6.mp4",
+      "externalPath": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 3\\Breaking Bad Season 3 Episode 6.mp4",
+      "kind": "video",
+      "duration": 1339.166,
+      "width": 1920,
+      "height": 1080,
+      "hasAudio": true,
+      "sceneBrainProvenance": {
+        "slot_id": "B005_VS01",
+        "candidate": 0
+      }
+    },
+    {
+      "id": "sb_c585083d083330c7",
+      "name": "Breaking Bad Season 4 Episode 4.mp4",
+      "storedName": "Breaking Bad Season 4 Episode 4.mp4",
+      "externalPath": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 4\\Breaking Bad Season 4 Episode 4.mp4",
+      "kind": "video",
+      "duration": 1388.674,
+      "width": 1920,
+      "height": 1080,
+      "hasAudio": true,
+      "sceneBrainProvenance": {
+        "slot_id": "B007_VS01",
+        "candidate": 0
+      }
+    },
+    {
+      "id": "sb_3ef1459949539fdf",
+      "name": "Breaking Bad Season 5 Episode 9.mp4",
+      "storedName": "Breaking Bad Season 5 Episode 9.mp4",
+      "externalPath": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 9.mp4",
+      "kind": "video",
+      "duration": 2789.834,
+      "width": 1920,
+      "height": 1080,
+      "hasAudio": true,
+      "sceneBrainProvenance": {
+        "slot_id": "B013_VS01",
+        "candidate": 0
+      }
+    },
+    {
+      "id": "sb_3c257474ea9ccba5",
+      "name": "Breaking Bad Season 3 Episode 13.mp4",
+      "storedName": "Breaking Bad Season 3 Episode 13.mp4",
+      "externalPath": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 3\\Breaking Bad Season 3 Episode 13.mp4",
+      "kind": "video",
+      "duration": 1658.651,
+      "width": 1920,
+      "height": 1080,
+      "hasAudio": true,
+      "sceneBrainProvenance": {
+        "slot_id": "B023_VS02",
+        "candidate": 0
+      }
+    },
+    {
+      "id": "sb_4f68944e5c4d8292",
+      "name": "Breaking Bad Season 4 Episode 5.mp4",
+      "storedName": "Breaking Bad Season 4 Episode 5.mp4",
+      "externalPath": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 4\\Breaking Bad Season 4 Episode 5.mp4",
+      "kind": "video",
+      "duration": 2680.673,
+      "width": 1920,
+      "height": 1080,
+      "hasAudio": true,
+      "sceneBrainProvenance": {
+        "slot_id": "B026_VS01",
+        "candidate": 0
+      }
+    },
+    {
+      "id": "sb_ecc09223493eaebf",
+      "name": "Breaking Bad Season 5 Episode 7.mp4",
+      "storedName": "Breaking Bad Season 5 Episode 7.mp4",
+      "externalPath": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 7.mp4",
+      "kind": "video",
+      "duration": 2382.86,
+      "width": 1920,
+      "height": 1080,
+      "hasAudio": true,
+      "sceneBrainProvenance": {
+        "slot_id": "B028_VS01",
+        "candidate": 0
+      }
+    },
+    {
+      "id": "sb_869c1ad005f1aeed",
+      "name": "Why Walter White Kept the Book That Could Destroy Him.wav",
+      "storedName": "Why Walter White Kept the Book That Could Destroy Him.wav",
+      "externalPath": "E:\\Movies\\.scene_brain\\projects\\walter_book_project\\voiceover\\Why Walter White Kept the Book That Could Destroy Him.wav",
+      "kind": "audio",
+      "duration": 878.1,
+      "width": 0,
+      "height": 0,
+      "hasAudio": true,
+      "sceneBrainProvenance": {
+        "role": "FINAL_VOICEOVER"
+      }
+    }
+  ],
+  "tracks": [
+    {
+      "id": "V3",
+      "kind": "video",
+      "name": "Overlay 2",
+      "muted": false,
+      "locked": false,
+      "magnetic": false
+    },
+    {
+      "id": "V2",
+      "kind": "video",
+      "name": "Overlay 1",
+      "muted": false,
+      "locked": false,
+      "magnetic": false
+    },
+    {
+      "id": "V1",
+      "kind": "video",
+      "name": "Main Visual",
+      "muted": true,
+      "locked": false,
+      "magnetic": true
+    },
+    {
+      "id": "A1",
+      "kind": "audio",
+      "name": "Voiceover",
+      "muted": false,
+      "locked": false,
+      "magnetic": false
+    },
+    {
+      "id": "A2",
+      "kind": "audio",
+      "name": "Music & SFX",
+      "muted": false,
+      "locked": false,
+      "magnetic": false
+    }
+  ],
+  "clips": [
+    {
+      "id": "clip_B001_VS01",
+      "assetId": "sb_4b87c7ece528dbcf",
+      "trackId": "V1",
+      "start": 0.0,
+      "duration": 31.754652642037414,
+      "sourceIn": 905.209,
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1,
+        "rotation": 0,
+        "fit": "fill",
+        "opacity": 1,
+        "crop": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "muted": true,
+      "volume": 0,
+      "sceneBrain": {
+        "slotId": "B001_VS01",
+        "beatId": "B001",
+        "status": "APPROVED",
+        "narration": "Late in Breaking Bad, Walter White has ten men killed within two minutes, across three separate prisons, just to erase the loose ends that could point back to him.",
+        "candidates": [
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 903520,
+            "source_out_ms": 950282,
+            "evidence": "TRUSTED_DIALOGUE_WINDOW",
+            "evidence_text": "Hitters ain't the problem. It's that short walking window after lunch. Yeah. It's gonna be tight. Real tight. I gotta be straight with you, man. Taking out all these guys is doable. But hitting them in three separate jails all within two minutes? I mean, whacking bin Laden wasn't this complicated. Where do you suppose these come from? I've seen this one before."
+          },
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 924240,
+            "source_out_ms": 970522,
+            "evidence": "TRUSTED_DIALOGUE_WINDOW",
+            "evidence_text": "But hitting them in three separate jails all within two minutes? I mean, whacking bin Laden wasn't this complicated. Where do you suppose these come from? I've seen this one before. I wonder... ...are they all in some giant warehouse some place? Hey- It can be done, just not the way you want it."
+          }
+        ],
+        "candidateAssetIds": [
+          "sb_4b87c7ece528dbcf",
+          "sb_4b87c7ece528dbcf"
+        ]
+      }
+    },
+    {
+      "id": "clip_B002_VS01",
+      "assetId": "sb_4b87c7ece528dbcf",
+      "trackId": "V1",
+      "start": 31.754652642037414,
+      "duration": 8.685100379184144,
+      "sourceIn": 436.4,
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1,
+        "rotation": 0,
+        "fit": "fill",
+        "opacity": 1,
+        "crop": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "muted": true,
+      "volume": 0,
+      "sceneBrain": {
+        "slotId": "B002_VS01",
+        "beatId": "B002",
+        "status": "NEEDS_CHOICE",
+        "narration": "This is a man who burns evidence, silences witnesses, and makes entire problems disappear on command. And the loose end that finally puts a DEA agent onto him is not a witness. It is not a wiretap, and it is not a lab record. It is a used book of poetry, sitting under a stack of magazines beside his toilet.",
+        "candidates": [
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 436400,
+            "source_out_ms": 472087,
+            "evidence": "TRUSTED_DIALOGUE_WINDOW",
+            "evidence_text": "Not just yet. It was my understanding that attending to these nine names... ...was precisely what you wanted. Ten names now. Ten, counting the lawyer. Yes. Ten, counting the lawyer. So, what, am I not tying up loose ends for our mutual benefit? You're tying up loose ends, and I don't wanna be one of them. I give you that list, I've served my purpose."
+          },
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 448320,
+            "source_out_ms": 488801,
+            "evidence": "TRUSTED_DIALOGUE_WINDOW",
+            "evidence_text": "Yes. Ten, counting the lawyer. So, what, am I not tying up loose ends for our mutual benefit? You're tying up loose ends, and I don't wanna be one of them. I give you that list, I've served my purpose. Then maybe I'm just one more person who knows too much. So you put that list in my hands, and in your mind... ...I immediately just murder you, just right here in this restaurant? - No. Not right here. Of course. - Here in this public place, immediately?"
+          }
+        ],
+        "candidateAssetIds": [
+          "sb_4b87c7ece528dbcf",
+          "sb_4b87c7ece528dbcf"
+        ]
+      }
+    },
+    {
+      "id": "clip_B002_VS02",
+      "assetId": "sb_4b87c7ece528dbcf",
+      "trackId": "V1",
+      "start": 40.43975302122156,
+      "duration": 8.685100379184144,
+      "sourceIn": 436.4,
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1,
+        "rotation": 0,
+        "fit": "fill",
+        "opacity": 1,
+        "crop": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "muted": true,
+      "volume": 0,
+      "sceneBrain": {
+        "slotId": "B002_VS02",
+        "beatId": "B002",
+        "status": "NEEDS_CHOICE",
+        "narration": "This is a man who burns evidence, silences witnesses, and makes entire problems disappear on command. And the loose end that finally puts a DEA agent onto him is not a witness. It is not a wiretap, and it is not a lab record. It is a used book of poetry, sitting under a stack of magazines beside his toilet.",
+        "candidates": [
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 436400,
+            "source_out_ms": 472087,
+            "evidence": "TRUSTED_DIALOGUE_WINDOW",
+            "evidence_text": "Not just yet. It was my understanding that attending to these nine names... ...was precisely what you wanted. Ten names now. Ten, counting the lawyer. Yes. Ten, counting the lawyer. So, what, am I not tying up loose ends for our mutual benefit? You're tying up loose ends, and I don't wanna be one of them. I give you that list, I've served my purpose."
+          },
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 448320,
+            "source_out_ms": 488801,
+            "evidence": "TRUSTED_DIALOGUE_WINDOW",
+            "evidence_text": "Yes. Ten, counting the lawyer. So, what, am I not tying up loose ends for our mutual benefit? You're tying up loose ends, and I don't wanna be one of them. I give you that list, I've served my purpose. Then maybe I'm just one more person who knows too much. So you put that list in my hands, and in your mind... ...I immediately just murder you, just right here in this restaurant? - No. Not right here. Of course. - Here in this public place, immediately?"
+          }
+        ],
+        "candidateAssetIds": [
+          "sb_4b87c7ece528dbcf",
+          "sb_4b87c7ece528dbcf"
+        ]
+      }
+    },
+    {
+      "id": "clip_B003_VS01",
+      "assetId": "sb_13e3035845736643",
+      "trackId": "V1",
+      "start": 49.124853400405705,
+      "duration": 24.87632823540074,
+      "sourceIn": 1.393,
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1,
+        "rotation": 0,
+        "fit": "fill",
+        "opacity": 1,
+        "crop": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "muted": true,
+      "volume": 0,
+      "sceneBrain": {
+        "slotId": "B003_VS01",
+        "beatId": "B003",
+        "status": "NEEDS_CHOICE",
+        "narration": "That alone would be strange. But here is the part that makes it a real puzzle instead of a simple slip. Months before that book destroys him, Walt finds it himself. He is unpacking boxes, moving back into his house, and he lifts it out, and he recognizes it, and a small smile crosses his face, and he keeps it. So this is not something he forgot he owned. He held it in his hands, understood exactly what it was, and chose to leave it in play.",
+        "candidates": [
+          {
+            "source_id": "src_9498b0938b8521a877dc",
+            "episode": "S05E03",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 3.mp4",
+            "source_in_ms": 275680,
+            "source_out_ms": 313689,
+            "evidence": "TRUSTED_DIALOGUE_WINDOW",
+            "evidence_text": "Oh, hi. How was your day? Are you moving back in? Yeah. I'll keep the condo for now. Selling it in this market, I'd get killed. But, yeah, I'm home. It's time. Do you really think that's a good idea? Yes."
+          }
+        ],
+        "candidateAssetIds": [
+          "sb_13e3035845736643"
+        ]
+      }
+    },
+    {
+      "id": "clip_B004_VS01",
+      "assetId": "sb_13e3035845736643",
+      "trackId": "V1",
+      "start": 74.00118163580645,
+      "duration": 8.390357153646221,
+      "sourceIn": 704.486,
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1,
+        "rotation": 0,
+        "fit": "fill",
+        "opacity": 1,
+        "crop": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "muted": true,
+      "volume": 0,
+      "sceneBrain": {
+        "slotId": "B004_VS01",
+        "beatId": "B004",
+        "status": "NEEDS_CHOICE",
+        "narration": "So the question is not really how a careful man made one careless mistake. The question is what this object actually was to him. Was he careless, was he arrogant, was he sentimental, or did he simply fail to see what he was holding. Because those are four different answers, and they are not equally true.",
+        "candidates": [
+          {
+            "source_id": "src_9498b0938b8521a877dc",
+            "episode": "S05E03",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 3.mp4",
+            "source_in_ms": 704486,
+            "source_out_ms": 714486,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          },
+          {
+            "source_id": "src_9498b0938b8521a877dc",
+            "episode": "S05E03",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 3.mp4",
+            "source_in_ms": 1413971,
+            "source_out_ms": 1423971,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          },
+          {
+            "source_id": "src_9498b0938b8521a877dc",
+            "episode": "S05E03",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 3.mp4",
+            "source_in_ms": 2123456,
+            "source_out_ms": 2133456,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          }
+        ],
+        "candidateAssetIds": [
+          "sb_13e3035845736643",
+          "sb_13e3035845736643",
+          "sb_13e3035845736643"
+        ]
+      }
+    },
+    {
+      "id": "clip_B004_VS02",
+      "assetId": "sb_c34e4bc1ea85bad8",
+      "trackId": "V1",
+      "start": 82.39153878945267,
+      "duration": 8.390357153646221,
+      "sourceIn": 0,
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1,
+        "rotation": 0,
+        "fit": "fill",
+        "opacity": 1,
+        "crop": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "muted": true,
+      "volume": 0,
+      "sceneBrain": {
+        "slotId": "B004_VS02",
+        "beatId": "B004",
+        "status": "MANUAL_FIX",
+        "narration": "So the question is not really how a careful man made one careless mistake. The question is what this object actually was to him. Was he careless, was he arrogant, was he sentimental, or did he simply fail to see what he was holding. Because those are four different answers, and they are not equally true.",
+        "candidates": [],
+        "candidateAssetIds": []
+      }
+    },
+    {
+      "id": "clip_B005_VS01",
+      "assetId": "sb_35a67f4394673b10",
+      "trackId": "V1",
+      "start": 90.78189594309889,
+      "duration": 10.70900386121122,
+      "sourceIn": 1306.31,
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1,
+        "rotation": 0,
+        "fit": "fill",
+        "opacity": 1,
+        "crop": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "muted": true,
+      "volume": 0,
+      "sceneBrain": {
+        "slotId": "B005_VS01",
+        "beatId": "B005",
+        "status": "NEEDS_CHOICE",
+        "narration": "To understand why the book is dangerous at all, you need Gale. Gale Boetticher was the chemist who worked with Walt inside Gus Fring's operation, and Gale was the rare person who looked at Walt's work and saw genius. He loved the poet Walt Whitman. Early on, he recited a Whitman poem to Walt from memory, and it became part of the strange intellectual bond between them.",
+        "candidates": [
+          {
+            "source_id": "src_31ccffbdcbe2361f1aaa",
+            "episode": "S03E06",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 3\\Breaking Bad Season 3 Episode 6.mp4",
+            "source_in_ms": 1306310,
+            "source_out_ms": 1339166,
+            "evidence": "TRUSTED_DIALOGUE_WINDOW",
+            "evidence_text": "I mean... ...once you lose that.... It is. It is magic. It still is. And all the while, I kept thinking about that great old Whitman poem: \"When I Heard the Learn'd Astronomer.\" I don't know it."
+          },
+          {
+            "source_id": "src_31ccffbdcbe2361f1aaa",
+            "episode": "S03E06",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 3\\Breaking Bad Season 3 Episode 6.mp4",
+            "source_in_ms": 1314485,
+            "source_out_ms": 1351011,
+            "evidence": "TRUSTED_DIALOGUE_WINDOW",
+            "evidence_text": "It still is. And all the while, I kept thinking about that great old Whitman poem: \"When I Heard the Learn'd Astronomer.\" I don't know it. Anyway.... Well, can you recite it? Pathetically enough, I could. All right, well...."
+          }
+        ],
+        "candidateAssetIds": [
+          "sb_35a67f4394673b10",
+          "sb_35a67f4394673b10"
+        ]
+      }
+    },
+    {
+      "id": "clip_B005_VS02",
+      "assetId": "sb_35a67f4394673b10",
+      "trackId": "V1",
+      "start": 101.4908998043101,
+      "duration": 10.70900386121122,
+      "sourceIn": 1306.31,
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1,
+        "rotation": 0,
+        "fit": "fill",
+        "opacity": 1,
+        "crop": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "muted": true,
+      "volume": 0,
+      "sceneBrain": {
+        "slotId": "B005_VS02",
+        "beatId": "B005",
+        "status": "NEEDS_CHOICE",
+        "narration": "To understand why the book is dangerous at all, you need Gale. Gale Boetticher was the chemist who worked with Walt inside Gus Fring's operation, and Gale was the rare person who looked at Walt's work and saw genius. He loved the poet Walt Whitman. Early on, he recited a Whitman poem to Walt from memory, and it became part of the strange intellectual bond between them.",
+        "candidates": [
+          {
+            "source_id": "src_31ccffbdcbe2361f1aaa",
+            "episode": "S03E06",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 3\\Breaking Bad Season 3 Episode 6.mp4",
+            "source_in_ms": 1306310,
+            "source_out_ms": 1339166,
+            "evidence": "TRUSTED_DIALOGUE_WINDOW",
+            "evidence_text": "I mean... ...once you lose that.... It is. It is magic. It still is. And all the while, I kept thinking about that great old Whitman poem: \"When I Heard the Learn'd Astronomer.\" I don't know it."
+          },
+          {
+            "source_id": "src_31ccffbdcbe2361f1aaa",
+            "episode": "S03E06",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 3\\Breaking Bad Season 3 Episode 6.mp4",
+            "source_in_ms": 1314485,
+            "source_out_ms": 1351011,
+            "evidence": "TRUSTED_DIALOGUE_WINDOW",
+            "evidence_text": "It still is. And all the while, I kept thinking about that great old Whitman poem: \"When I Heard the Learn'd Astronomer.\" I don't know it. Anyway.... Well, can you recite it? Pathetically enough, I could. All right, well...."
+          }
+        ],
+        "candidateAssetIds": [
+          "sb_35a67f4394673b10",
+          "sb_35a67f4394673b10"
+        ]
+      }
+    },
+    {
+      "id": "clip_B006_VS01",
+      "assetId": "sb_4b87c7ece528dbcf",
+      "trackId": "V1",
+      "start": 112.19990366552132,
+      "duration": 7.58472567050923,
+      "sourceIn": 705.484,
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1,
+        "rotation": 0,
+        "fit": "fill",
+        "opacity": 1,
+        "crop": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "muted": true,
+      "volume": 0,
+      "sceneBrain": {
+        "slotId": "B006_VS01",
+        "beatId": "B006",
+        "status": "NEEDS_CHOICE",
+        "narration": "At some point Gale gave Walt a used copy of Whitman's collection, Leaves of Grass, and he wrote a few words inside the front cover. To my other favorite W W. It's an honour working with you. Fondly, G B. The initials mean Walt Whitman. They also mean Walter White.",
+        "candidates": [
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 705484,
+            "source_out_ms": 715484,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          },
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 1415968,
+            "source_out_ms": 1425968,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          },
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 2126453,
+            "source_out_ms": 2136453,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          }
+        ],
+        "candidateAssetIds": [
+          "sb_4b87c7ece528dbcf",
+          "sb_4b87c7ece528dbcf",
+          "sb_4b87c7ece528dbcf"
+        ]
+      }
+    },
+    {
+      "id": "clip_B006_VS02",
+      "assetId": "sb_4b87c7ece528dbcf",
+      "trackId": "V1",
+      "start": 119.78462933603056,
+      "duration": 7.58472567050923,
+      "sourceIn": 705.484,
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1,
+        "rotation": 0,
+        "fit": "fill",
+        "opacity": 1,
+        "crop": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "muted": true,
+      "volume": 0,
+      "sceneBrain": {
+        "slotId": "B006_VS02",
+        "beatId": "B006",
+        "status": "NEEDS_CHOICE",
+        "narration": "At some point Gale gave Walt a used copy of Whitman's collection, Leaves of Grass, and he wrote a few words inside the front cover. To my other favorite W W. It's an honour working with you. Fondly, G B. The initials mean Walt Whitman. They also mean Walter White.",
+        "candidates": [
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 705484,
+            "source_out_ms": 715484,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          },
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 1415968,
+            "source_out_ms": 1425968,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          },
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 2126453,
+            "source_out_ms": 2136453,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          }
+        ],
+        "candidateAssetIds": [
+          "sb_4b87c7ece528dbcf",
+          "sb_4b87c7ece528dbcf",
+          "sb_4b87c7ece528dbcf"
+        ]
+      }
+    },
+    {
+      "id": "clip_B007_VS01",
+      "assetId": "sb_c585083d083330c7",
+      "trackId": "V1",
+      "start": 127.36935500653978,
+      "duration": 11.71113082804016,
+      "sourceIn": 1346.684,
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1,
+        "rotation": 0,
+        "fit": "fill",
+        "opacity": 1,
+        "crop": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "muted": true,
+      "volume": 0,
+      "sceneBrain": {
+        "slotId": "B007_VS01",
+        "beatId": "B007",
+        "status": "NEEDS_CHOICE",
+        "narration": "Now here is the detail that separates a careful essay from a sloppy one, because there are two of these clues, not one. After Gale was murdered, the DEA searched his apartment and recovered his lab notebook. And that notebook also contained a reference to a mysterious W W, sitting right next to Whitman's poetry. Two different objects. Two different inscriptions. Both quietly pointing at the same double meaning.",
+        "candidates": [
+          {
+            "source_id": "src_6d5c7fd780bfdc14dd72",
+            "episode": "S04E04",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 4\\Breaking Bad Season 4 Episode 4.mp4",
+            "source_in_ms": 1346684,
+            "source_out_ms": 1388674,
+            "evidence": "TRUSTED_DIALOGUE_WINDOW",
+            "evidence_text": "This guy was a.... Man, he was a real character. Yeah, he seems unique. Yeah. Let me show you something. Give it here. Right here at the.... Right here at the top it says: \"To W.W. My star, my perfect silence.\" W.W. I mean, who do you figure that is? Woodrow Wilson?"
+          },
+          {
+            "source_id": "src_6d5c7fd780bfdc14dd72",
+            "episode": "S04E04",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 4\\Breaking Bad Season 4 Episode 4.mp4",
+            "source_in_ms": 1365494,
+            "source_out_ms": 1405524,
+            "evidence": "TRUSTED_DIALOGUE_WINDOW",
+            "evidence_text": "\"To W.W. My star, my perfect silence.\" W.W. I mean, who do you figure that is? Woodrow Wilson? Willy Wonka? Walter White? You got me. W.W."
+          },
+          {
+            "source_id": "src_6d5c7fd780bfdc14dd72",
+            "episode": "S04E04",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 4\\Breaking Bad Season 4 Episode 4.mp4",
+            "source_in_ms": 1379925,
+            "source_out_ms": 1416994,
+            "evidence": "TRUSTED_DIALOGUE_WINDOW",
+            "evidence_text": "Willy Wonka? Walter White? You got me. W.W. Wait a minute. Let me see this... ...for a second, because I think I remembered.... Here. Yes."
+          }
+        ],
+        "candidateAssetIds": [
+          "sb_c585083d083330c7",
+          "sb_c585083d083330c7",
+          "sb_c585083d083330c7"
+        ]
+      }
+    },
+    {
+      "id": "clip_B007_VS02",
+      "assetId": "sb_4b87c7ece528dbcf",
+      "trackId": "V1",
+      "start": 139.08048583457995,
+      "duration": 11.71113082804016,
+      "sourceIn": 2686.6,
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1,
+        "rotation": 0,
+        "fit": "fill",
+        "opacity": 1,
+        "crop": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "muted": true,
+      "volume": 0,
+      "sceneBrain": {
+        "slotId": "B007_VS02",
+        "beatId": "B007",
+        "status": "NEEDS_CHOICE",
+        "narration": "Now here is the detail that separates a careful essay from a sloppy one, because there are two of these clues, not one. After Gale was murdered, the DEA searched his apartment and recovered his lab notebook. And that notebook also contained a reference to a mysterious W W, sitting right next to Whitman's poetry. Two different objects. Two different inscriptions. Both quietly pointing at the same double meaning.",
+        "candidates": [
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 2686600,
+            "source_out_ms": 2783962,
+            "evidence": "TRUSTED_DIALOGUE_WINDOW",
+            "evidence_text": "- No, I'm good. I'm good, thank you. - Yeah? All right. Does it look glossier? Do I have a halo? - How's she doing? - She's good. Yeah? Try not to put any of the sunscreen on her fingers. \"To W.W. My star, my perfect silence. \" W.W. I mean, who do you figure that is?"
+          },
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 2696560,
+            "source_out_ms": 2797567,
+            "evidence": "TRUSTED_DIALOGUE_WINDOW",
+            "evidence_text": "Yeah? Try not to put any of the sunscreen on her fingers. \"To W.W. My star, my perfect silence. \" W.W. I mean, who do you figure that is? Woodrow Wilson? Willy Wonka? Walter White? You got me."
+          }
+        ],
+        "candidateAssetIds": [
+          "sb_4b87c7ece528dbcf",
+          "sb_4b87c7ece528dbcf"
+        ]
+      }
+    },
+    {
+      "id": "clip_B008_VS01",
+      "assetId": "sb_c585083d083330c7",
+      "trackId": "V1",
+      "start": 150.7916166626201,
+      "duration": 8.940544507983677,
+      "sourceIn": 1346.684,
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1,
+        "rotation": 0,
+        "fit": "fill",
+        "opacity": 1,
+        "crop": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "muted": true,
+      "volume": 0,
+      "sceneBrain": {
+        "slotId": "B008_VS01",
+        "beatId": "B008",
+        "status": "NEEDS_CHOICE",
+        "narration": "So Walt does not merely know that the book came from Gale. He knows that the police have already found Gale writing about a W W, because he was in the room when they discussed it.",
+        "candidates": [
+          {
+            "source_id": "src_6d5c7fd780bfdc14dd72",
+            "episode": "S04E04",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 4\\Breaking Bad Season 4 Episode 4.mp4",
+            "source_in_ms": 1346684,
+            "source_out_ms": 1388674,
+            "evidence": "TRUSTED_DIALOGUE_WINDOW",
+            "evidence_text": "This guy was a.... Man, he was a real character. Yeah, he seems unique. Yeah. Let me show you something. Give it here. Right here at the.... Right here at the top it says: \"To W.W. My star, my perfect silence.\" W.W. I mean, who do you figure that is? Woodrow Wilson?"
+          },
+          {
+            "source_id": "src_6d5c7fd780bfdc14dd72",
+            "episode": "S04E04",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 4\\Breaking Bad Season 4 Episode 4.mp4",
+            "source_in_ms": 1365494,
+            "source_out_ms": 1405524,
+            "evidence": "TRUSTED_DIALOGUE_WINDOW",
+            "evidence_text": "\"To W.W. My star, my perfect silence.\" W.W. I mean, who do you figure that is? Woodrow Wilson? Willy Wonka? Walter White? You got me. W.W."
+          },
+          {
+            "source_id": "src_6d5c7fd780bfdc14dd72",
+            "episode": "S04E04",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 4\\Breaking Bad Season 4 Episode 4.mp4",
+            "source_in_ms": 1379925,
+            "source_out_ms": 1416994,
+            "evidence": "TRUSTED_DIALOGUE_WINDOW",
+            "evidence_text": "Willy Wonka? Walter White? You got me. W.W. Wait a minute. Let me see this... ...for a second, because I think I remembered.... Here. Yes."
+          }
+        ],
+        "candidateAssetIds": [
+          "sb_c585083d083330c7",
+          "sb_c585083d083330c7",
+          "sb_c585083d083330c7"
+        ]
+      }
+    },
+    {
+      "id": "clip_B009_VS01",
+      "assetId": "sb_c585083d083330c7",
+      "trackId": "V1",
+      "start": 159.73216117060377,
+      "duration": 20.062188884947993,
+      "sourceIn": 984.28,
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1,
+        "rotation": 0,
+        "fit": "fill",
+        "opacity": 1,
+        "crop": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "muted": true,
+      "volume": 0,
+      "sceneBrain": {
+        "slotId": "B009_VS01",
+        "beatId": "B009",
+        "status": "NEEDS_CHOICE",
+        "narration": "In fact, he did more than sit in the room. Early in the investigation, at Hank's own house, Walt slips away and goes through the Gale case file himself, looking for anything that could tie the dead chemist back to him or to Jesse. In that moment he is doing exactly what a disciplined criminal does. He is auditing the evidence for loose ends.",
+        "candidates": [
+          {
+            "source_id": "src_6d5c7fd780bfdc14dd72",
+            "episode": "S04E04",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 4\\Breaking Bad Season 4 Episode 4.mp4",
+            "source_in_ms": 984280,
+            "source_out_ms": 1022141,
+            "evidence": "TRUSTED_DIALOGUE_WINDOW",
+            "evidence_text": "Oh, hey. Yeah, give me that. Give me that file, will you? You gotta check this out. I've been working on something here. I'm doing a little consulting. You know, weighing in on a case for A.P.D. Put that in for me. Put that in over there. Hank, what is this? It's not a dead body? Oh, no, no, no. Nothing like that. No. Seriously, you guys you gotta check this out."
+          },
+          {
+            "source_id": "src_6d5c7fd780bfdc14dd72",
+            "episode": "S04E04",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 4\\Breaking Bad Season 4 Episode 4.mp4",
+            "source_in_ms": 1190945,
+            "source_out_ms": 1236939,
+            "evidence": "TRUSTED_DIALOGUE_WINDOW",
+            "evidence_text": "Yeah, well, it was quite a tale. Couldn't have been easy to, you know... ...talk about. You know, Walt, if you.... You can always bend my ear, right? I mean, if you ever need to talk... ...or just blow off some steam, I'm here. Not going anywhere, so.... Thanks, Hank. Same goes for me, you know. If you ever wanna bounce anything off me..."
+          },
+          {
+            "source_id": "src_6d5c7fd780bfdc14dd72",
+            "episode": "S04E04",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 4\\Breaking Bad Season 4 Episode 4.mp4",
+            "source_in_ms": 1206836,
+            "source_out_ms": 1252621,
+            "evidence": "TRUSTED_DIALOGUE_WINDOW",
+            "evidence_text": "...or just blow off some steam, I'm here. Not going anywhere, so.... Thanks, Hank. Same goes for me, you know. If you ever wanna bounce anything off me... ...I don't know, casework, anything, really. Sometimes just talking something through... ...you know, really can make a difference. We're definitely not talking bathtub crank here. This is a big-ass operation."
+          }
+        ],
+        "candidateAssetIds": [
+          "sb_c585083d083330c7",
+          "sb_c585083d083330c7",
+          "sb_c585083d083330c7"
+        ]
+      }
+    },
+    {
+      "id": "clip_B010_VS01",
+      "assetId": "sb_c585083d083330c7",
+      "trackId": "V1",
+      "start": 179.79435005555177,
+      "duration": 17.055807984461172,
+      "sourceIn": 1346.684,
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1,
+        "rotation": 0,
+        "fit": "fill",
+        "opacity": 1,
+        "crop": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "muted": true,
+      "volume": 0,
+      "sceneBrain": {
+        "slotId": "B010_VS01",
+        "beatId": "B010",
+        "status": "NEEDS_CHOICE",
+        "narration": "And when Hank shows him the notebook and jokes that the W W might stand for Walter White, Walt does not freeze. He smiles and says, you got me, and then he steers Hank toward the poet. So Walt personally handled the danger of those two letters once, out loud, and talked his way straight past it.",
+        "candidates": [
+          {
+            "source_id": "src_6d5c7fd780bfdc14dd72",
+            "episode": "S04E04",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 4\\Breaking Bad Season 4 Episode 4.mp4",
+            "source_in_ms": 1346684,
+            "source_out_ms": 1388674,
+            "evidence": "TRUSTED_DIALOGUE_WINDOW",
+            "evidence_text": "This guy was a.... Man, he was a real character. Yeah, he seems unique. Yeah. Let me show you something. Give it here. Right here at the.... Right here at the top it says: \"To W.W. My star, my perfect silence.\" W.W. I mean, who do you figure that is? Woodrow Wilson?"
+          },
+          {
+            "source_id": "src_6d5c7fd780bfdc14dd72",
+            "episode": "S04E04",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 4\\Breaking Bad Season 4 Episode 4.mp4",
+            "source_in_ms": 1365494,
+            "source_out_ms": 1405524,
+            "evidence": "TRUSTED_DIALOGUE_WINDOW",
+            "evidence_text": "\"To W.W. My star, my perfect silence.\" W.W. I mean, who do you figure that is? Woodrow Wilson? Willy Wonka? Walter White? You got me. W.W."
+          },
+          {
+            "source_id": "src_6d5c7fd780bfdc14dd72",
+            "episode": "S04E04",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 4\\Breaking Bad Season 4 Episode 4.mp4",
+            "source_in_ms": 1379925,
+            "source_out_ms": 1416994,
+            "evidence": "TRUSTED_DIALOGUE_WINDOW",
+            "evidence_text": "Willy Wonka? Walter White? You got me. W.W. Wait a minute. Let me see this... ...for a second, because I think I remembered.... Here. Yes."
+          }
+        ],
+        "candidateAssetIds": [
+          "sb_c585083d083330c7",
+          "sb_c585083d083330c7",
+          "sb_c585083d083330c7"
+        ]
+      }
+    },
+    {
+      "id": "clip_B011_VS01",
+      "assetId": "sb_c585083d083330c7",
+      "trackId": "V1",
+      "start": 196.85015804001293,
+      "duration": 5.668894704512728,
+      "sourceIn": 677.295,
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1,
+        "rotation": 0,
+        "fit": "fill",
+        "opacity": 1,
+        "crop": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "muted": true,
+      "volume": 0,
+      "sceneBrain": {
+        "slotId": "B011_VS01",
+        "beatId": "B011",
+        "status": "NEEDS_CHOICE",
+        "narration": "Which makes the book in his bathroom stranger, not simpler. The man who inspected Gale's file for loose ends kept the most ordinary loose end imaginable, in the most ordinary room in his house.",
+        "candidates": [
+          {
+            "source_id": "src_6d5c7fd780bfdc14dd72",
+            "episode": "S04E04",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 4\\Breaking Bad Season 4 Episode 4.mp4",
+            "source_in_ms": 677295,
+            "source_out_ms": 687295,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          },
+          {
+            "source_id": "src_6d5c7fd780bfdc14dd72",
+            "episode": "S04E04",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 4\\Breaking Bad Season 4 Episode 4.mp4",
+            "source_in_ms": 1359590,
+            "source_out_ms": 1369590,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          },
+          {
+            "source_id": "src_6d5c7fd780bfdc14dd72",
+            "episode": "S04E04",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 4\\Breaking Bad Season 4 Episode 4.mp4",
+            "source_in_ms": 2041886,
+            "source_out_ms": 2051886,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          }
+        ],
+        "candidateAssetIds": [
+          "sb_c585083d083330c7",
+          "sb_c585083d083330c7",
+          "sb_c585083d083330c7"
+        ]
+      }
+    },
+    {
+      "id": "clip_B011_VS02",
+      "assetId": "sb_4b87c7ece528dbcf",
+      "trackId": "V1",
+      "start": 202.51905274452568,
+      "duration": 5.668894704512728,
+      "sourceIn": 705.484,
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1,
+        "rotation": 0,
+        "fit": "fill",
+        "opacity": 1,
+        "crop": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "muted": true,
+      "volume": 0,
+      "sceneBrain": {
+        "slotId": "B011_VS02",
+        "beatId": "B011",
+        "status": "NEEDS_CHOICE",
+        "narration": "Which makes the book in his bathroom stranger, not simpler. The man who inspected Gale's file for loose ends kept the most ordinary loose end imaginable, in the most ordinary room in his house.",
+        "candidates": [
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 705484,
+            "source_out_ms": 715484,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          },
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 1415968,
+            "source_out_ms": 1425968,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          },
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 2126453,
+            "source_out_ms": 2136453,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          }
+        ],
+        "candidateAssetIds": [
+          "sb_4b87c7ece528dbcf",
+          "sb_4b87c7ece528dbcf",
+          "sb_4b87c7ece528dbcf"
+        ]
+      }
+    },
+    {
+      "id": "clip_B012_VS01",
+      "assetId": "sb_4b87c7ece528dbcf",
+      "trackId": "V1",
+      "start": 208.1879474490384,
+      "duration": 18.961814176273077,
+      "sourceIn": 705.484,
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1,
+        "rotation": 0,
+        "fit": "fill",
+        "opacity": 1,
+        "crop": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "muted": true,
+      "volume": 0,
+      "sceneBrain": {
+        "slotId": "B012_VS01",
+        "beatId": "B012",
+        "status": "NEEDS_CHOICE",
+        "narration": "So let us take the explanations one at a time, because the easy ones fall apart the moment you push on them. Start with the theory the internet loves most. Some buried part of Walt wanted to be caught, and he left the book out as a kind of confession he could not admit to making. Set it aside. Nothing in how he behaves afterward supports it.",
+        "candidates": [
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 705484,
+            "source_out_ms": 715484,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          },
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 1415968,
+            "source_out_ms": 1425968,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          },
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 2126453,
+            "source_out_ms": 2136453,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          }
+        ],
+        "candidateAssetIds": [
+          "sb_4b87c7ece528dbcf",
+          "sb_4b87c7ece528dbcf",
+          "sb_4b87c7ece528dbcf"
+        ]
+      }
+    },
+    {
+      "id": "clip_B013_VS01",
+      "assetId": "sb_3ef1459949539fdf",
+      "trackId": "V1",
+      "start": 227.14976162531147,
+      "duration": 5.298500717753404,
+      "sourceIn": 2735.84,
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1,
+        "rotation": 0,
+        "fit": "fill",
+        "opacity": 1,
+        "crop": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "muted": true,
+      "volume": 0,
+      "sceneBrain": {
+        "slotId": "B013_VS01",
+        "beatId": "B013",
+        "status": "NEEDS_CHOICE",
+        "narration": "When he notices the book has gone missing, he does not feel relief wash over him. He searches, he finds a tracking device hidden on his car, and he walks into Hank's garage and quietly tells him to tread lightly. That is not a man who wanted this. That is a man fighting to survive it.",
+        "candidates": [
+          {
+            "source_id": "src_f9cbfaee385f981c3d29",
+            "episode": "S05E09",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 9.mp4",
+            "source_in_ms": 2735840,
+            "source_out_ms": 2789834,
+            "evidence": "TRUSTED_DIALOGUE_WINDOW",
+            "evidence_text": "And then we'll talk. That is not going to happen. I don't know who you are. I don't even know who I'm talking to. If that's true... if you don't know who I am... then maybe your best course... would be to tread lightly."
+          },
+          {
+            "source_id": "src_f9cbfaee385f981c3d29",
+            "episode": "S05E09",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 9.mp4",
+            "source_in_ms": 2761880,
+            "source_out_ms": 2789834,
+            "evidence": "TRUSTED_DIALOGUE_WINDOW",
+            "evidence_text": "If that's true... if you don't know who I am... then maybe your best course... would be to tread lightly."
+          },
+          {
+            "source_id": "src_f9cbfaee385f981c3d29",
+            "episode": "S05E09",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 9.mp4",
+            "source_in_ms": 2009120,
+            "source_out_ms": 2115350,
+            "evidence": "TRUSTED_DIALOGUE_WINDOW",
+            "evidence_text": "can I get a late curfew? Are you gonna turn off the light? Have you seen Leaves of Grass? Hm? My book. Walt Whitman. Dark green hardcover. I didn't even know we had that. Hm."
+          }
+        ],
+        "candidateAssetIds": [
+          "sb_3ef1459949539fdf",
+          "sb_3ef1459949539fdf",
+          "sb_3ef1459949539fdf"
+        ]
+      }
+    },
+    {
+      "id": "clip_B013_VS02",
+      "assetId": "sb_3ef1459949539fdf",
+      "trackId": "V1",
+      "start": 232.44826234306487,
+      "duration": 5.298500717753404,
+      "sourceIn": 2735.84,
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1,
+        "rotation": 0,
+        "fit": "fill",
+        "opacity": 1,
+        "crop": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "muted": true,
+      "volume": 0,
+      "sceneBrain": {
+        "slotId": "B013_VS02",
+        "beatId": "B013",
+        "status": "NEEDS_CHOICE",
+        "narration": "When he notices the book has gone missing, he does not feel relief wash over him. He searches, he finds a tracking device hidden on his car, and he walks into Hank's garage and quietly tells him to tread lightly. That is not a man who wanted this. That is a man fighting to survive it.",
+        "candidates": [
+          {
+            "source_id": "src_f9cbfaee385f981c3d29",
+            "episode": "S05E09",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 9.mp4",
+            "source_in_ms": 2735840,
+            "source_out_ms": 2789834,
+            "evidence": "TRUSTED_DIALOGUE_WINDOW",
+            "evidence_text": "And then we'll talk. That is not going to happen. I don't know who you are. I don't even know who I'm talking to. If that's true... if you don't know who I am... then maybe your best course... would be to tread lightly."
+          },
+          {
+            "source_id": "src_f9cbfaee385f981c3d29",
+            "episode": "S05E09",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 9.mp4",
+            "source_in_ms": 2761880,
+            "source_out_ms": 2789834,
+            "evidence": "TRUSTED_DIALOGUE_WINDOW",
+            "evidence_text": "If that's true... if you don't know who I am... then maybe your best course... would be to tread lightly."
+          },
+          {
+            "source_id": "src_f9cbfaee385f981c3d29",
+            "episode": "S05E09",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 9.mp4",
+            "source_in_ms": 2009120,
+            "source_out_ms": 2115350,
+            "evidence": "TRUSTED_DIALOGUE_WINDOW",
+            "evidence_text": "can I get a late curfew? Are you gonna turn off the light? Have you seen Leaves of Grass? Hm? My book. Walt Whitman. Dark green hardcover. I didn't even know we had that. Hm."
+          }
+        ],
+        "candidateAssetIds": [
+          "sb_3ef1459949539fdf",
+          "sb_3ef1459949539fdf",
+          "sb_3ef1459949539fdf"
+        ]
+      }
+    },
+    {
+      "id": "clip_B013_VS03",
+      "assetId": "sb_3ef1459949539fdf",
+      "trackId": "V1",
+      "start": 237.7467630608183,
+      "duration": 5.299483195171864,
+      "sourceIn": 2735.84,
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1,
+        "rotation": 0,
+        "fit": "fill",
+        "opacity": 1,
+        "crop": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "muted": true,
+      "volume": 0,
+      "sceneBrain": {
+        "slotId": "B013_VS03",
+        "beatId": "B013",
+        "status": "NEEDS_CHOICE",
+        "narration": "When he notices the book has gone missing, he does not feel relief wash over him. He searches, he finds a tracking device hidden on his car, and he walks into Hank's garage and quietly tells him to tread lightly. That is not a man who wanted this. That is a man fighting to survive it.",
+        "candidates": [
+          {
+            "source_id": "src_f9cbfaee385f981c3d29",
+            "episode": "S05E09",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 9.mp4",
+            "source_in_ms": 2735840,
+            "source_out_ms": 2789834,
+            "evidence": "TRUSTED_DIALOGUE_WINDOW",
+            "evidence_text": "And then we'll talk. That is not going to happen. I don't know who you are. I don't even know who I'm talking to. If that's true... if you don't know who I am... then maybe your best course... would be to tread lightly."
+          },
+          {
+            "source_id": "src_f9cbfaee385f981c3d29",
+            "episode": "S05E09",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 9.mp4",
+            "source_in_ms": 2761880,
+            "source_out_ms": 2789834,
+            "evidence": "TRUSTED_DIALOGUE_WINDOW",
+            "evidence_text": "If that's true... if you don't know who I am... then maybe your best course... would be to tread lightly."
+          },
+          {
+            "source_id": "src_f9cbfaee385f981c3d29",
+            "episode": "S05E09",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 9.mp4",
+            "source_in_ms": 2009120,
+            "source_out_ms": 2115350,
+            "evidence": "TRUSTED_DIALOGUE_WINDOW",
+            "evidence_text": "can I get a late curfew? Are you gonna turn off the light? Have you seen Leaves of Grass? Hm? My book. Walt Whitman. Dark green hardcover. I didn't even know we had that. Hm."
+          }
+        ],
+        "candidateAssetIds": [
+          "sb_3ef1459949539fdf",
+          "sb_3ef1459949539fdf",
+          "sb_3ef1459949539fdf"
+        ]
+      }
+    },
+    {
+      "id": "clip_B014_VS01",
+      "assetId": "sb_3ef1459949539fdf",
+      "trackId": "V1",
+      "start": 243.04624625599016,
+      "duration": 9.392484120475162,
+      "sourceIn": 2735.84,
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1,
+        "rotation": 0,
+        "fit": "fill",
+        "opacity": 1,
+        "crop": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "muted": true,
+      "volume": 0,
+      "sceneBrain": {
+        "slotId": "B014_VS01",
+        "beatId": "B014",
+        "status": "NEEDS_CHOICE",
+        "narration": "And the person who created the show has said, plainly, that he does not read it as a secret wish to be caught either. So of all the answers, that one is the weakest.",
+        "candidates": [
+          {
+            "source_id": "src_f9cbfaee385f981c3d29",
+            "episode": "S05E09",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 9.mp4",
+            "source_in_ms": 2735840,
+            "source_out_ms": 2789834,
+            "evidence": "TRUSTED_DIALOGUE_WINDOW",
+            "evidence_text": "And then we'll talk. That is not going to happen. I don't know who you are. I don't even know who I'm talking to. If that's true... if you don't know who I am... then maybe your best course... would be to tread lightly."
+          },
+          {
+            "source_id": "src_f9cbfaee385f981c3d29",
+            "episode": "S05E09",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 9.mp4",
+            "source_in_ms": 2761880,
+            "source_out_ms": 2789834,
+            "evidence": "TRUSTED_DIALOGUE_WINDOW",
+            "evidence_text": "If that's true... if you don't know who I am... then maybe your best course... would be to tread lightly."
+          }
+        ],
+        "candidateAssetIds": [
+          "sb_3ef1459949539fdf",
+          "sb_3ef1459949539fdf"
+        ]
+      }
+    },
+    {
+      "id": "clip_B015_VS01",
+      "assetId": "sb_4b87c7ece528dbcf",
+      "trackId": "V1",
+      "start": 252.4387303764653,
+      "duration": 13.892230697020793,
+      "sourceIn": 705.484,
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1,
+        "rotation": 0,
+        "fit": "fill",
+        "opacity": 1,
+        "crop": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "muted": true,
+      "volume": 0,
+      "sceneBrain": {
+        "slotId": "B015_VS01",
+        "beatId": "B015",
+        "status": "NEEDS_CHOICE",
+        "narration": "Now the opposite theory. He simply forgot the book existed. This one carries real weight, because Vince Gilligan, who made the series, has basically said the honest answer is that it was a mistake, plain and simple. Think about the moment Hank picks it up.",
+        "candidates": [
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 705484,
+            "source_out_ms": 715484,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          },
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 1415968,
+            "source_out_ms": 1425968,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          },
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 2126453,
+            "source_out_ms": 2136453,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          }
+        ],
+        "candidateAssetIds": [
+          "sb_4b87c7ece528dbcf",
+          "sb_4b87c7ece528dbcf",
+          "sb_4b87c7ece528dbcf"
+        ]
+      }
+    },
+    {
+      "id": "clip_B016_VS01",
+      "assetId": "sb_4b87c7ece528dbcf",
+      "trackId": "V1",
+      "start": 266.33096107348615,
+      "duration": 22.675578818050912,
+      "sourceIn": 705.484,
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1,
+        "rotation": 0,
+        "fit": "fill",
+        "opacity": 1,
+        "crop": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "muted": true,
+      "volume": 0,
+      "sceneBrain": {
+        "slotId": "B016_VS01",
+        "beatId": "B016",
+        "status": "NEEDS_CHOICE",
+        "narration": "By then Walt has been out of the business for about a month. His children are back home. He and Skyler seem, for the first time in years, almost at peace. The whole scene is staged like a family that got away with it, a lazy afternoon by the pool. It is exactly the kind of relaxed, guard-down stretch where a careful man stops being careful, because the danger feels like it is behind him.",
+        "candidates": [
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 705484,
+            "source_out_ms": 715484,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          },
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 1415968,
+            "source_out_ms": 1425968,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          },
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 2126453,
+            "source_out_ms": 2136453,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          }
+        ],
+        "candidateAssetIds": [
+          "sb_4b87c7ece528dbcf",
+          "sb_4b87c7ece528dbcf",
+          "sb_4b87c7ece528dbcf"
+        ]
+      }
+    },
+    {
+      "id": "clip_B017_VS01",
+      "assetId": "sb_13e3035845736643",
+      "trackId": "V1",
+      "start": 289.00653989153705,
+      "duration": 18.83409211187331,
+      "sourceIn": 704.486,
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1,
+        "rotation": 0,
+        "fit": "fill",
+        "opacity": 1,
+        "crop": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "muted": true,
+      "volume": 0,
+      "sceneBrain": {
+        "slotId": "B017_VS01",
+        "beatId": "B017",
+        "status": "NEEDS_CHOICE",
+        "narration": "But there is a problem with he forgot the book, and the show plants that problem on purpose, months earlier. Because we watched him find it. We watched him lift it out of a box, recognize it, and smile. He did not forget the object. So the theory has to change shape. The real question is not whether he forgot the book. It is whether he forgot, or never even noticed, the danger sitting inside it. And those are two completely different things. You can remember a book perfectly well and never once think about a single handwritten line on its first page. That gap, between remembering the object and registering the threat, is where the honest answer actually lives.",
+        "candidates": [
+          {
+            "source_id": "src_9498b0938b8521a877dc",
+            "episode": "S05E03",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 3.mp4",
+            "source_in_ms": 704486,
+            "source_out_ms": 714486,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          },
+          {
+            "source_id": "src_9498b0938b8521a877dc",
+            "episode": "S05E03",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 3.mp4",
+            "source_in_ms": 1413971,
+            "source_out_ms": 1423971,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          },
+          {
+            "source_id": "src_9498b0938b8521a877dc",
+            "episode": "S05E03",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 3.mp4",
+            "source_in_ms": 2123456,
+            "source_out_ms": 2133456,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          }
+        ],
+        "candidateAssetIds": [
+          "sb_13e3035845736643",
+          "sb_13e3035845736643",
+          "sb_13e3035845736643"
+        ]
+      }
+    },
+    {
+      "id": "clip_B017_VS02",
+      "assetId": "sb_4b87c7ece528dbcf",
+      "trackId": "V1",
+      "start": 307.84063200341035,
+      "duration": 18.83409211187331,
+      "sourceIn": 2686.6,
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1,
+        "rotation": 0,
+        "fit": "fill",
+        "opacity": 1,
+        "crop": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "muted": true,
+      "volume": 0,
+      "sceneBrain": {
+        "slotId": "B017_VS02",
+        "beatId": "B017",
+        "status": "NEEDS_CHOICE",
+        "narration": "But there is a problem with he forgot the book, and the show plants that problem on purpose, months earlier. Because we watched him find it. We watched him lift it out of a box, recognize it, and smile. He did not forget the object. So the theory has to change shape. The real question is not whether he forgot the book. It is whether he forgot, or never even noticed, the danger sitting inside it. And those are two completely different things. You can remember a book perfectly well and never once think about a single handwritten line on its first page. That gap, between remembering the object and registering the threat, is where the honest answer actually lives.",
+        "candidates": [
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 2686600,
+            "source_out_ms": 2783962,
+            "evidence": "TRUSTED_DIALOGUE_WINDOW",
+            "evidence_text": "- No, I'm good. I'm good, thank you. - Yeah? All right. Does it look glossier? Do I have a halo? - How's she doing? - She's good. Yeah? Try not to put any of the sunscreen on her fingers. \"To W.W. My star, my perfect silence. \" W.W. I mean, who do you figure that is?"
+          },
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 2696560,
+            "source_out_ms": 2797567,
+            "evidence": "TRUSTED_DIALOGUE_WINDOW",
+            "evidence_text": "Yeah? Try not to put any of the sunscreen on her fingers. \"To W.W. My star, my perfect silence. \" W.W. I mean, who do you figure that is? Woodrow Wilson? Willy Wonka? Walter White? You got me."
+          }
+        ],
+        "candidateAssetIds": [
+          "sb_4b87c7ece528dbcf",
+          "sb_4b87c7ece528dbcf"
+        ]
+      }
+    },
+    {
+      "id": "clip_B018_VS01",
+      "assetId": "sb_13e3035845736643",
+      "trackId": "V1",
+      "start": 326.6747241152836,
+      "duration": 8.046490057185311,
+      "sourceIn": 704.486,
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1,
+        "rotation": 0,
+        "fit": "fill",
+        "opacity": 1,
+        "crop": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "muted": true,
+      "volume": 0,
+      "sceneBrain": {
+        "slotId": "B018_VS01",
+        "beatId": "B018",
+        "status": "NEEDS_CHOICE",
+        "narration": "One reading of that smile is the simplest and the darkest. He knew exactly what the book was, and he kept it on purpose, as a trophy, a private monument to the one man who ever called his work an honour. It is a tempting answer, because it fits the arrogant Heisenberg we think we know.",
+        "candidates": [
+          {
+            "source_id": "src_9498b0938b8521a877dc",
+            "episode": "S05E03",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 3.mp4",
+            "source_in_ms": 704486,
+            "source_out_ms": 714486,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          },
+          {
+            "source_id": "src_9498b0938b8521a877dc",
+            "episode": "S05E03",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 3.mp4",
+            "source_in_ms": 1413971,
+            "source_out_ms": 1423971,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          },
+          {
+            "source_id": "src_9498b0938b8521a877dc",
+            "episode": "S05E03",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 3.mp4",
+            "source_in_ms": 2123456,
+            "source_out_ms": 2133456,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          }
+        ],
+        "candidateAssetIds": [
+          "sb_13e3035845736643",
+          "sb_13e3035845736643",
+          "sb_13e3035845736643"
+        ]
+      }
+    },
+    {
+      "id": "clip_B018_VS02",
+      "assetId": "sb_4b87c7ece528dbcf",
+      "trackId": "V1",
+      "start": 334.72121417246893,
+      "duration": 8.046490057185311,
+      "sourceIn": 705.484,
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1,
+        "rotation": 0,
+        "fit": "fill",
+        "opacity": 1,
+        "crop": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "muted": true,
+      "volume": 0,
+      "sceneBrain": {
+        "slotId": "B018_VS02",
+        "beatId": "B018",
+        "status": "NEEDS_CHOICE",
+        "narration": "One reading of that smile is the simplest and the darkest. He knew exactly what the book was, and he kept it on purpose, as a trophy, a private monument to the one man who ever called his work an honour. It is a tempting answer, because it fits the arrogant Heisenberg we think we know.",
+        "candidates": [
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 705484,
+            "source_out_ms": 715484,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          },
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 1415968,
+            "source_out_ms": 1425968,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          },
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 2126453,
+            "source_out_ms": 2136453,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          }
+        ],
+        "candidateAssetIds": [
+          "sb_4b87c7ece528dbcf",
+          "sb_4b87c7ece528dbcf",
+          "sb_4b87c7ece528dbcf"
+        ]
+      }
+    },
+    {
+      "id": "clip_B019_VS01",
+      "assetId": "sb_4b87c7ece528dbcf",
+      "trackId": "V1",
+      "start": 342.7677042296542,
+      "duration": 22.79347610826608,
+      "sourceIn": 705.484,
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1,
+        "rotation": 0,
+        "fit": "fill",
+        "opacity": 1,
+        "crop": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "muted": true,
+      "volume": 0,
+      "sceneBrain": {
+        "slotId": "B019_VS01",
+        "beatId": "B019",
+        "status": "NEEDS_CHOICE",
+        "narration": "But look at where the book actually ends up. It is not framed on a shelf, and it is not locked in a drawer he opens now and then to admire it. It is shoved under a pile of old magazines, next to the toilet, as something to thumb through while he sits there. That is not how a person keeps a trophy. A trophy gets displayed, or at least protected. This got treated like every other piece of bathroom clutter.",
+        "candidates": [
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 705484,
+            "source_out_ms": 715484,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          },
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 1415968,
+            "source_out_ms": 1425968,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          },
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 2126453,
+            "source_out_ms": 2136453,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          }
+        ],
+        "candidateAssetIds": [
+          "sb_4b87c7ece528dbcf",
+          "sb_4b87c7ece528dbcf",
+          "sb_4b87c7ece528dbcf"
+        ]
+      }
+    },
+    {
+      "id": "clip_B020_VS01",
+      "assetId": "sb_4b87c7ece528dbcf",
+      "trackId": "V1",
+      "start": 365.56118033792035,
+      "duration": 13.204496504098971,
+      "sourceIn": 705.484,
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1,
+        "rotation": 0,
+        "fit": "fill",
+        "opacity": 1,
+        "crop": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "muted": true,
+      "volume": 0,
+      "sceneBrain": {
+        "slotId": "B020_VS01",
+        "beatId": "B020",
+        "status": "NEEDS_CHOICE",
+        "narration": "Which points away from a proud, deliberate keepsake, and toward something quieter and far more dangerous. The book had not been raised up in Walt's mind. It had been absorbed. It had quietly become part of the furniture of an ordinary life.",
+        "candidates": [
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 705484,
+            "source_out_ms": 715484,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          },
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 1415968,
+            "source_out_ms": 1425968,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          },
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 2126453,
+            "source_out_ms": 2136453,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          }
+        ],
+        "candidateAssetIds": [
+          "sb_4b87c7ece528dbcf",
+          "sb_4b87c7ece528dbcf",
+          "sb_4b87c7ece528dbcf"
+        ]
+      }
+    },
+    {
+      "id": "clip_B021_VS01",
+      "assetId": "sb_4b87c7ece528dbcf",
+      "trackId": "V1",
+      "start": 378.76567684201933,
+      "duration": 9.647928249274695,
+      "sourceIn": 705.484,
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1,
+        "rotation": 0,
+        "fit": "fill",
+        "opacity": 1,
+        "crop": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "muted": true,
+      "volume": 0,
+      "sceneBrain": {
+        "slotId": "B021_VS01",
+        "beatId": "B021",
+        "status": "NEEDS_CHOICE",
+        "narration": "So maybe he never truly took in the inscription. Gilligan has raised exactly that possibility, that Walt may never have noticed or remembered those specific words. And it is more believable than it first sounds, once you think about what that book was to him. It was not a lab key, or an invoice, or a photograph of a body.",
+        "candidates": [
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 705484,
+            "source_out_ms": 715484,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          },
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 1415968,
+            "source_out_ms": 1425968,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          },
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 2126453,
+            "source_out_ms": 2136453,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          }
+        ],
+        "candidateAssetIds": [
+          "sb_4b87c7ece528dbcf",
+          "sb_4b87c7ece528dbcf",
+          "sb_4b87c7ece528dbcf"
+        ]
+      }
+    },
+    {
+      "id": "clip_B021_VS02",
+      "assetId": "sb_4b87c7ece528dbcf",
+      "trackId": "V1",
+      "start": 388.413605091294,
+      "duration": 9.647928249274695,
+      "sourceIn": 705.484,
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1,
+        "rotation": 0,
+        "fit": "fill",
+        "opacity": 1,
+        "crop": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "muted": true,
+      "volume": 0,
+      "sceneBrain": {
+        "slotId": "B021_VS02",
+        "beatId": "B021",
+        "status": "NEEDS_CHOICE",
+        "narration": "So maybe he never truly took in the inscription. Gilligan has raised exactly that possibility, that Walt may never have noticed or remembered those specific words. And it is more believable than it first sounds, once you think about what that book was to him. It was not a lab key, or an invoice, or a photograph of a body.",
+        "candidates": [
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 705484,
+            "source_out_ms": 715484,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          },
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 1415968,
+            "source_out_ms": 1425968,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          },
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 2126453,
+            "source_out_ms": 2136453,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          }
+        ],
+        "candidateAssetIds": [
+          "sb_4b87c7ece528dbcf",
+          "sb_4b87c7ece528dbcf",
+          "sb_4b87c7ece528dbcf"
+        ]
+      }
+    },
+    {
+      "id": "clip_B022_VS01",
+      "assetId": "sb_35a67f4394673b10",
+      "trackId": "V1",
+      "start": 398.0615333405687,
+      "duration": 8.341233282723234,
+      "sourceIn": 1586.882,
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1,
+        "rotation": 0,
+        "fit": "fill",
+        "opacity": 1,
+        "crop": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "muted": true,
+      "volume": 0,
+      "sceneBrain": {
+        "slotId": "B022_VS01",
+        "beatId": "B022",
+        "status": "NEEDS_CHOICE",
+        "narration": "It was a gift from the one person in his criminal life who treated him not as a boss, and not as a partner, but as a great mind whose company was an honour. Walt spent his entire life feeling that his brilliance had gone unrecognized by the world. And here, in his hands, was a page that recognized it.",
+        "candidates": [
+          {
+            "source_id": "src_31ccffbdcbe2361f1aaa",
+            "episode": "S03E06",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 3\\Breaking Bad Season 3 Episode 6.mp4",
+            "source_in_ms": 1586882,
+            "source_out_ms": 1658318,
+            "evidence": "TRUSTED_DIALOGUE_WINDOW",
+            "evidence_text": "Why? Long story, but I'm personally of the opinion he's moved on from weed... ...and graduated to selling crystal meth, using it as a rolling lab. Walt? Yo. What, Mr. White? How's my favorite genius? Is this a secure line?"
+          }
+        ],
+        "candidateAssetIds": [
+          "sb_35a67f4394673b10"
+        ]
+      }
+    },
+    {
+      "id": "clip_B022_VS02",
+      "assetId": "sb_4b87c7ece528dbcf",
+      "trackId": "V1",
+      "start": 406.40276662329194,
+      "duration": 8.341233282723234,
+      "sourceIn": 705.484,
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1,
+        "rotation": 0,
+        "fit": "fill",
+        "opacity": 1,
+        "crop": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "muted": true,
+      "volume": 0,
+      "sceneBrain": {
+        "slotId": "B022_VS02",
+        "beatId": "B022",
+        "status": "NEEDS_CHOICE",
+        "narration": "It was a gift from the one person in his criminal life who treated him not as a boss, and not as a partner, but as a great mind whose company was an honour. Walt spent his entire life feeling that his brilliance had gone unrecognized by the world. And here, in his hands, was a page that recognized it.",
+        "candidates": [
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 705484,
+            "source_out_ms": 715484,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          },
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 1415968,
+            "source_out_ms": 1425968,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          },
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 2126453,
+            "source_out_ms": 2136453,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          }
+        ],
+        "candidateAssetIds": [
+          "sb_4b87c7ece528dbcf",
+          "sb_4b87c7ece528dbcf",
+          "sb_4b87c7ece528dbcf"
+        ]
+      }
+    },
+    {
+      "id": "clip_B023_VS01",
+      "assetId": "sb_35a67f4394673b10",
+      "trackId": "V1",
+      "start": 414.7439999060152,
+      "duration": 5.887987168829252,
+      "sourceIn": 707.824,
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1,
+        "rotation": 0,
+        "fit": "fill",
+        "opacity": 1,
+        "crop": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "muted": true,
+      "volume": 0,
+      "sceneBrain": {
+        "slotId": "B023_VS01",
+        "beatId": "B023",
+        "status": "NEEDS_CHOICE",
+        "narration": "And the relationship behind that page was a knot. Walt admired Gale, and enjoyed working beside him, and then decided he was a liability, and had him killed. So the book carried respect, and guilt, and pride, all tangled into one small object. What it did not obviously carry, for Walt, was danger.",
+        "candidates": [
+          {
+            "source_id": "src_31ccffbdcbe2361f1aaa",
+            "episode": "S03E06",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 3\\Breaking Bad Season 3 Episode 6.mp4",
+            "source_in_ms": 707824,
+            "source_out_ms": 717824,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          },
+          {
+            "source_id": "src_31ccffbdcbe2361f1aaa",
+            "episode": "S03E06",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 3\\Breaking Bad Season 3 Episode 6.mp4",
+            "source_in_ms": 1420647,
+            "source_out_ms": 1430647,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          },
+          {
+            "source_id": "src_31ccffbdcbe2361f1aaa",
+            "episode": "S03E06",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 3\\Breaking Bad Season 3 Episode 6.mp4",
+            "source_in_ms": 2133470,
+            "source_out_ms": 2143470,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          }
+        ],
+        "candidateAssetIds": [
+          "sb_35a67f4394673b10",
+          "sb_35a67f4394673b10",
+          "sb_35a67f4394673b10"
+        ]
+      }
+    },
+    {
+      "id": "clip_B023_VS02",
+      "assetId": "sb_3c257474ea9ccba5",
+      "trackId": "V1",
+      "start": 420.63198707484446,
+      "duration": 5.887987168829252,
+      "sourceIn": 1594.515,
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1,
+        "rotation": 0,
+        "fit": "fill",
+        "opacity": 1,
+        "crop": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "muted": true,
+      "volume": 0,
+      "sceneBrain": {
+        "slotId": "B023_VS02",
+        "beatId": "B023",
+        "status": "NEEDS_CHOICE",
+        "narration": "And the relationship behind that page was a knot. Walt admired Gale, and enjoyed working beside him, and then decided he was a liability, and had him killed. So the book carried respect, and guilt, and pride, all tangled into one small object. What it did not obviously carry, for Walt, was danger.",
+        "candidates": [
+          {
+            "source_id": "src_b6d08cb3e0f9ea44925d",
+            "episode": "S03E13",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 3\\Breaking Bad Season 3 Episode 13.mp4",
+            "source_in_ms": 1594515,
+            "source_out_ms": 1658651,
+            "evidence": "TRUSTED_DIALOGUE_WINDOW",
+            "evidence_text": "...one or two more cooks. One more... ...I guess would do it. I suppose. I believe in you, Gale. I know that when the time comes, you will be ready. What's up? Walt, is there...? Any particular trick to purging the catalyst bed?"
+          }
+        ],
+        "candidateAssetIds": [
+          "sb_3c257474ea9ccba5"
+        ]
+      }
+    },
+    {
+      "id": "clip_B023_VS03",
+      "assetId": "sb_3c257474ea9ccba5",
+      "trackId": "V1",
+      "start": 426.5199742436737,
+      "duration": 5.888969646247711,
+      "sourceIn": 1594.515,
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1,
+        "rotation": 0,
+        "fit": "fill",
+        "opacity": 1,
+        "crop": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "muted": true,
+      "volume": 0,
+      "sceneBrain": {
+        "slotId": "B023_VS03",
+        "beatId": "B023",
+        "status": "NEEDS_CHOICE",
+        "narration": "And the relationship behind that page was a knot. Walt admired Gale, and enjoyed working beside him, and then decided he was a liability, and had him killed. So the book carried respect, and guilt, and pride, all tangled into one small object. What it did not obviously carry, for Walt, was danger.",
+        "candidates": [
+          {
+            "source_id": "src_b6d08cb3e0f9ea44925d",
+            "episode": "S03E13",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 3\\Breaking Bad Season 3 Episode 13.mp4",
+            "source_in_ms": 1594515,
+            "source_out_ms": 1658651,
+            "evidence": "TRUSTED_DIALOGUE_WINDOW",
+            "evidence_text": "...one or two more cooks. One more... ...I guess would do it. I suppose. I believe in you, Gale. I know that when the time comes, you will be ready. What's up? Walt, is there...? Any particular trick to purging the catalyst bed?"
+          }
+        ],
+        "candidateAssetIds": [
+          "sb_3c257474ea9ccba5"
+        ]
+      }
+    },
+    {
+      "id": "clip_B024_VS01",
+      "assetId": "sb_4b87c7ece528dbcf",
+      "trackId": "V1",
+      "start": 432.4089438899214,
+      "duration": 18.33302862845884,
+      "sourceIn": 705.484,
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1,
+        "rotation": 0,
+        "fit": "fill",
+        "opacity": 1,
+        "crop": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "muted": true,
+      "volume": 0,
+      "sceneBrain": {
+        "slotId": "B024_VS01",
+        "beatId": "B024",
+        "status": "NEEDS_CHOICE",
+        "narration": "Now this next part is my reading, and I want to be honest that it is a reading, not a fact the show confirms. An object like that does not get filed in the same drawer as evidence. It gets filed with the things that flatter you. The danger and the flattery are written in the same handwriting. But Walt may only ever have felt one of them.",
+        "candidates": [
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 705484,
+            "source_out_ms": 715484,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          },
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 1415968,
+            "source_out_ms": 1425968,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          },
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 2126453,
+            "source_out_ms": 2136453,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          }
+        ],
+        "candidateAssetIds": [
+          "sb_4b87c7ece528dbcf",
+          "sb_4b87c7ece528dbcf",
+          "sb_4b87c7ece528dbcf"
+        ]
+      }
+    },
+    {
+      "id": "clip_B025_VS01",
+      "assetId": "sb_c585083d083330c7",
+      "trackId": "V1",
+      "start": 450.74197251838024,
+      "duration": 22.30223739903621,
+      "sourceIn": 677.295,
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1,
+        "rotation": 0,
+        "fit": "fill",
+        "opacity": 1,
+        "crop": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "muted": true,
+      "volume": 0,
+      "sceneBrain": {
+        "slotId": "B025_VS01",
+        "beatId": "B025",
+        "status": "NEEDS_CHOICE",
+        "narration": "And this is not a wild guess about how his mind works, because the show already ran this experiment, in the open, and we watched the result. There was a stretch where Hank had all but closed the Heisenberg case, because he had decided Gale was the genius behind the blue meth. For Walt, that was the safest outcome imaginable. The DEA believes a dead man did it. The case goes cold.",
+        "candidates": [
+          {
+            "source_id": "src_6d5c7fd780bfdc14dd72",
+            "episode": "S04E04",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 4\\Breaking Bad Season 4 Episode 4.mp4",
+            "source_in_ms": 677295,
+            "source_out_ms": 687295,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          },
+          {
+            "source_id": "src_6d5c7fd780bfdc14dd72",
+            "episode": "S04E04",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 4\\Breaking Bad Season 4 Episode 4.mp4",
+            "source_in_ms": 1359590,
+            "source_out_ms": 1369590,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          },
+          {
+            "source_id": "src_6d5c7fd780bfdc14dd72",
+            "episode": "S04E04",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 4\\Breaking Bad Season 4 Episode 4.mp4",
+            "source_in_ms": 2041886,
+            "source_out_ms": 2051886,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          }
+        ],
+        "candidateAssetIds": [
+          "sb_c585083d083330c7",
+          "sb_c585083d083330c7",
+          "sb_c585083d083330c7"
+        ]
+      }
+    },
+    {
+      "id": "clip_B026_VS01",
+      "assetId": "sb_4f68944e5c4d8292",
+      "trackId": "V1",
+      "start": 473.0442099174164,
+      "duration": 16.89861159750761,
+      "sourceIn": 2641.978,
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1,
+        "rotation": 0,
+        "fit": "fill",
+        "opacity": 1,
+        "crop": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "muted": true,
+      "volume": 0,
+      "sceneBrain": {
+        "slotId": "B026_VS01",
+        "beatId": "B026",
+        "status": "NEEDS_CHOICE",
+        "narration": "And then, at a dinner, a little drunk, Walt has to sit and listen to Hank praise Gale's brilliance, and he cannot bear it. He tells Hank that Gale's notebook looks like the work of someone copying, not creating, and that the real genius is probably still out there. And with that, he talks Hank back into the case.",
+        "candidates": [
+          {
+            "source_id": "src_510e74c8ad80d07b9f38",
+            "episode": "S04E05",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 4\\Breaking Bad Season 4 Episode 5.mp4",
+            "source_in_ms": 2641978,
+            "source_out_ms": 2680673,
+            "evidence": "TRUSTED_DIALOGUE_WINDOW",
+            "evidence_text": "And this is just my humble opinion. From what I saw on those papers.... Genius? Not so much. I mean, there was no reasoning, no deductions in those pages. So to my eye, all his brilliance... ...looks like nothing more than just simple rote copying. Probably of someone else's work."
+          },
+          {
+            "source_id": "src_510e74c8ad80d07b9f38",
+            "episode": "S04E05",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 4\\Breaking Bad Season 4 Episode 5.mp4",
+            "source_in_ms": 2653698,
+            "source_out_ms": 2711913,
+            "evidence": "TRUSTED_DIALOGUE_WINDOW",
+            "evidence_text": "I mean, there was no reasoning, no deductions in those pages. So to my eye, all his brilliance... ...looks like nothing more than just simple rote copying. Probably of someone else's work. Believe me, I have been around enough students to know. This genius of yours... ...maybe he's still out there. -Hank. -Hey, babe."
+          }
+        ],
+        "candidateAssetIds": [
+          "sb_4f68944e5c4d8292",
+          "sb_4f68944e5c4d8292"
+        ]
+      }
+    },
+    {
+      "id": "clip_B027_VS01",
+      "assetId": "sb_4f68944e5c4d8292",
+      "trackId": "V1",
+      "start": 489.94282151492405,
+      "duration": 12.104121795424058,
+      "sourceIn": 706.767,
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1,
+        "rotation": 0,
+        "fit": "fill",
+        "opacity": 1,
+        "crop": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "muted": true,
+      "volume": 0,
+      "sceneBrain": {
+        "slotId": "B027_VS01",
+        "beatId": "B027",
+        "status": "NEEDS_CHOICE",
+        "narration": "Sit with what that means. Walt was handed his own safety, wrapped and delivered, and he traded it away rather than let a dead man take credit for his work. That is not a theory about his ego. It is something we saw him do. When his need to be recognized runs into his need to be safe, safety does not always win. Which makes it very easy to believe that a book praising him by name never fully set off the part of his brain that hunts for threats.",
+        "candidates": [
+          {
+            "source_id": "src_510e74c8ad80d07b9f38",
+            "episode": "S04E05",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 4\\Breaking Bad Season 4 Episode 5.mp4",
+            "source_in_ms": 706767,
+            "source_out_ms": 716767,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          },
+          {
+            "source_id": "src_510e74c8ad80d07b9f38",
+            "episode": "S04E05",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 4\\Breaking Bad Season 4 Episode 5.mp4",
+            "source_in_ms": 1418534,
+            "source_out_ms": 1428534,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          },
+          {
+            "source_id": "src_510e74c8ad80d07b9f38",
+            "episode": "S04E05",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 4\\Breaking Bad Season 4 Episode 5.mp4",
+            "source_in_ms": 2130301,
+            "source_out_ms": 2140301,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          }
+        ],
+        "candidateAssetIds": [
+          "sb_4f68944e5c4d8292",
+          "sb_4f68944e5c4d8292",
+          "sb_4f68944e5c4d8292"
+        ]
+      }
+    },
+    {
+      "id": "clip_B027_VS02",
+      "assetId": "sb_4b87c7ece528dbcf",
+      "trackId": "V1",
+      "start": 502.04694331034807,
+      "duration": 12.104121795424058,
+      "sourceIn": 705.484,
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1,
+        "rotation": 0,
+        "fit": "fill",
+        "opacity": 1,
+        "crop": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "muted": true,
+      "volume": 0,
+      "sceneBrain": {
+        "slotId": "B027_VS02",
+        "beatId": "B027",
+        "status": "NEEDS_CHOICE",
+        "narration": "Sit with what that means. Walt was handed his own safety, wrapped and delivered, and he traded it away rather than let a dead man take credit for his work. That is not a theory about his ego. It is something we saw him do. When his need to be recognized runs into his need to be safe, safety does not always win. Which makes it very easy to believe that a book praising him by name never fully set off the part of his brain that hunts for threats.",
+        "candidates": [
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 705484,
+            "source_out_ms": 715484,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          },
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 1415968,
+            "source_out_ms": 1425968,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          },
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 2126453,
+            "source_out_ms": 2136453,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          }
+        ],
+        "candidateAssetIds": [
+          "sb_4b87c7ece528dbcf",
+          "sb_4b87c7ece528dbcf",
+          "sb_4b87c7ece528dbcf"
+        ]
+      }
+    },
+    {
+      "id": "clip_B028_VS01",
+      "assetId": "sb_ecc09223493eaebf",
+      "trackId": "V1",
+      "start": 514.1510651057722,
+      "duration": 28.590092877178577,
+      "sourceIn": 2335.78,
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1,
+        "rotation": 0,
+        "fit": "fill",
+        "opacity": 1,
+        "crop": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "muted": true,
+      "volume": 0,
+      "sceneBrain": {
+        "slotId": "B028_VS01",
+        "beatId": "B028",
+        "status": "NEEDS_CHOICE",
+        "narration": "But now I have to turn the question back on itself, because the premise underneath all of this might be wrong. We keep asking how a careful, methodical Walt made one bizarre exception. Bryan Cranston, who played him for five seasons, describes the later Walt as almost the opposite of that careful early man. He sees someone who had grown more impulsive, more ruled by ego, and less thorough, and he points straight to the killing of Mike as the proof. And that quietly reframes everything.",
+        "candidates": [
+          {
+            "source_id": "src_6099080b4e2daa66ec5f",
+            "episode": "S05E07",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 7.mp4",
+            "source_in_ms": 2335780,
+            "source_out_ms": 2382860,
+            "evidence": "TRUSTED_DIALOGUE_WINDOW",
+            "evidence_text": "But his name goes well. Whoa, whoa. Mike, I got you on speaker phone with the brain trust. The what? The, uh, Walt and Jesse are here. I don't want Walt and Jesse, so I want you. I need your help. And what do you need?"
+          }
+        ],
+        "candidateAssetIds": [
+          "sb_ecc09223493eaebf"
+        ]
+      }
+    },
+    {
+      "id": "clip_B029_VS01",
+      "assetId": "sb_4b87c7ece528dbcf",
+      "trackId": "V1",
+      "start": 542.7411579829508,
+      "duration": 6.4352270909113285,
+      "sourceIn": 705.484,
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1,
+        "rotation": 0,
+        "fit": "fill",
+        "opacity": 1,
+        "crop": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "muted": true,
+      "volume": 0,
+      "sceneBrain": {
+        "slotId": "B029_VS01",
+        "beatId": "B029",
+        "status": "NEEDS_CHOICE",
+        "narration": "Late Walt is not more cautious. He is more powerful. Those are not the same thing. He has more money, more reach, and more ability to make gigantic problems vanish. What he no longer has is steady discipline.",
+        "candidates": [
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 705484,
+            "source_out_ms": 715484,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          },
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 1415968,
+            "source_out_ms": 1425968,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          },
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 2126453,
+            "source_out_ms": 2136453,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          }
+        ],
+        "candidateAssetIds": [
+          "sb_4b87c7ece528dbcf",
+          "sb_4b87c7ece528dbcf",
+          "sb_4b87c7ece528dbcf"
+        ]
+      }
+    },
+    {
+      "id": "clip_B029_VS02",
+      "assetId": "sb_ecc09223493eaebf",
+      "trackId": "V1",
+      "start": 549.1763850738621,
+      "duration": 6.4352270909113285,
+      "sourceIn": 704.486,
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1,
+        "rotation": 0,
+        "fit": "fill",
+        "opacity": 1,
+        "crop": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "muted": true,
+      "volume": 0,
+      "sceneBrain": {
+        "slotId": "B029_VS02",
+        "beatId": "B029",
+        "status": "NEEDS_CHOICE",
+        "narration": "Late Walt is not more cautious. He is more powerful. Those are not the same thing. He has more money, more reach, and more ability to make gigantic problems vanish. What he no longer has is steady discipline.",
+        "candidates": [
+          {
+            "source_id": "src_6099080b4e2daa66ec5f",
+            "episode": "S05E07",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 7.mp4",
+            "source_in_ms": 704486,
+            "source_out_ms": 714486,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          },
+          {
+            "source_id": "src_6099080b4e2daa66ec5f",
+            "episode": "S05E07",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 7.mp4",
+            "source_in_ms": 1413972,
+            "source_out_ms": 1423972,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          },
+          {
+            "source_id": "src_6099080b4e2daa66ec5f",
+            "episode": "S05E07",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 7.mp4",
+            "source_in_ms": 2123457,
+            "source_out_ms": 2133457,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          }
+        ],
+        "candidateAssetIds": [
+          "sb_ecc09223493eaebf",
+          "sb_ecc09223493eaebf",
+          "sb_ecc09223493eaebf"
+        ]
+      }
+    },
+    {
+      "id": "clip_B030_VS01",
+      "assetId": "sb_c34e4bc1ea85bad8",
+      "trackId": "V1",
+      "start": 555.6116121647733,
+      "duration": 9.274586830259992,
+      "sourceIn": 0,
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1,
+        "rotation": 0,
+        "fit": "fill",
+        "opacity": 1,
+        "crop": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "muted": true,
+      "volume": 0,
+      "sceneBrain": {
+        "slotId": "B030_VS01",
+        "beatId": "B030",
+        "status": "MANUAL_FIX",
+        "narration": "So the book stops looking like a single glitch in a flawless machine, and starts looking like one visible instance of something much more consistent about him. Walt is brilliant at solving a problem, once he has decided it is a problem. His failures tend to begin one step before that, in deciding what even counts as a threat.",
+        "candidates": [],
+        "candidateAssetIds": []
+      }
+    },
+    {
+      "id": "clip_B030_VS02",
+      "assetId": "sb_4b87c7ece528dbcf",
+      "trackId": "V1",
+      "start": 564.8861989950334,
+      "duration": 9.274586830259992,
+      "sourceIn": 705.484,
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1,
+        "rotation": 0,
+        "fit": "fill",
+        "opacity": 1,
+        "crop": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "muted": true,
+      "volume": 0,
+      "sceneBrain": {
+        "slotId": "B030_VS02",
+        "beatId": "B030",
+        "status": "NEEDS_CHOICE",
+        "narration": "So the book stops looking like a single glitch in a flawless machine, and starts looking like one visible instance of something much more consistent about him. Walt is brilliant at solving a problem, once he has decided it is a problem. His failures tend to begin one step before that, in deciding what even counts as a threat.",
+        "candidates": [
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 705484,
+            "source_out_ms": 715484,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          },
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 1415968,
+            "source_out_ms": 1425968,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          },
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 2126453,
+            "source_out_ms": 2136453,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          }
+        ],
+        "candidateAssetIds": [
+          "sb_4b87c7ece528dbcf",
+          "sb_4b87c7ece528dbcf",
+          "sb_4b87c7ece528dbcf"
+        ]
+      }
+    },
+    {
+      "id": "clip_B031_VS01",
+      "assetId": "sb_4f68944e5c4d8292",
+      "trackId": "V1",
+      "start": 574.1607858252934,
+      "duration": 6.104132200890395,
+      "sourceIn": 706.767,
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1,
+        "rotation": 0,
+        "fit": "fill",
+        "opacity": 1,
+        "crop": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "muted": true,
+      "volume": 0,
+      "sceneBrain": {
+        "slotId": "B031_VS01",
+        "beatId": "B031",
+        "status": "NEEDS_CHOICE",
+        "narration": "Look at the pattern once you line it up. Gale getting credit registers as a five alarm emergency, worth risking everything to correct. Mike, wounding his pride, registers as a threat worth killing over, at a point when killing him solved nothing at all. And a book that flatters him barely registers as a threat in the first place.",
+        "candidates": [
+          {
+            "source_id": "src_510e74c8ad80d07b9f38",
+            "episode": "S04E05",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 4\\Breaking Bad Season 4 Episode 5.mp4",
+            "source_in_ms": 706767,
+            "source_out_ms": 716767,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          },
+          {
+            "source_id": "src_510e74c8ad80d07b9f38",
+            "episode": "S04E05",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 4\\Breaking Bad Season 4 Episode 5.mp4",
+            "source_in_ms": 1418534,
+            "source_out_ms": 1428534,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          },
+          {
+            "source_id": "src_510e74c8ad80d07b9f38",
+            "episode": "S04E05",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 4\\Breaking Bad Season 4 Episode 5.mp4",
+            "source_in_ms": 2130301,
+            "source_out_ms": 2140301,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          }
+        ],
+        "candidateAssetIds": [
+          "sb_4f68944e5c4d8292",
+          "sb_4f68944e5c4d8292",
+          "sb_4f68944e5c4d8292"
+        ]
+      }
+    },
+    {
+      "id": "clip_B031_VS02",
+      "assetId": "sb_ecc09223493eaebf",
+      "trackId": "V1",
+      "start": 580.2649180261838,
+      "duration": 6.104132200890395,
+      "sourceIn": 2335.78,
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1,
+        "rotation": 0,
+        "fit": "fill",
+        "opacity": 1,
+        "crop": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "muted": true,
+      "volume": 0,
+      "sceneBrain": {
+        "slotId": "B031_VS02",
+        "beatId": "B031",
+        "status": "NEEDS_CHOICE",
+        "narration": "Look at the pattern once you line it up. Gale getting credit registers as a five alarm emergency, worth risking everything to correct. Mike, wounding his pride, registers as a threat worth killing over, at a point when killing him solved nothing at all. And a book that flatters him barely registers as a threat in the first place.",
+        "candidates": [
+          {
+            "source_id": "src_6099080b4e2daa66ec5f",
+            "episode": "S05E07",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 7.mp4",
+            "source_in_ms": 2335780,
+            "source_out_ms": 2382860,
+            "evidence": "TRUSTED_DIALOGUE_WINDOW",
+            "evidence_text": "But his name goes well. Whoa, whoa. Mike, I got you on speaker phone with the brain trust. The what? The, uh, Walt and Jesse are here. I don't want Walt and Jesse, so I want you. I need your help. And what do you need?"
+          },
+          {
+            "source_id": "src_6099080b4e2daa66ec5f",
+            "episode": "S05E07",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 7.mp4",
+            "source_in_ms": 2576760,
+            "source_out_ms": 2607760,
+            "evidence": "TRUSTED_DIALOGUE_WINDOW",
+            "evidence_text": "Why don't you walk me through this, Mike? We had a good thing, you stupid son of a bitch. We had Fring. We had a lab. We had everything we needed at all, ran like clockwork. You could have shut your mouth cooked and made as much money as you ever needed. It was perfect, but no, you just had to blow it up. You and your pride and your ego."
+          },
+          {
+            "source_id": "src_6099080b4e2daa66ec5f",
+            "episode": "S05E07",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 7.mp4",
+            "source_in_ms": 2582760,
+            "source_out_ms": 2761870,
+            "evidence": "TRUSTED_DIALOGUE_WINDOW",
+            "evidence_text": "We had everything we needed at all, ran like clockwork. You could have shut your mouth cooked and made as much money as you ever needed. It was perfect, but no, you just had to blow it up. You and your pride and your ego. You just had to be the man. If you'd done your job, known your place, we'd all be fine right now. I just realized that Lydia has the names I can get them from her. I'm sorry, Mike."
+          }
+        ],
+        "candidateAssetIds": [
+          "sb_ecc09223493eaebf",
+          "sb_ecc09223493eaebf",
+          "sb_ecc09223493eaebf"
+        ]
+      }
+    },
+    {
+      "id": "clip_B031_VS03",
+      "assetId": "sb_4b87c7ece528dbcf",
+      "trackId": "V1",
+      "start": 586.3690502270741,
+      "duration": 6.105114678308855,
+      "sourceIn": 705.484,
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1,
+        "rotation": 0,
+        "fit": "fill",
+        "opacity": 1,
+        "crop": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "muted": true,
+      "volume": 0,
+      "sceneBrain": {
+        "slotId": "B031_VS03",
+        "beatId": "B031",
+        "status": "NEEDS_CHOICE",
+        "narration": "Look at the pattern once you line it up. Gale getting credit registers as a five alarm emergency, worth risking everything to correct. Mike, wounding his pride, registers as a threat worth killing over, at a point when killing him solved nothing at all. And a book that flatters him barely registers as a threat in the first place.",
+        "candidates": [
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 705484,
+            "source_out_ms": 715484,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          },
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 1415968,
+            "source_out_ms": 1425968,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          },
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 2126453,
+            "source_out_ms": 2136453,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          }
+        ],
+        "candidateAssetIds": [
+          "sb_4b87c7ece528dbcf",
+          "sb_4b87c7ece528dbcf",
+          "sb_4b87c7ece528dbcf"
+        ]
+      }
+    },
+    {
+      "id": "clip_B032_VS01",
+      "assetId": "sb_c34e4bc1ea85bad8",
+      "trackId": "V1",
+      "start": 592.4741649053831,
+      "duration": 18.13653314476689,
+      "sourceIn": 0,
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1,
+        "rotation": 0,
+        "fit": "fill",
+        "opacity": 1,
+        "crop": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "muted": true,
+      "volume": 0,
+      "sceneBrain": {
+        "slotId": "B032_VS01",
+        "beatId": "B032",
+        "status": "MANUAL_FIX",
+        "narration": "The thing Walt was bad at was never chemistry, and it was never even planning. It was classification. Deciding, correctly, which facts are dangerous. He could out think almost anyone in the world once a danger had a label on it. This book survived because it never got the label. To the one man alive who needed to fear it, it had quietly stopped being evidence at all. That is a subtler failing than stupidity, and a more human one. Anyone can be brilliant at the problems they decide to take seriously. The harder skill is knowing which problems deserve to be taken seriously at all, and that is the exact judgment his ego kept quietly bending.",
+        "candidates": [],
+        "candidateAssetIds": []
+      }
+    },
+    {
+      "id": "clip_B032_VS02",
+      "assetId": "sb_4b87c7ece528dbcf",
+      "trackId": "V1",
+      "start": 610.6106980501498,
+      "duration": 18.13653314476689,
+      "sourceIn": 705.484,
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1,
+        "rotation": 0,
+        "fit": "fill",
+        "opacity": 1,
+        "crop": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "muted": true,
+      "volume": 0,
+      "sceneBrain": {
+        "slotId": "B032_VS02",
+        "beatId": "B032",
+        "status": "NEEDS_CHOICE",
+        "narration": "The thing Walt was bad at was never chemistry, and it was never even planning. It was classification. Deciding, correctly, which facts are dangerous. He could out think almost anyone in the world once a danger had a label on it. This book survived because it never got the label. To the one man alive who needed to fear it, it had quietly stopped being evidence at all. That is a subtler failing than stupidity, and a more human one. Anyone can be brilliant at the problems they decide to take seriously. The harder skill is knowing which problems deserve to be taken seriously at all, and that is the exact judgment his ego kept quietly bending.",
+        "candidates": [
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 705484,
+            "source_out_ms": 715484,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          },
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 1415968,
+            "source_out_ms": 1425968,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          },
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 2126453,
+            "source_out_ms": 2136453,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          }
+        ],
+        "candidateAssetIds": [
+          "sb_4b87c7ece528dbcf",
+          "sb_4b87c7ece528dbcf",
+          "sb_4b87c7ece528dbcf"
+        ]
+      }
+    },
+    {
+      "id": "clip_B033_VS01",
+      "assetId": "sb_4b87c7ece528dbcf",
+      "trackId": "V1",
+      "start": 628.7472311949168,
+      "duration": 17.684593532275407,
+      "sourceIn": 705.484,
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1,
+        "rotation": 0,
+        "fit": "fill",
+        "opacity": 1,
+        "crop": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "muted": true,
+      "volume": 0,
+      "sceneBrain": {
+        "slotId": "B033_VS01",
+        "beatId": "B033",
+        "status": "NEEDS_CHOICE",
+        "narration": "Part of what let this slip through is the nature of the object itself. Imagine the loose end had been something that announced what it was. A ledger. A lab key. A photograph of Gale's body. A note with the word superlab on it. Walt almost certainly treats any of those with care, because you cannot look at them and see anything but a crime. A used book of poetry is the opposite. It sits on a shelf in a thousand innocent homes. Only one private line of handwriting, buried on the first page, makes this copy any different. The thing that made it deadly was hidden inside the thing that made it look harmless.",
+        "candidates": [
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 705484,
+            "source_out_ms": 715484,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          },
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 1415968,
+            "source_out_ms": 1425968,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          },
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 2126453,
+            "source_out_ms": 2136453,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          }
+        ],
+        "candidateAssetIds": [
+          "sb_4b87c7ece528dbcf",
+          "sb_4b87c7ece528dbcf",
+          "sb_4b87c7ece528dbcf"
+        ]
+      }
+    },
+    {
+      "id": "clip_B033_VS02",
+      "assetId": "sb_4b87c7ece528dbcf",
+      "trackId": "V1",
+      "start": 646.4318247271922,
+      "duration": 17.684593532275407,
+      "sourceIn": 705.484,
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1,
+        "rotation": 0,
+        "fit": "fill",
+        "opacity": 1,
+        "crop": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "muted": true,
+      "volume": 0,
+      "sceneBrain": {
+        "slotId": "B033_VS02",
+        "beatId": "B033",
+        "status": "NEEDS_CHOICE",
+        "narration": "Part of what let this slip through is the nature of the object itself. Imagine the loose end had been something that announced what it was. A ledger. A lab key. A photograph of Gale's body. A note with the word superlab on it. Walt almost certainly treats any of those with care, because you cannot look at them and see anything but a crime. A used book of poetry is the opposite. It sits on a shelf in a thousand innocent homes. Only one private line of handwriting, buried on the first page, makes this copy any different. The thing that made it deadly was hidden inside the thing that made it look harmless.",
+        "candidates": [
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 705484,
+            "source_out_ms": 715484,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          },
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 1415968,
+            "source_out_ms": 1425968,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          },
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 2126453,
+            "source_out_ms": 2136453,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          }
+        ],
+        "candidateAssetIds": [
+          "sb_4b87c7ece528dbcf",
+          "sb_4b87c7ece528dbcf",
+          "sb_4b87c7ece528dbcf"
+        ]
+      }
+    },
+    {
+      "id": "clip_B034_VS01",
+      "assetId": "sb_c585083d083330c7",
+      "trackId": "V1",
+      "start": 664.1164182594677,
+      "duration": 9.424905875284333,
+      "sourceIn": 1346.684,
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1,
+        "rotation": 0,
+        "fit": "fill",
+        "opacity": 1,
+        "crop": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "muted": true,
+      "volume": 0,
+      "sceneBrain": {
+        "slotId": "B034_VS01",
+        "beatId": "B034",
+        "status": "NEEDS_CHOICE",
+        "narration": "And here is what makes the mistake almost forgivable, at least on the math. That inscription is dangerous to practically no one. Anyone can own a copy of Walt Whitman. The book itself is innocent. The single line that transforms it is only a threat to a person who knows Gale's handwriting, who remembers that earlier W W clue, and who has some reason to connect it to Walter White. There is exactly one person on the planet who checks all three of those boxes. He is Walt's brother-in-law. He is a DEA agent.",
+        "candidates": [
+          {
+            "source_id": "src_6d5c7fd780bfdc14dd72",
+            "episode": "S04E04",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 4\\Breaking Bad Season 4 Episode 4.mp4",
+            "source_in_ms": 1346684,
+            "source_out_ms": 1388674,
+            "evidence": "TRUSTED_DIALOGUE_WINDOW",
+            "evidence_text": "This guy was a.... Man, he was a real character. Yeah, he seems unique. Yeah. Let me show you something. Give it here. Right here at the.... Right here at the top it says: \"To W.W. My star, my perfect silence.\" W.W. I mean, who do you figure that is? Woodrow Wilson?"
+          },
+          {
+            "source_id": "src_6d5c7fd780bfdc14dd72",
+            "episode": "S04E04",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 4\\Breaking Bad Season 4 Episode 4.mp4",
+            "source_in_ms": 1365494,
+            "source_out_ms": 1405524,
+            "evidence": "TRUSTED_DIALOGUE_WINDOW",
+            "evidence_text": "\"To W.W. My star, my perfect silence.\" W.W. I mean, who do you figure that is? Woodrow Wilson? Willy Wonka? Walter White? You got me. W.W."
+          },
+          {
+            "source_id": "src_6d5c7fd780bfdc14dd72",
+            "episode": "S04E04",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 4\\Breaking Bad Season 4 Episode 4.mp4",
+            "source_in_ms": 1379925,
+            "source_out_ms": 1416994,
+            "evidence": "TRUSTED_DIALOGUE_WINDOW",
+            "evidence_text": "Willy Wonka? Walter White? You got me. W.W. Wait a minute. Let me see this... ...for a second, because I think I remembered.... Here. Yes."
+          }
+        ],
+        "candidateAssetIds": [
+          "sb_c585083d083330c7",
+          "sb_c585083d083330c7",
+          "sb_c585083d083330c7"
+        ]
+      }
+    },
+    {
+      "id": "clip_B034_VS02",
+      "assetId": "sb_4b87c7ece528dbcf",
+      "trackId": "V1",
+      "start": 673.5413241347519,
+      "duration": 9.424905875284333,
+      "sourceIn": 2686.6,
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1,
+        "rotation": 0,
+        "fit": "fill",
+        "opacity": 1,
+        "crop": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "muted": true,
+      "volume": 0,
+      "sceneBrain": {
+        "slotId": "B034_VS02",
+        "beatId": "B034",
+        "status": "NEEDS_CHOICE",
+        "narration": "And here is what makes the mistake almost forgivable, at least on the math. That inscription is dangerous to practically no one. Anyone can own a copy of Walt Whitman. The book itself is innocent. The single line that transforms it is only a threat to a person who knows Gale's handwriting, who remembers that earlier W W clue, and who has some reason to connect it to Walter White. There is exactly one person on the planet who checks all three of those boxes. He is Walt's brother-in-law. He is a DEA agent.",
+        "candidates": [
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 2686600,
+            "source_out_ms": 2783962,
+            "evidence": "TRUSTED_DIALOGUE_WINDOW",
+            "evidence_text": "- No, I'm good. I'm good, thank you. - Yeah? All right. Does it look glossier? Do I have a halo? - How's she doing? - She's good. Yeah? Try not to put any of the sunscreen on her fingers. \"To W.W. My star, my perfect silence. \" W.W. I mean, who do you figure that is?"
+          },
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 2696560,
+            "source_out_ms": 2797567,
+            "evidence": "TRUSTED_DIALOGUE_WINDOW",
+            "evidence_text": "Yeah? Try not to put any of the sunscreen on her fingers. \"To W.W. My star, my perfect silence. \" W.W. I mean, who do you figure that is? Woodrow Wilson? Willy Wonka? Walter White? You got me."
+          }
+        ],
+        "candidateAssetIds": [
+          "sb_4b87c7ece528dbcf",
+          "sb_4b87c7ece528dbcf"
+        ]
+      }
+    },
+    {
+      "id": "clip_B034_VS03",
+      "assetId": "sb_4b87c7ece528dbcf",
+      "trackId": "V1",
+      "start": 682.9662300100364,
+      "duration": 9.425888352702792,
+      "sourceIn": 2686.6,
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1,
+        "rotation": 0,
+        "fit": "fill",
+        "opacity": 1,
+        "crop": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "muted": true,
+      "volume": 0,
+      "sceneBrain": {
+        "slotId": "B034_VS03",
+        "beatId": "B034",
+        "status": "NEEDS_CHOICE",
+        "narration": "And here is what makes the mistake almost forgivable, at least on the math. That inscription is dangerous to practically no one. Anyone can own a copy of Walt Whitman. The book itself is innocent. The single line that transforms it is only a threat to a person who knows Gale's handwriting, who remembers that earlier W W clue, and who has some reason to connect it to Walter White. There is exactly one person on the planet who checks all three of those boxes. He is Walt's brother-in-law. He is a DEA agent.",
+        "candidates": [
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 2686600,
+            "source_out_ms": 2783962,
+            "evidence": "TRUSTED_DIALOGUE_WINDOW",
+            "evidence_text": "- No, I'm good. I'm good, thank you. - Yeah? All right. Does it look glossier? Do I have a halo? - How's she doing? - She's good. Yeah? Try not to put any of the sunscreen on her fingers. \"To W.W. My star, my perfect silence. \" W.W. I mean, who do you figure that is?"
+          },
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 2696560,
+            "source_out_ms": 2797567,
+            "evidence": "TRUSTED_DIALOGUE_WINDOW",
+            "evidence_text": "Yeah? Try not to put any of the sunscreen on her fingers. \"To W.W. My star, my perfect silence. \" W.W. I mean, who do you figure that is? Woodrow Wilson? Willy Wonka? Walter White? You got me."
+          }
+        ],
+        "candidateAssetIds": [
+          "sb_4b87c7ece528dbcf",
+          "sb_4b87c7ece528dbcf"
+        ]
+      }
+    },
+    {
+      "id": "clip_B035_VS01",
+      "assetId": "sb_4b87c7ece528dbcf",
+      "trackId": "V1",
+      "start": 692.3921183627391,
+      "duration": 10.70900386121122,
+      "sourceIn": 705.484,
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1,
+        "rotation": 0,
+        "fit": "fill",
+        "opacity": 1,
+        "crop": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "muted": true,
+      "volume": 0,
+      "sceneBrain": {
+        "slotId": "B035_VS01",
+        "beatId": "B035",
+        "status": "NEEDS_CHOICE",
+        "narration": "And one ordinary afternoon he goes looking for something to read while sitting on Walt's toilet. From where Walt stood, the odds of that precise chain of things must have felt close to zero. It was still reckless. But it was not the cartoon stupidity people sometimes describe. It was a latent thing, completely harmless, right up until it fell into the one pair of hands that could read it.",
+        "candidates": [
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 705484,
+            "source_out_ms": 715484,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          },
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 1415968,
+            "source_out_ms": 1425968,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          },
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 2126453,
+            "source_out_ms": 2136453,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          }
+        ],
+        "candidateAssetIds": [
+          "sb_4b87c7ece528dbcf",
+          "sb_4b87c7ece528dbcf",
+          "sb_4b87c7ece528dbcf"
+        ]
+      }
+    },
+    {
+      "id": "clip_B035_VS02",
+      "assetId": "sb_4b87c7ece528dbcf",
+      "trackId": "V1",
+      "start": 703.1011222239503,
+      "duration": 10.70900386121122,
+      "sourceIn": 705.484,
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1,
+        "rotation": 0,
+        "fit": "fill",
+        "opacity": 1,
+        "crop": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "muted": true,
+      "volume": 0,
+      "sceneBrain": {
+        "slotId": "B035_VS02",
+        "beatId": "B035",
+        "status": "NEEDS_CHOICE",
+        "narration": "And one ordinary afternoon he goes looking for something to read while sitting on Walt's toilet. From where Walt stood, the odds of that precise chain of things must have felt close to zero. It was still reckless. But it was not the cartoon stupidity people sometimes describe. It was a latent thing, completely harmless, right up until it fell into the one pair of hands that could read it.",
+        "candidates": [
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 705484,
+            "source_out_ms": 715484,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          },
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 1415968,
+            "source_out_ms": 1425968,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          },
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 2126453,
+            "source_out_ms": 2136453,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          }
+        ],
+        "candidateAssetIds": [
+          "sb_4b87c7ece528dbcf",
+          "sb_4b87c7ece528dbcf",
+          "sb_4b87c7ece528dbcf"
+        ]
+      }
+    },
+    {
+      "id": "clip_B036_VS01",
+      "assetId": "sb_c34e4bc1ea85bad8",
+      "trackId": "V1",
+      "start": 713.8101260851615,
+      "duration": 24.95492642887752,
+      "sourceIn": 0,
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1,
+        "rotation": 0,
+        "fit": "fill",
+        "opacity": 1,
+        "crop": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "muted": true,
+      "volume": 0,
+      "sceneBrain": {
+        "slotId": "B036_VS01",
+        "beatId": "B036",
+        "status": "MANUAL_FIX",
+        "narration": "And notice where the wall finally comes down. Walt spent years keeping two lives in separate boxes, Walter White in one and Heisenberg in the other, and nearly everyone around him kept them separate too, because the distance between a mild chemistry teacher and a ruthless drug lord felt impossible to cross. But the book quietly proves that inside Walt's own house, those boxes had already merged. His single most incriminating possession was not hidden in a lab, or stored in his lawyer's office, or buried out in the desert. It had drifted all the way into the most ordinary corner of his home. The two lives were not separate anymore. They were sharing a bathroom. And there is something almost cruel in the fact that the wall between them finally falls in the most domestic place there is, discovered not by a task force but by a man looking for something to read.",
+        "candidates": [],
+        "candidateAssetIds": []
+      }
+    },
+    {
+      "id": "clip_B036_VS02",
+      "assetId": "sb_4b87c7ece528dbcf",
+      "trackId": "V1",
+      "start": 738.7650525140391,
+      "duration": 24.95492642887752,
+      "sourceIn": 705.484,
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1,
+        "rotation": 0,
+        "fit": "fill",
+        "opacity": 1,
+        "crop": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "muted": true,
+      "volume": 0,
+      "sceneBrain": {
+        "slotId": "B036_VS02",
+        "beatId": "B036",
+        "status": "NEEDS_CHOICE",
+        "narration": "And notice where the wall finally comes down. Walt spent years keeping two lives in separate boxes, Walter White in one and Heisenberg in the other, and nearly everyone around him kept them separate too, because the distance between a mild chemistry teacher and a ruthless drug lord felt impossible to cross. But the book quietly proves that inside Walt's own house, those boxes had already merged. His single most incriminating possession was not hidden in a lab, or stored in his lawyer's office, or buried out in the desert. It had drifted all the way into the most ordinary corner of his home. The two lives were not separate anymore. They were sharing a bathroom. And there is something almost cruel in the fact that the wall between them finally falls in the most domestic place there is, discovered not by a task force but by a man looking for something to read.",
+        "candidates": [
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 705484,
+            "source_out_ms": 715484,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          },
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 1415968,
+            "source_out_ms": 1425968,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          },
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 2126453,
+            "source_out_ms": 2136453,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          }
+        ],
+        "candidateAssetIds": [
+          "sb_4b87c7ece528dbcf",
+          "sb_4b87c7ece528dbcf",
+          "sb_4b87c7ece528dbcf"
+        ]
+      }
+    },
+    {
+      "id": "clip_B037_VS01",
+      "assetId": "sb_4b87c7ece528dbcf",
+      "trackId": "V1",
+      "start": 763.7199789429166,
+      "duration": 14.599614438311809,
+      "sourceIn": 705.484,
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1,
+        "rotation": 0,
+        "fit": "fill",
+        "opacity": 1,
+        "crop": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "muted": true,
+      "volume": 0,
+      "sceneBrain": {
+        "slotId": "B037_VS01",
+        "beatId": "B037",
+        "status": "NEEDS_CHOICE",
+        "narration": "And when it finally does, watch closely what it does and does not do. The book does not solve Hank's case. It does not prove Walt is Heisenberg. Hank still has almost nothing a court would accept. What the book changes is not the evidence. It is the suspect. For years, Hank had been staring at all of it, the blue meth, the superlab, Gus, the money, and it never once resolved into Walt, because Walt was simply not available to Hank's mind as the answer. The book adds no new fact. It changes who Hank is looking for.",
+        "candidates": [
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 705484,
+            "source_out_ms": 715484,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          },
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 1415968,
+            "source_out_ms": 1425968,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          },
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 2126453,
+            "source_out_ms": 2136453,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          }
+        ],
+        "candidateAssetIds": [
+          "sb_4b87c7ece528dbcf",
+          "sb_4b87c7ece528dbcf",
+          "sb_4b87c7ece528dbcf"
+        ]
+      }
+    },
+    {
+      "id": "clip_B037_VS02",
+      "assetId": "sb_3ef1459949539fdf",
+      "trackId": "V1",
+      "start": 778.3195933812284,
+      "duration": 14.599614438311809,
+      "sourceIn": 1998.84,
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1,
+        "rotation": 0,
+        "fit": "fill",
+        "opacity": 1,
+        "crop": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "muted": true,
+      "volume": 0,
+      "sceneBrain": {
+        "slotId": "B037_VS02",
+        "beatId": "B037",
+        "status": "NEEDS_CHOICE",
+        "narration": "And when it finally does, watch closely what it does and does not do. The book does not solve Hank's case. It does not prove Walt is Heisenberg. Hank still has almost nothing a court would accept. What the book changes is not the evidence. It is the suspect. For years, Hank had been staring at all of it, the blue meth, the superlab, Gus, the money, and it never once resolved into Walt, because Walt was simply not available to Hank's mind as the answer. The book adds no new fact. It changes who Hank is looking for.",
+        "candidates": [
+          {
+            "source_id": "src_f9cbfaee385f981c3d29",
+            "episode": "S05E09",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 9.mp4",
+            "source_in_ms": 1998840,
+            "source_out_ms": 2105555,
+            "evidence": "TRUSTED_DIALOGUE_WINDOW",
+            "evidence_text": "You do not have to look so happy about it. I'll be right back. Um... So if bowling's off, can I get a late curfew? Are you gonna turn off the light? Have you seen Leaves of Grass? Hm?"
+          },
+          {
+            "source_id": "src_f9cbfaee385f981c3d29",
+            "episode": "S05E09",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 9.mp4",
+            "source_in_ms": 2009120,
+            "source_out_ms": 2115350,
+            "evidence": "TRUSTED_DIALOGUE_WINDOW",
+            "evidence_text": "can I get a late curfew? Are you gonna turn off the light? Have you seen Leaves of Grass? Hm? My book. Walt Whitman. Dark green hardcover. I didn't even know we had that. Hm."
+          }
+        ],
+        "candidateAssetIds": [
+          "sb_3ef1459949539fdf",
+          "sb_3ef1459949539fdf"
+        ]
+      }
+    },
+    {
+      "id": "clip_B038_VS01",
+      "assetId": "sb_3ef1459949539fdf",
+      "trackId": "V1",
+      "start": 792.9192078195402,
+      "duration": 14.049427083974352,
+      "sourceIn": 2620.24,
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1,
+        "rotation": 0,
+        "fit": "fill",
+        "opacity": 1,
+        "crop": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "muted": true,
+      "volume": 0,
+      "sceneBrain": {
+        "slotId": "B038_VS01",
+        "beatId": "B038",
+        "status": "NEEDS_CHOICE",
+        "narration": "And then he drives home and reads back through the entire case he already had, and every piece that used to point nowhere now points directly at the man across the dinner table. The book was never the proof. It was the key that made the old locks finally turn.",
+        "candidates": [
+          {
+            "source_id": "src_f9cbfaee385f981c3d29",
+            "episode": "S05E09",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 9.mp4",
+            "source_in_ms": 2620240,
+            "source_out_ms": 2653119,
+            "evidence": "TRUSTED_DIALOGUE_WINDOW",
+            "evidence_text": "that wasn't Pinkman. You had my cell number. You killed 10 witnesses to save your sorry ass. Listen to me. You bombed a nursing home. Heisenberg. Heisenberg. You lying, two-faced sack of shit. Hank. Look, I don't know where this is coming from, Hank, but just--"
+          }
+        ],
+        "candidateAssetIds": [
+          "sb_3ef1459949539fdf"
+        ]
+      }
+    },
+    {
+      "id": "clip_B039_VS01",
+      "assetId": "sb_4b87c7ece528dbcf",
+      "trackId": "V1",
+      "start": 806.9686349035145,
+      "duration": 13.224146052468168,
+      "sourceIn": 2686.6,
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1,
+        "rotation": 0,
+        "fit": "fill",
+        "opacity": 1,
+        "crop": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "muted": true,
+      "volume": 0,
+      "sceneBrain": {
+        "slotId": "B039_VS01",
+        "beatId": "B039",
+        "status": "NEEDS_CHOICE",
+        "narration": "Which is where the cruelest irony closes the whole loop. Because Walt did not only hand Hank the clue. A year earlier, he taught Hank how to read it. When Hank first wondered aloud whether W W might mean Walter White, it was Walt who smiled and said, you got me, before pointing him back at the poet. And that is the exact memory that rises up in the bathroom, the instant Hank understands that Walt had told him the truth to his face and dared him not to believe it.",
+        "candidates": [
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 2686600,
+            "source_out_ms": 2783962,
+            "evidence": "TRUSTED_DIALOGUE_WINDOW",
+            "evidence_text": "- No, I'm good. I'm good, thank you. - Yeah? All right. Does it look glossier? Do I have a halo? - How's she doing? - She's good. Yeah? Try not to put any of the sunscreen on her fingers. \"To W.W. My star, my perfect silence. \" W.W. I mean, who do you figure that is?"
+          },
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 2696560,
+            "source_out_ms": 2797567,
+            "evidence": "TRUSTED_DIALOGUE_WINDOW",
+            "evidence_text": "Yeah? Try not to put any of the sunscreen on her fingers. \"To W.W. My star, my perfect silence. \" W.W. I mean, who do you figure that is? Woodrow Wilson? Willy Wonka? Walter White? You got me."
+          }
+        ],
+        "candidateAssetIds": [
+          "sb_4b87c7ece528dbcf",
+          "sb_4b87c7ece528dbcf"
+        ]
+      }
+    },
+    {
+      "id": "clip_B039_VS02",
+      "assetId": "sb_c585083d083330c7",
+      "trackId": "V1",
+      "start": 820.1927809559827,
+      "duration": 13.224146052468168,
+      "sourceIn": 1346.684,
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1,
+        "rotation": 0,
+        "fit": "fill",
+        "opacity": 1,
+        "crop": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "muted": true,
+      "volume": 0,
+      "sceneBrain": {
+        "slotId": "B039_VS02",
+        "beatId": "B039",
+        "status": "NEEDS_CHOICE",
+        "narration": "Which is where the cruelest irony closes the whole loop. Because Walt did not only hand Hank the clue. A year earlier, he taught Hank how to read it. When Hank first wondered aloud whether W W might mean Walter White, it was Walt who smiled and said, you got me, before pointing him back at the poet. And that is the exact memory that rises up in the bathroom, the instant Hank understands that Walt had told him the truth to his face and dared him not to believe it.",
+        "candidates": [
+          {
+            "source_id": "src_6d5c7fd780bfdc14dd72",
+            "episode": "S04E04",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 4\\Breaking Bad Season 4 Episode 4.mp4",
+            "source_in_ms": 1346684,
+            "source_out_ms": 1388674,
+            "evidence": "TRUSTED_DIALOGUE_WINDOW",
+            "evidence_text": "This guy was a.... Man, he was a real character. Yeah, he seems unique. Yeah. Let me show you something. Give it here. Right here at the.... Right here at the top it says: \"To W.W. My star, my perfect silence.\" W.W. I mean, who do you figure that is? Woodrow Wilson?"
+          },
+          {
+            "source_id": "src_6d5c7fd780bfdc14dd72",
+            "episode": "S04E04",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 4\\Breaking Bad Season 4 Episode 4.mp4",
+            "source_in_ms": 1365494,
+            "source_out_ms": 1405524,
+            "evidence": "TRUSTED_DIALOGUE_WINDOW",
+            "evidence_text": "\"To W.W. My star, my perfect silence.\" W.W. I mean, who do you figure that is? Woodrow Wilson? Willy Wonka? Walter White? You got me. W.W."
+          },
+          {
+            "source_id": "src_6d5c7fd780bfdc14dd72",
+            "episode": "S04E04",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 4\\Breaking Bad Season 4 Episode 4.mp4",
+            "source_in_ms": 1379925,
+            "source_out_ms": 1416994,
+            "evidence": "TRUSTED_DIALOGUE_WINDOW",
+            "evidence_text": "Willy Wonka? Walter White? You got me. W.W. Wait a minute. Let me see this... ...for a second, because I think I remembered.... Here. Yes."
+          }
+        ],
+        "candidateAssetIds": [
+          "sb_c585083d083330c7",
+          "sb_c585083d083330c7",
+          "sb_c585083d083330c7"
+        ]
+      }
+    },
+    {
+      "id": "clip_B040_VS01",
+      "assetId": "sb_4b87c7ece528dbcf",
+      "trackId": "V1",
+      "start": 833.4169270084508,
+      "duration": 18.726019595842736,
+      "sourceIn": 705.484,
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1,
+        "rotation": 0,
+        "fit": "fill",
+        "opacity": 1,
+        "crop": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "muted": true,
+      "volume": 0,
+      "sceneBrain": {
+        "slotId": "B040_VS01",
+        "beatId": "B040",
+        "status": "NEEDS_CHOICE",
+        "narration": "So what actually exposed Heisenberg was not a failure of intelligence. Walt spent years making Heisenberg nearly impossible to find, and at that he succeeded completely. What he could not do was stay careful about Walter White. The book did not survive because he was arrogant, or because he wanted to be caught, or even, in the end, because he loved the man who wrote in it. It survived because he forgot what kind of object it had become. It had stopped being evidence, and started being furniture. And the one man who could still read it correctly was sitting in the only room in the house where Walt had finally let his guard all the way down.",
+        "candidates": [
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 705484,
+            "source_out_ms": 715484,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          },
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 1415968,
+            "source_out_ms": 1425968,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          },
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 2126453,
+            "source_out_ms": 2136453,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          }
+        ],
+        "candidateAssetIds": [
+          "sb_4b87c7ece528dbcf",
+          "sb_4b87c7ece528dbcf",
+          "sb_4b87c7ece528dbcf"
+        ]
+      }
+    },
+    {
+      "id": "clip_B040_VS02",
+      "assetId": "sb_4b87c7ece528dbcf",
+      "trackId": "V1",
+      "start": 852.1429466042936,
+      "duration": 18.726019595842736,
+      "sourceIn": 705.484,
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1,
+        "rotation": 0,
+        "fit": "fill",
+        "opacity": 1,
+        "crop": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "muted": true,
+      "volume": 0,
+      "sceneBrain": {
+        "slotId": "B040_VS02",
+        "beatId": "B040",
+        "status": "NEEDS_CHOICE",
+        "narration": "So what actually exposed Heisenberg was not a failure of intelligence. Walt spent years making Heisenberg nearly impossible to find, and at that he succeeded completely. What he could not do was stay careful about Walter White. The book did not survive because he was arrogant, or because he wanted to be caught, or even, in the end, because he loved the man who wrote in it. It survived because he forgot what kind of object it had become. It had stopped being evidence, and started being furniture. And the one man who could still read it correctly was sitting in the only room in the house where Walt had finally let his guard all the way down.",
+        "candidates": [
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 705484,
+            "source_out_ms": 715484,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          },
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 1415968,
+            "source_out_ms": 1425968,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          },
+          {
+            "source_id": "src_cc76ce00ec8f3acd309e",
+            "episode": "S05E08",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 5\\Breaking Bad Season 5 Episode 8.mp4",
+            "source_in_ms": 2126453,
+            "source_out_ms": 2136453,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          }
+        ],
+        "candidateAssetIds": [
+          "sb_4b87c7ece528dbcf",
+          "sb_4b87c7ece528dbcf",
+          "sb_4b87c7ece528dbcf"
+        ]
+      }
+    },
+    {
+      "id": "clip_B041_VS01",
+      "assetId": "sb_4f68944e5c4d8292",
+      "trackId": "V1",
+      "start": 870.8689662001362,
+      "duration": 7.231033799863723,
+      "sourceIn": 706.767,
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1,
+        "rotation": 0,
+        "fit": "fill",
+        "opacity": 1,
+        "crop": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "muted": true,
+      "volume": 0,
+      "sceneBrain": {
+        "slotId": "B041_VS01",
+        "beatId": "B041",
+        "status": "NEEDS_CHOICE",
+        "narration": "There is a larger question hiding underneath this one. The need that made Walt reopen a closed case, just to reclaim credit for his own work, does not stay contained to a book. It costs him far more than that, again and again. But that is a story for another time.",
+        "candidates": [
+          {
+            "source_id": "src_510e74c8ad80d07b9f38",
+            "episode": "S04E05",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 4\\Breaking Bad Season 4 Episode 5.mp4",
+            "source_in_ms": 706767,
+            "source_out_ms": 716767,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          },
+          {
+            "source_id": "src_510e74c8ad80d07b9f38",
+            "episode": "S04E05",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 4\\Breaking Bad Season 4 Episode 5.mp4",
+            "source_in_ms": 1418534,
+            "source_out_ms": 1428534,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          },
+          {
+            "source_id": "src_510e74c8ad80d07b9f38",
+            "episode": "S04E05",
+            "source_path": "E:\\Movies\\Breaking Bad\\Breaking Bad Season 4\\Breaking Bad Season 4 Episode 5.mp4",
+            "source_in_ms": 2130301,
+            "source_out_ms": 2140301,
+            "evidence": "RICH_ATLAS_SCOUTING_CANDIDATE"
+          }
+        ],
+        "candidateAssetIds": [
+          "sb_4f68944e5c4d8292",
+          "sb_4f68944e5c4d8292",
+          "sb_4f68944e5c4d8292"
+        ]
+      }
+    },
+    {
+      "id": "clip_B041_VS02",
+      "assetId": "sb_c34e4bc1ea85bad8",
+      "trackId": "V1",
+      "start": 862.2221824402721,
+      "duration": 0.49123870922987245,
+      "sourceIn": 0,
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1,
+        "rotation": 0,
+        "fit": "fill",
+        "opacity": 1,
+        "crop": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "muted": true,
+      "volume": 0,
+      "sceneBrain": {
+        "slotId": "B041_VS02",
+        "beatId": "B041",
+        "status": "MANUAL_FIX",
+        "narration": "There is a larger question hiding underneath this one. The need that made Walt reopen a closed case, just to reclaim credit for his own work, does not stay contained to a book. It costs him far more than that, again and again. But that is a story for another time.",
+        "candidates": [],
+        "candidateAssetIds": []
+      }
+    },
+    {
+      "id": "clip_voiceover",
+      "assetId": "sb_869c1ad005f1aeed",
+      "trackId": "A1",
+      "start": 0,
+      "duration": 878.1,
+      "sourceIn": 0,
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1,
+        "rotation": 0,
+        "fit": "fill",
+        "opacity": 1,
+        "crop": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "muted": false,
+      "volume": 1
+    }
+  ],
+  "automation": {},
+  "sceneBrainAdapterVersion": "1.0"
+}

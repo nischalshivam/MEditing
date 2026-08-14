@@ -1,0 +1,10 @@
+{
+  "schema_version": "shot-benchmark-freeze/1.0",
+  "name": "S04E01_SHOT_HOLDOUT_V1",
+  "path": "C:\\Users\\Dell\\Documents\\Codex\\2026-07-30\\m-ek-automation-tool-banwa-rha\\film_tv_scene_brain_v2\\benchmark\\frozen\\S04E01_SHOT_HOLDOUT_V1.jsonl",
+  "sha256": "3a471932f8f9253386193e77f02dde76e7883b302512186673fd51ff9c2ba118",
+  "count": 18,
+  "source_sha256": "29b0c732612d06d750bdd7b94cd3973bbf2b792e871d5eb53c5bfbd946f46e3a",
+  "frozen_before_final_tuning": true,
+  "expected_answers_isolated_after_freeze": true
+}

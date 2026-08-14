@@ -1,0 +1,19 @@
+{
+  "audit_version": "product-ui-initial-audit/1.0",
+  "launcher": "START_SCENE_BRAIN.bat",
+  "url": "http://127.0.0.1:43127/",
+  "real_browser": true,
+  "defects": [
+    "New Project uses exposed native file inputs and unstyled browser controls",
+    "New Project fields are squeezed into one narrow row-aligned card",
+    "Analyze and Prepare actions span awkward full-width horizontal bars",
+    "No grouped Project, Inputs, Source, Intelligence, or Readiness sections",
+    "No Add New Title workflow from Library or New Project",
+    "No title character-gallery management surface",
+    "No Performance/GPU diagnostics surface",
+    "No visible job progress, retry, or support-package surface during intake",
+    "Intentional gaps and broken/manual states are not visually distinguished in preview",
+    "Character seed folders are not imported into portable canonical storage"
+  ],
+  "initial_defect_count": 10
+}

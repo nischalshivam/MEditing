@@ -1,0 +1,3547 @@
+{
+  "total_needs_choice_slots": 64,
+  "total_candidates_tested": 168,
+  "video_candidates_tested": 168,
+  "image_candidates_tested": 0,
+  "passed_candidates": 168,
+  "black_preview_candidates": 0,
+  "broken_media_candidates": 0,
+  "failed_slot_ids": [],
+  "failed_candidate_ids": [],
+  "console_errors": 0,
+  "failed_requests": 0,
+  "pre_test_state_hash": "4f089a4c94020ca549369a96990283a351903e9edb56b76348e2a242f98eecd6",
+  "PASS": true,
+  "candidates": [
+    {
+      "slot_id": "B002_VS01",
+      "candidate_id": "B002_VS01:CANDIDATE_1",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 98.11056690985814,
+        "std": 75.27594975734775,
+        "nonblack": 0.7884413580246914
+      },
+      "visible_screenshot": {
+        "mean": 84.19850980246913,
+        "std": 72.84363287331901,
+        "nonblack": 0.7884876543209877,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B002_VS01",
+      "candidate_id": "B002_VS01:CANDIDATE_2",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 63.41897339315179,
+        "std": 56.847893625852336,
+        "nonblack": 0.6871662808641975
+      },
+      "visible_screenshot": {
+        "mean": 62.39303038271605,
+        "std": 54.4408114544614,
+        "nonblack": 0.7592901234567901,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B002_VS02",
+      "candidate_id": "B002_VS02:CANDIDATE_1",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 98.11056690985814,
+        "std": 75.27594975734775,
+        "nonblack": 0.7884413580246914
+      },
+      "visible_screenshot": {
+        "mean": 84.25281629629629,
+        "std": 73.05432781901861,
+        "nonblack": 0.7866358024691358,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B002_VS02",
+      "candidate_id": "B002_VS02:CANDIDATE_2",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 63.353997979183525,
+        "std": 56.828007030636634,
+        "nonblack": 0.6860783179012345
+      },
+      "visible_screenshot": {
+        "mean": 61.947451037037034,
+        "std": 55.22865699922814,
+        "nonblack": 0.7446913580246913,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B003_VS01",
+      "candidate_id": "B003_VS01:CANDIDATE_1",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%203.mp4",
+      "ready_state": 4,
+      "duration": 2837.942358,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 24.10938021220315,
+        "std": 24.734060764696704,
+        "nonblack": 0.6228626543209876
+      },
+      "visible_screenshot": {
+        "mean": 23.556583209876543,
+        "std": 26.85471645958151,
+        "nonblack": 0.5649074074074074,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B004_VS01",
+      "candidate_id": "B004_VS01:CANDIDATE_1",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%203.mp4",
+      "ready_state": 4,
+      "duration": 2837.942358,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 45.06347113360721,
+        "std": 32.07376473700068,
+        "nonblack": 0.8290374228395062
+      },
+      "visible_screenshot": {
+        "mean": 40.41927369753086,
+        "std": 32.64437843008864,
+        "nonblack": 0.775,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B004_VS01",
+      "candidate_id": "B004_VS01:CANDIDATE_2",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%203.mp4",
+      "ready_state": 4,
+      "duration": 2837.942358,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 53.6389603434129,
+        "std": 46.0829189596333,
+        "nonblack": 0.8095293209876543
+      },
+      "visible_screenshot": {
+        "mean": 46.68744537037037,
+        "std": 49.41450019036208,
+        "nonblack": 0.7104012345679013,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B004_VS01",
+      "candidate_id": "B004_VS01:CANDIDATE_3",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%203.mp4",
+      "ready_state": 4,
+      "duration": 2837.942358,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 41.62641396760939,
+        "std": 53.96195147028637,
+        "nonblack": 0.6387885802469135
+      },
+      "visible_screenshot": {
+        "mean": 43.93866916666667,
+        "std": 56.17756682413543,
+        "nonblack": 0.702037037037037,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B005_VS01",
+      "candidate_id": "B005_VS01:CANDIDATE_1",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%203%5CBreaking%20Bad%20Season%203%20Episode%206.mp4",
+      "ready_state": 4,
+      "duration": 2851.294331,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 28.386649989218007,
+        "std": 36.272436395102325,
+        "nonblack": 0.4368730709876543
+      },
+      "visible_screenshot": {
+        "mean": 27.96801185185185,
+        "std": 35.71279250102385,
+        "nonblack": 0.5041358024691358,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B005_VS01",
+      "candidate_id": "B005_VS01:CANDIDATE_2",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%203%5CBreaking%20Bad%20Season%203%20Episode%206.mp4",
+      "ready_state": 4,
+      "duration": 2851.294331,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 27.810892919760157,
+        "std": 35.22974708139441,
+        "nonblack": 0.44808449074074075
+      },
+      "visible_screenshot": {
+        "mean": 27.71341984567901,
+        "std": 35.145120427697506,
+        "nonblack": 0.5079012345679013,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B005_VS02",
+      "candidate_id": "B005_VS02:CANDIDATE_1",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%203%5CBreaking%20Bad%20Season%203%20Episode%206.mp4",
+      "ready_state": 4,
+      "duration": 2851.294331,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 28.399030023938547,
+        "std": 36.27520794577616,
+        "nonblack": 0.4363001543209877
+      },
+      "visible_screenshot": {
+        "mean": 28.074880907407405,
+        "std": 35.796084413839374,
+        "nonblack": 0.5044753086419753,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B005_VS02",
+      "candidate_id": "B005_VS02:CANDIDATE_2",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%203%5CBreaking%20Bad%20Season%203%20Episode%206.mp4",
+      "ready_state": 4,
+      "duration": 2851.294331,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 27.810892919760157,
+        "std": 35.22974708139441,
+        "nonblack": 0.44808449074074075
+      },
+      "visible_screenshot": {
+        "mean": 27.840193067901232,
+        "std": 35.28678599135219,
+        "nonblack": 0.508641975308642,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B006_VS01",
+      "candidate_id": "B006_VS01:CANDIDATE_1",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 83.45237170440687,
+        "std": 47.47266693328968,
+        "nonblack": 0.9336400462962963
+      },
+      "visible_screenshot": {
+        "mean": 60.7651304691358,
+        "std": 41.73995008527128,
+        "nonblack": 0.9104629629629629,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B006_VS01",
+      "candidate_id": "B006_VS01:CANDIDATE_2",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 35.262809941705676,
+        "std": 39.131779926996366,
+        "nonblack": 0.5247858796296296
+      },
+      "visible_screenshot": {
+        "mean": 32.93809019135802,
+        "std": 36.900492553583305,
+        "nonblack": 0.5711111111111111,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B006_VS01",
+      "candidate_id": "B006_VS01:CANDIDATE_3",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 87.40336351431553,
+        "std": 62.52616773240578,
+        "nonblack": 0.9480150462962963
+      },
+      "visible_screenshot": {
+        "mean": 77.70338998148148,
+        "std": 65.1509838979552,
+        "nonblack": 0.8486728395061729,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B006_VS02",
+      "candidate_id": "B006_VS02:CANDIDATE_1",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 83.45237170440687,
+        "std": 47.47266693328968,
+        "nonblack": 0.9336400462962963
+      },
+      "visible_screenshot": {
+        "mean": 60.4768697962963,
+        "std": 42.04267668944358,
+        "nonblack": 0.9046604938271605,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B006_VS02",
+      "candidate_id": "B006_VS02:CANDIDATE_2",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 35.262809941705676,
+        "std": 39.131779926996366,
+        "nonblack": 0.5247858796296296
+      },
+      "visible_screenshot": {
+        "mean": 32.94897678395061,
+        "std": 36.92652696241509,
+        "nonblack": 0.5710493827160494,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B006_VS02",
+      "candidate_id": "B006_VS02:CANDIDATE_3",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 87.40336351431553,
+        "std": 62.52616773240578,
+        "nonblack": 0.9480150462962963
+      },
+      "visible_screenshot": {
+        "mean": 77.56948618518518,
+        "std": 64.77496682946702,
+        "nonblack": 0.8523148148148149,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B007_VS01",
+      "candidate_id": "B007_VS01:CANDIDATE_1",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%204%5CBreaking%20Bad%20Season%204%20Episode%204.mp4",
+      "ready_state": 4,
+      "duration": 2729.18059,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 55.4423929942312,
+        "std": 39.29717473107975,
+        "nonblack": 0.7822241512345679
+      },
+      "visible_screenshot": {
+        "mean": 49.99533098765432,
+        "std": 38.60823417008327,
+        "nonblack": 0.7952469135802469,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B007_VS01",
+      "candidate_id": "B007_VS01:CANDIDATE_2",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%204%5CBreaking%20Bad%20Season%204%20Episode%204.mp4",
+      "ready_state": 4,
+      "duration": 2729.18059,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 18.786054118450124,
+        "std": 22.14672800391225,
+        "nonblack": 0.4697087191358025
+      },
+      "visible_screenshot": {
+        "mean": 22.180961185185186,
+        "std": 28.78416899145838,
+        "nonblack": 0.48978395061728397,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B007_VS01",
+      "candidate_id": "B007_VS01:CANDIDATE_3",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%204%5CBreaking%20Bad%20Season%204%20Episode%204.mp4",
+      "ready_state": 4,
+      "duration": 2729.18059,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 14.88582523958853,
+        "std": 26.14226605086222,
+        "nonblack": 0.2179224537037037
+      },
+      "visible_screenshot": {
+        "mean": 19.92240098148148,
+        "std": 29.756748199538677,
+        "nonblack": 0.343641975308642,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B007_VS02",
+      "candidate_id": "B007_VS02:CANDIDATE_1",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 57.276290091746574,
+        "std": 34.45355743290292,
+        "nonblack": 0.9453125
+      },
+      "visible_screenshot": {
+        "mean": 51.868880820987656,
+        "std": 37.319718166809935,
+        "nonblack": 0.8886728395061728,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B007_VS02",
+      "candidate_id": "B007_VS02:CANDIDATE_2",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 63.07836553829143,
+        "std": 47.70459212349477,
+        "nonblack": 0.8292746913580247
+      },
+      "visible_screenshot": {
+        "mean": 59.97551025925926,
+        "std": 48.1775376358178,
+        "nonblack": 0.8444444444444444,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B008_VS01",
+      "candidate_id": "B008_VS01:CANDIDATE_1",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%204%5CBreaking%20Bad%20Season%204%20Episode%204.mp4",
+      "ready_state": 4,
+      "duration": 2729.18059,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 54.894953520075916,
+        "std": 38.907684066568734,
+        "nonblack": 0.7805729166666666
+      },
+      "visible_screenshot": {
+        "mean": 49.69421415432098,
+        "std": 40.20235829011801,
+        "nonblack": 0.784537037037037,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B008_VS01",
+      "candidate_id": "B008_VS01:CANDIDATE_2",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%204%5CBreaking%20Bad%20Season%204%20Episode%204.mp4",
+      "ready_state": 4,
+      "duration": 2729.18059,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 18.786054118450124,
+        "std": 22.14672800391225,
+        "nonblack": 0.4697087191358025
+      },
+      "visible_screenshot": {
+        "mean": 21.916350629629626,
+        "std": 28.348637443564222,
+        "nonblack": 0.4902469135802469,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B008_VS01",
+      "candidate_id": "B008_VS01:CANDIDATE_3",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%204%5CBreaking%20Bad%20Season%204%20Episode%204.mp4",
+      "ready_state": 4,
+      "duration": 2729.18059,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 14.88582523958853,
+        "std": 26.14226605086222,
+        "nonblack": 0.2179224537037037
+      },
+      "visible_screenshot": {
+        "mean": 19.697404685185184,
+        "std": 29.578954971965864,
+        "nonblack": 0.3437654320987654,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B009_VS01",
+      "candidate_id": "B009_VS01:CANDIDATE_1",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%204%5CBreaking%20Bad%20Season%204%20Episode%204.mp4",
+      "ready_state": 4,
+      "duration": 2729.18059,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 20.42498549577382,
+        "std": 18.015278236327678,
+        "nonblack": 0.5093653549382716
+      },
+      "visible_screenshot": {
+        "mean": 24.201868543209876,
+        "std": 27.269465630488128,
+        "nonblack": 0.5744444444444444,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B009_VS01",
+      "candidate_id": "B009_VS01:CANDIDATE_2",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%204%5CBreaking%20Bad%20Season%204%20Episode%204.mp4",
+      "ready_state": 4,
+      "duration": 2729.18059,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 20.369523738027656,
+        "std": 26.20269035319905,
+        "nonblack": 0.39176504629629627
+      },
+      "visible_screenshot": {
+        "mean": 20.36608769135802,
+        "std": 29.562500178260272,
+        "nonblack": 0.41712962962962963,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B009_VS01",
+      "candidate_id": "B009_VS01:CANDIDATE_3",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%204%5CBreaking%20Bad%20Season%204%20Episode%204.mp4",
+      "ready_state": 4,
+      "duration": 2729.18059,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 28.531463188668877,
+        "std": 40.9008925161905,
+        "nonblack": 0.38829089506172837
+      },
+      "visible_screenshot": {
+        "mean": 28.174303037037035,
+        "std": 36.85268333780391,
+        "nonblack": 0.48475308641975307,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B010_VS01",
+      "candidate_id": "B010_VS01:CANDIDATE_1",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%204%5CBreaking%20Bad%20Season%204%20Episode%204.mp4",
+      "ready_state": 4,
+      "duration": 2729.18059,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 54.894953520075916,
+        "std": 38.907684066568734,
+        "nonblack": 0.7805729166666666
+      },
+      "visible_screenshot": {
+        "mean": 49.70568907407407,
+        "std": 40.59550848098777,
+        "nonblack": 0.7816358024691358,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B010_VS01",
+      "candidate_id": "B010_VS01:CANDIDATE_2",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%204%5CBreaking%20Bad%20Season%204%20Episode%204.mp4",
+      "ready_state": 4,
+      "duration": 2729.18059,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 18.786054118450124,
+        "std": 22.14672800391225,
+        "nonblack": 0.4697087191358025
+      },
+      "visible_screenshot": {
+        "mean": 22.159320259259257,
+        "std": 29.399485345988364,
+        "nonblack": 0.4889506172839506,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B010_VS01",
+      "candidate_id": "B010_VS01:CANDIDATE_3",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%204%5CBreaking%20Bad%20Season%204%20Episode%204.mp4",
+      "ready_state": 4,
+      "duration": 2729.18059,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 14.88582523958853,
+        "std": 26.14226605086222,
+        "nonblack": 0.2179224537037037
+      },
+      "visible_screenshot": {
+        "mean": 17.98411985802469,
+        "std": 30.283890660197105,
+        "nonblack": 0.3200925925925926,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B011_VS01",
+      "candidate_id": "B011_VS01:CANDIDATE_1",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%204%5CBreaking%20Bad%20Season%204%20Episode%204.mp4",
+      "ready_state": 4,
+      "duration": 2729.18059,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 65.15273809680964,
+        "std": 47.470258069345356,
+        "nonblack": 0.9009741512345679
+      },
+      "visible_screenshot": {
+        "mean": 61.302289277777774,
+        "std": 50.82838376999402,
+        "nonblack": 0.8525617283950617,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B011_VS01",
+      "candidate_id": "B011_VS01:CANDIDATE_2",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%204%5CBreaking%20Bad%20Season%204%20Episode%204.mp4",
+      "ready_state": 4,
+      "duration": 2729.18059,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 15.875744670537319,
+        "std": 20.87286776888549,
+        "nonblack": 0.3503028549382716
+      },
+      "visible_screenshot": {
+        "mean": 17.418898796296297,
+        "std": 29.235143251116742,
+        "nonblack": 0.3707716049382716,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B011_VS01",
+      "candidate_id": "B011_VS01:CANDIDATE_3",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%204%5CBreaking%20Bad%20Season%204%20Episode%204.mp4",
+      "ready_state": 4,
+      "duration": 2729.18059,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 20.19572435649979,
+        "std": 27.893622230490347,
+        "nonblack": 0.37508873456790126
+      },
+      "visible_screenshot": {
+        "mean": 23.36983586419753,
+        "std": 33.05821203255409,
+        "nonblack": 0.4726851851851852,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B011_VS02",
+      "candidate_id": "B011_VS02:CANDIDATE_1",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 83.36108462454635,
+        "std": 47.47765767339928,
+        "nonblack": 0.9323726851851852
+      },
+      "visible_screenshot": {
+        "mean": 61.67494581481481,
+        "std": 40.80598881709205,
+        "nonblack": 0.941358024691358,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B011_VS02",
+      "candidate_id": "B011_VS02:CANDIDATE_2",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 35.262809941705676,
+        "std": 39.131779926996366,
+        "nonblack": 0.5247858796296296
+      },
+      "visible_screenshot": {
+        "mean": 32.79759008024691,
+        "std": 36.791790014576286,
+        "nonblack": 0.5712962962962963,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B011_VS02",
+      "candidate_id": "B011_VS02:CANDIDATE_3",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 87.40336351431553,
+        "std": 62.52616773240578,
+        "nonblack": 0.9480150462962963
+      },
+      "visible_screenshot": {
+        "mean": 77.42542298148147,
+        "std": 64.49886788568347,
+        "nonblack": 0.8572530864197531,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B012_VS01",
+      "candidate_id": "B012_VS01:CANDIDATE_1",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 83.45237170440687,
+        "std": 47.47266693328968,
+        "nonblack": 0.9336400462962963
+      },
+      "visible_screenshot": {
+        "mean": 60.714086055555555,
+        "std": 41.75550155162382,
+        "nonblack": 0.9105864197530864,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B012_VS01",
+      "candidate_id": "B012_VS01:CANDIDATE_2",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 35.262809941705676,
+        "std": 39.131779926996366,
+        "nonblack": 0.5247858796296296
+      },
+      "visible_screenshot": {
+        "mean": 32.89793237037037,
+        "std": 36.90565202928751,
+        "nonblack": 0.5711728395061728,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B012_VS01",
+      "candidate_id": "B012_VS01:CANDIDATE_3",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 87.40336351431553,
+        "std": 62.52616773240578,
+        "nonblack": 0.9480150462962963
+      },
+      "visible_screenshot": {
+        "mean": 77.51844177160494,
+        "std": 64.7982279189139,
+        "nonblack": 0.8524382716049382,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B013_VS01",
+      "candidate_id": "B013_VS01:CANDIDATE_1",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%209.mp4",
+      "ready_state": 4,
+      "duration": 2842.958231,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 41.52450594649119,
+        "std": 29.508823195733843,
+        "nonblack": 0.775204475308642
+      },
+      "visible_screenshot": {
+        "mean": 38.00440341358025,
+        "std": 31.54800687946001,
+        "nonblack": 0.7433950617283951,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B013_VS01",
+      "candidate_id": "B013_VS01:CANDIDATE_2",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%209.mp4",
+      "ready_state": 4,
+      "duration": 2842.958231,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 44.66111066352863,
+        "std": 28.308220112376187,
+        "nonblack": 0.8837152777777778
+      },
+      "visible_screenshot": {
+        "mean": 44.497222629629626,
+        "std": 36.0996794629102,
+        "nonblack": 0.8387654320987654,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B013_VS01",
+      "candidate_id": "B013_VS01:CANDIDATE_3",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%209.mp4",
+      "ready_state": 4,
+      "duration": 2842.958231,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 29.677513056722592,
+        "std": 36.70167813734777,
+        "nonblack": 0.46009837962962963
+      },
+      "visible_screenshot": {
+        "mean": 33.139710623456786,
+        "std": 38.409178442698334,
+        "nonblack": 0.5378703703703703,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B013_VS02",
+      "candidate_id": "B013_VS02:CANDIDATE_1",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%209.mp4",
+      "ready_state": 4,
+      "duration": 2842.958231,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 41.51026702944232,
+        "std": 29.437246993701592,
+        "nonblack": 0.7752025462962963
+      },
+      "visible_screenshot": {
+        "mean": 38.61703245061729,
+        "std": 34.85679335640792,
+        "nonblack": 0.7353395061728395,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B013_VS02",
+      "candidate_id": "B013_VS02:CANDIDATE_2",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%209.mp4",
+      "ready_state": 4,
+      "duration": 2842.958231,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 44.66111066352863,
+        "std": 28.308220112376187,
+        "nonblack": 0.8837152777777778
+      },
+      "visible_screenshot": {
+        "mean": 44.497222629629626,
+        "std": 36.0996794629102,
+        "nonblack": 0.8387654320987654,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B013_VS02",
+      "candidate_id": "B013_VS02:CANDIDATE_3",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%209.mp4",
+      "ready_state": 4,
+      "duration": 2842.958231,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 29.677513056722592,
+        "std": 36.70167813734777,
+        "nonblack": 0.46009837962962963
+      },
+      "visible_screenshot": {
+        "mean": 29.33410883333333,
+        "std": 35.2432035052598,
+        "nonblack": 0.5259567901234568,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B013_VS03",
+      "candidate_id": "B013_VS03:CANDIDATE_1",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%209.mp4",
+      "ready_state": 4,
+      "duration": 2842.958231,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 41.52450594649119,
+        "std": 29.508823195733843,
+        "nonblack": 0.775204475308642
+      },
+      "visible_screenshot": {
+        "mean": 38.0731322962963,
+        "std": 31.92302306030159,
+        "nonblack": 0.7426543209876543,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B013_VS03",
+      "candidate_id": "B013_VS03:CANDIDATE_2",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%209.mp4",
+      "ready_state": 4,
+      "duration": 2842.958231,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 44.66111066352863,
+        "std": 28.308220112376187,
+        "nonblack": 0.8837152777777778
+      },
+      "visible_screenshot": {
+        "mean": 43.96444365432099,
+        "std": 33.31014023832231,
+        "nonblack": 0.8450308641975308,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B013_VS03",
+      "candidate_id": "B013_VS03:CANDIDATE_3",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%209.mp4",
+      "ready_state": 4,
+      "duration": 2842.958231,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 29.677513056722592,
+        "std": 36.70167813734777,
+        "nonblack": 0.46009837962962963
+      },
+      "visible_screenshot": {
+        "mean": 33.139710623456786,
+        "std": 38.409178442698334,
+        "nonblack": 0.5378703703703703,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B014_VS01",
+      "candidate_id": "B014_VS01:CANDIDATE_1",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%209.mp4",
+      "ready_state": 4,
+      "duration": 2842.958231,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 41.52450594649119,
+        "std": 29.508823195733843,
+        "nonblack": 0.775204475308642
+      },
+      "visible_screenshot": {
+        "mean": 37.65124633333333,
+        "std": 31.32288733550492,
+        "nonblack": 0.7398765432098765,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B014_VS01",
+      "candidate_id": "B014_VS01:CANDIDATE_2",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%209.mp4",
+      "ready_state": 4,
+      "duration": 2842.958231,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 44.73811592201806,
+        "std": 28.317951803935216,
+        "nonblack": 0.8846315586419753
+      },
+      "visible_screenshot": {
+        "mean": 43.6610931728395,
+        "std": 33.11111281277367,
+        "nonblack": 0.8414197530864198,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B015_VS01",
+      "candidate_id": "B015_VS01:CANDIDATE_1",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 83.45237170440687,
+        "std": 47.47266693328968,
+        "nonblack": 0.9336400462962963
+      },
+      "visible_screenshot": {
+        "mean": 61.97092075308642,
+        "std": 40.65122551858578,
+        "nonblack": 0.9429012345679012,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B015_VS01",
+      "candidate_id": "B015_VS01:CANDIDATE_2",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 35.262809941705676,
+        "std": 39.131779926996366,
+        "nonblack": 0.5247858796296296
+      },
+      "visible_screenshot": {
+        "mean": 32.775878117283945,
+        "std": 37.22247154591752,
+        "nonblack": 0.5634876543209877,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B015_VS01",
+      "candidate_id": "B015_VS01:CANDIDATE_3",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 87.40336351431553,
+        "std": 62.52616773240578,
+        "nonblack": 0.9480150462962963
+      },
+      "visible_screenshot": {
+        "mean": 77.63987225308642,
+        "std": 65.1506696618843,
+        "nonblack": 0.8487037037037037,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B016_VS01",
+      "candidate_id": "B016_VS01:CANDIDATE_1",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 83.45237170440687,
+        "std": 47.47266693328968,
+        "nonblack": 0.9336400462962963
+      },
+      "visible_screenshot": {
+        "mean": 61.016891648148146,
+        "std": 41.08715902087264,
+        "nonblack": 0.9246913580246914,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B016_VS01",
+      "candidate_id": "B016_VS01:CANDIDATE_2",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 35.262809941705676,
+        "std": 39.131779926996366,
+        "nonblack": 0.5247858796296296
+      },
+      "visible_screenshot": {
+        "mean": 32.88682934567901,
+        "std": 36.732076131413415,
+        "nonblack": 0.5714814814814815,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B016_VS01",
+      "candidate_id": "B016_VS01:CANDIDATE_3",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 87.40336351431553,
+        "std": 62.52616773240578,
+        "nonblack": 0.9480150462962963
+      },
+      "visible_screenshot": {
+        "mean": 77.51169061728395,
+        "std": 64.4029498244094,
+        "nonblack": 0.8574382716049382,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B017_VS01",
+      "candidate_id": "B017_VS01:CANDIDATE_1",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%203.mp4",
+      "ready_state": 4,
+      "duration": 2837.942358,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 45.06347113360721,
+        "std": 32.07376473700068,
+        "nonblack": 0.8290374228395062
+      },
+      "visible_screenshot": {
+        "mean": 40.66734544444444,
+        "std": 33.10535172649003,
+        "nonblack": 0.7713271604938272,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B017_VS01",
+      "candidate_id": "B017_VS01:CANDIDATE_2",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%203.mp4",
+      "ready_state": 4,
+      "duration": 2837.942358,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 53.6389603434129,
+        "std": 46.0829189596333,
+        "nonblack": 0.8095293209876543
+      },
+      "visible_screenshot": {
+        "mean": 47.010142882716046,
+        "std": 49.133549000894305,
+        "nonblack": 0.7133950617283951,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B017_VS01",
+      "candidate_id": "B017_VS01:CANDIDATE_3",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%203.mp4",
+      "ready_state": 4,
+      "duration": 2837.942358,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 41.62641396760939,
+        "std": 53.96195147028637,
+        "nonblack": 0.6387885802469135
+      },
+      "visible_screenshot": {
+        "mean": 44.06236535802469,
+        "std": 55.505550727446064,
+        "nonblack": 0.7055246913580246,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B017_VS02",
+      "candidate_id": "B017_VS02:CANDIDATE_1",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 57.276290091746574,
+        "std": 34.45355743290292,
+        "nonblack": 0.9453125
+      },
+      "visible_screenshot": {
+        "mean": 52.10962210493827,
+        "std": 39.976688405332006,
+        "nonblack": 0.8726543209876543,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B017_VS02",
+      "candidate_id": "B017_VS02:CANDIDATE_2",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 63.07836553829143,
+        "std": 47.70459212349477,
+        "nonblack": 0.8292746913580247
+      },
+      "visible_screenshot": {
+        "mean": 60.239737197530864,
+        "std": 50.259952383672974,
+        "nonblack": 0.827962962962963,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B018_VS01",
+      "candidate_id": "B018_VS01:CANDIDATE_1",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%203.mp4",
+      "ready_state": 4,
+      "duration": 2837.942358,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 45.06347113360721,
+        "std": 32.07376473700068,
+        "nonblack": 0.8290374228395062
+      },
+      "visible_screenshot": {
+        "mean": 40.31757045061728,
+        "std": 32.2547568276882,
+        "nonblack": 0.7773456790123456,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B018_VS01",
+      "candidate_id": "B018_VS01:CANDIDATE_2",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%203.mp4",
+      "ready_state": 4,
+      "duration": 2837.942358,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 53.6389603434129,
+        "std": 46.0829189596333,
+        "nonblack": 0.8095293209876543
+      },
+      "visible_screenshot": {
+        "mean": 46.64617001851852,
+        "std": 49.06365833910636,
+        "nonblack": 0.7133333333333334,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B018_VS01",
+      "candidate_id": "B018_VS01:CANDIDATE_3",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%203.mp4",
+      "ready_state": 4,
+      "duration": 2837.942358,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 41.62641396760939,
+        "std": 53.96195147028637,
+        "nonblack": 0.6387885802469135
+      },
+      "visible_screenshot": {
+        "mean": 43.59906459876543,
+        "std": 55.048269218724926,
+        "nonblack": 0.7083641975308642,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B018_VS02",
+      "candidate_id": "B018_VS02:CANDIDATE_1",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 83.45237170440687,
+        "std": 47.47266693328968,
+        "nonblack": 0.9336400462962963
+      },
+      "visible_screenshot": {
+        "mean": 61.92599579629629,
+        "std": 40.70433946398357,
+        "nonblack": 0.9426234567901235,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B018_VS02",
+      "candidate_id": "B018_VS02:CANDIDATE_2",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 35.262809941705676,
+        "std": 39.131779926996366,
+        "nonblack": 0.5247858796296296
+      },
+      "visible_screenshot": {
+        "mean": 32.85693788271605,
+        "std": 36.86326524528697,
+        "nonblack": 0.5710185185185185,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B018_VS02",
+      "candidate_id": "B018_VS02:CANDIDATE_3",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 87.40336351431553,
+        "std": 62.52616773240578,
+        "nonblack": 0.9480150462962963
+      },
+      "visible_screenshot": {
+        "mean": 77.74455938888889,
+        "std": 65.7856051610723,
+        "nonblack": 0.8438580246913581,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B019_VS01",
+      "candidate_id": "B019_VS01:CANDIDATE_1",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 83.45237170440687,
+        "std": 47.47266693328968,
+        "nonblack": 0.9336400462962963
+      },
+      "visible_screenshot": {
+        "mean": 61.635097907407406,
+        "std": 40.765061054605226,
+        "nonblack": 0.940462962962963,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B019_VS01",
+      "candidate_id": "B019_VS01:CANDIDATE_2",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 35.262809941705676,
+        "std": 39.131779926996366,
+        "nonblack": 0.5247858796296296
+      },
+      "visible_screenshot": {
+        "mean": 32.643108209876544,
+        "std": 38.563587357868364,
+        "nonblack": 0.5575,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B019_VS01",
+      "candidate_id": "B019_VS01:CANDIDATE_3",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 87.40336351431553,
+        "std": 62.52616773240578,
+        "nonblack": 0.9480150462962963
+      },
+      "visible_screenshot": {
+        "mean": 77.61739491358024,
+        "std": 64.75536138859954,
+        "nonblack": 0.8528703703703704,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B020_VS01",
+      "candidate_id": "B020_VS01:CANDIDATE_1",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 83.45237170440687,
+        "std": 47.47266693328968,
+        "nonblack": 0.9336400462962963
+      },
+      "visible_screenshot": {
+        "mean": 61.63073359259259,
+        "std": 40.95540773589891,
+        "nonblack": 0.9396604938271605,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B020_VS01",
+      "candidate_id": "B020_VS01:CANDIDATE_2",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 35.262809941705676,
+        "std": 39.131779926996366,
+        "nonblack": 0.5247858796296296
+      },
+      "visible_screenshot": {
+        "mean": 32.91995581481481,
+        "std": 36.910601944808576,
+        "nonblack": 0.5710493827160494,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B020_VS01",
+      "candidate_id": "B020_VS01:CANDIDATE_3",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 87.40336351431553,
+        "std": 62.52616773240578,
+        "nonblack": 0.9480150462962963
+      },
+      "visible_screenshot": {
+        "mean": 77.54481708641974,
+        "std": 64.48201715913007,
+        "nonblack": 0.8570061728395062,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B021_VS01",
+      "candidate_id": "B021_VS01:CANDIDATE_1",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 83.45237170440687,
+        "std": 47.47266693328968,
+        "nonblack": 0.9336400462962963
+      },
+      "visible_screenshot": {
+        "mean": 61.08828256172839,
+        "std": 41.39320561764907,
+        "nonblack": 0.9251543209876543,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B021_VS01",
+      "candidate_id": "B021_VS01:CANDIDATE_2",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 35.262809941705676,
+        "std": 39.131779926996366,
+        "nonblack": 0.5247858796296296
+      },
+      "visible_screenshot": {
+        "mean": 32.67433778395061,
+        "std": 38.41220198906996,
+        "nonblack": 0.557716049382716,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B021_VS01",
+      "candidate_id": "B021_VS01:CANDIDATE_3",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 87.40336351431553,
+        "std": 62.52616773240578,
+        "nonblack": 0.9480150462962963
+      },
+      "visible_screenshot": {
+        "mean": 77.78003698148149,
+        "std": 65.77376442824021,
+        "nonblack": 0.8443518518518518,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B021_VS02",
+      "candidate_id": "B021_VS02:CANDIDATE_1",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 83.45237170440687,
+        "std": 47.47266693328968,
+        "nonblack": 0.9336400462962963
+      },
+      "visible_screenshot": {
+        "mean": 62.071575814814814,
+        "std": 40.608208983461935,
+        "nonblack": 0.9437654320987654,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B021_VS02",
+      "candidate_id": "B021_VS02:CANDIDATE_2",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 35.262809941705676,
+        "std": 39.131779926996366,
+        "nonblack": 0.5247858796296296
+      },
+      "visible_screenshot": {
+        "mean": 33.020276265432095,
+        "std": 36.57935078340004,
+        "nonblack": 0.5787654320987654,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B021_VS02",
+      "candidate_id": "B021_VS02:CANDIDATE_3",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 87.40336351431553,
+        "std": 62.52616773240578,
+        "nonblack": 0.9480150462962963
+      },
+      "visible_screenshot": {
+        "mean": 77.53816515432099,
+        "std": 64.76365145545395,
+        "nonblack": 0.8525925925925926,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B022_VS01",
+      "candidate_id": "B022_VS01:CANDIDATE_1",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%203%5CBreaking%20Bad%20Season%203%20Episode%206.mp4",
+      "ready_state": 4,
+      "duration": 2851.294331,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 62.80315192899334,
+        "std": 53.970104744691426,
+        "nonblack": 0.6936766975308643
+      },
+      "visible_screenshot": {
+        "mean": 49.66888359259259,
+        "std": 51.019880139891555,
+        "nonblack": 0.6468518518518519,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B022_VS02",
+      "candidate_id": "B022_VS02:CANDIDATE_1",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 83.45237170440687,
+        "std": 47.47266693328968,
+        "nonblack": 0.9336400462962963
+      },
+      "visible_screenshot": {
+        "mean": 61.94491516666667,
+        "std": 40.70459703359029,
+        "nonblack": 0.9428395061728395,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B022_VS02",
+      "candidate_id": "B022_VS02:CANDIDATE_2",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 35.262809941705676,
+        "std": 39.131779926996366,
+        "nonblack": 0.5247858796296296
+      },
+      "visible_screenshot": {
+        "mean": 32.847012376543205,
+        "std": 37.27794883064019,
+        "nonblack": 0.5637654320987654,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B022_VS02",
+      "candidate_id": "B022_VS02:CANDIDATE_3",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 87.40336351431553,
+        "std": 62.52616773240578,
+        "nonblack": 0.9480150462962963
+      },
+      "visible_screenshot": {
+        "mean": 77.54226613580246,
+        "std": 64.77539191699361,
+        "nonblack": 0.8526543209876544,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B023_VS01",
+      "candidate_id": "B023_VS01:CANDIDATE_1",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%203%5CBreaking%20Bad%20Season%203%20Episode%206.mp4",
+      "ready_state": 4,
+      "duration": 2851.294331,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 76.44903396304521,
+        "std": 52.065148345736276,
+        "nonblack": 0.8545447530864198
+      },
+      "visible_screenshot": {
+        "mean": 60.598176290123455,
+        "std": 44.22718973020251,
+        "nonblack": 0.8535185185185186,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B023_VS01",
+      "candidate_id": "B023_VS01:CANDIDATE_2",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%203%5CBreaking%20Bad%20Season%203%20Episode%206.mp4",
+      "ready_state": 4,
+      "duration": 2851.294331,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 66.24162876009592,
+        "std": 36.317058707058706,
+        "nonblack": 0.9683275462962962
+      },
+      "visible_screenshot": {
+        "mean": 54.909265783950616,
+        "std": 40.42706338996094,
+        "nonblack": 0.8920679012345679,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B023_VS01",
+      "candidate_id": "B023_VS01:CANDIDATE_3",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%203%5CBreaking%20Bad%20Season%203%20Episode%206.mp4",
+      "ready_state": 4,
+      "duration": 2851.294331,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 62.90441366787988,
+        "std": 42.60068600090428,
+        "nonblack": 0.7222916666666667
+      },
+      "visible_screenshot": {
+        "mean": 57.918091253086416,
+        "std": 44.589733741098016,
+        "nonblack": 0.7331172839506173,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B023_VS02",
+      "candidate_id": "B023_VS02:CANDIDATE_1",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%203%5CBreaking%20Bad%20Season%203%20Episode%2013.mp4",
+      "ready_state": 4,
+      "duration": 2851.294331,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 13.437192463357443,
+        "std": 20.352201010500153,
+        "nonblack": 0.22540895061728394
+      },
+      "visible_screenshot": {
+        "mean": 16.90821752469136,
+        "std": 27.84469914143928,
+        "nonblack": 0.3246604938271605,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B023_VS03",
+      "candidate_id": "B023_VS03:CANDIDATE_1",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%203%5CBreaking%20Bad%20Season%203%20Episode%2013.mp4",
+      "ready_state": 4,
+      "duration": 2851.294331,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 13.437192463357443,
+        "std": 20.352201010500153,
+        "nonblack": 0.22540895061728394
+      },
+      "visible_screenshot": {
+        "mean": 16.705319037037036,
+        "std": 26.41637122227596,
+        "nonblack": 0.32632716049382715,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B024_VS01",
+      "candidate_id": "B024_VS01:CANDIDATE_1",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 83.45237170440687,
+        "std": 47.47266693328968,
+        "nonblack": 0.9336400462962963
+      },
+      "visible_screenshot": {
+        "mean": 61.50837558641975,
+        "std": 41.08379544144619,
+        "nonblack": 0.938395061728395,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B024_VS01",
+      "candidate_id": "B024_VS01:CANDIDATE_2",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 35.262809941705676,
+        "std": 39.131779926996366,
+        "nonblack": 0.5247858796296296
+      },
+      "visible_screenshot": {
+        "mean": 32.94447609259259,
+        "std": 36.61885654265857,
+        "nonblack": 0.577962962962963,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B024_VS01",
+      "candidate_id": "B024_VS01:CANDIDATE_3",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 87.40336351431553,
+        "std": 62.52616773240578,
+        "nonblack": 0.9480150462962963
+      },
+      "visible_screenshot": {
+        "mean": 77.70679825308642,
+        "std": 65.17009965234496,
+        "nonblack": 0.8487654320987654,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B025_VS01",
+      "candidate_id": "B025_VS01:CANDIDATE_1",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%204%5CBreaking%20Bad%20Season%204%20Episode%204.mp4",
+      "ready_state": 4,
+      "duration": 2729.18059,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 65.15273809680964,
+        "std": 47.470258069345356,
+        "nonblack": 0.9009741512345679
+      },
+      "visible_screenshot": {
+        "mean": 61.367742648148145,
+        "std": 50.01816166402753,
+        "nonblack": 0.8595061728395061,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B025_VS01",
+      "candidate_id": "B025_VS01:CANDIDATE_2",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%204%5CBreaking%20Bad%20Season%204%20Episode%204.mp4",
+      "ready_state": 4,
+      "duration": 2729.18059,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 15.92160343288306,
+        "std": 20.903242541152707,
+        "nonblack": 0.35096836419753086
+      },
+      "visible_screenshot": {
+        "mean": 17.57876838271605,
+        "std": 29.751313348524658,
+        "nonblack": 0.36950617283950615,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B025_VS01",
+      "candidate_id": "B025_VS01:CANDIDATE_3",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%204%5CBreaking%20Bad%20Season%204%20Episode%204.mp4",
+      "ready_state": 4,
+      "duration": 2729.18059,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 20.19572435649979,
+        "std": 27.893622230490347,
+        "nonblack": 0.37508873456790126
+      },
+      "visible_screenshot": {
+        "mean": 22.918719555555555,
+        "std": 30.116143988662206,
+        "nonblack": 0.4761111111111111,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B026_VS01",
+      "candidate_id": "B026_VS01:CANDIDATE_1",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%204%5CBreaking%20Bad%20Season%204%20Episode%205.mp4",
+      "ready_state": 4,
+      "duration": 2847.068299,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 30.091761051683235,
+        "std": 30.827362654176913,
+        "nonblack": 0.5456520061728395
+      },
+      "visible_screenshot": {
+        "mean": 32.87396693827161,
+        "std": 36.435860414799876,
+        "nonblack": 0.6021604938271605,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B026_VS01",
+      "candidate_id": "B026_VS01:CANDIDATE_2",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%204%5CBreaking%20Bad%20Season%204%20Episode%205.mp4",
+      "ready_state": 4,
+      "duration": 2847.068299,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 36.48371931870768,
+        "std": 29.426447704515873,
+        "nonblack": 0.7495293209876543
+      },
+      "visible_screenshot": {
+        "mean": 34.620850845679016,
+        "std": 33.48571368181404,
+        "nonblack": 0.7045679012345679,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B027_VS01",
+      "candidate_id": "B027_VS01:CANDIDATE_1",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%204%5CBreaking%20Bad%20Season%204%20Episode%205.mp4",
+      "ready_state": 4,
+      "duration": 2847.068299,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 28.25744556756549,
+        "std": 33.6966114380733,
+        "nonblack": 0.6168692129629629
+      },
+      "visible_screenshot": {
+        "mean": 28.622148783950614,
+        "std": 32.484148536024634,
+        "nonblack": 0.6740432098765432,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B027_VS01",
+      "candidate_id": "B027_VS01:CANDIDATE_2",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%204%5CBreaking%20Bad%20Season%204%20Episode%205.mp4",
+      "ready_state": 4,
+      "duration": 2847.068299,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 69.72091894866259,
+        "std": 41.05629618467613,
+        "nonblack": 0.9508275462962963
+      },
+      "visible_screenshot": {
+        "mean": 69.25124302469135,
+        "std": 41.07271476764489,
+        "nonblack": 0.9694444444444444,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B027_VS01",
+      "candidate_id": "B027_VS01:CANDIDATE_3",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%204%5CBreaking%20Bad%20Season%204%20Episode%205.mp4",
+      "ready_state": 4,
+      "duration": 2847.068299,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 44.44889380139894,
+        "std": 38.96249061571607,
+        "nonblack": 0.7862037037037037
+      },
+      "visible_screenshot": {
+        "mean": 45.09364581481481,
+        "std": 38.77455031062074,
+        "nonblack": 0.8287345679012346,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B027_VS02",
+      "candidate_id": "B027_VS02:CANDIDATE_1",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 83.45237170440687,
+        "std": 47.47266693328968,
+        "nonblack": 0.9336400462962963
+      },
+      "visible_screenshot": {
+        "mean": 61.34623033333333,
+        "std": 41.08046142258077,
+        "nonblack": 0.9341049382716049,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B027_VS02",
+      "candidate_id": "B027_VS02:CANDIDATE_2",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 35.262809941705676,
+        "std": 39.131779926996366,
+        "nonblack": 0.5247858796296296
+      },
+      "visible_screenshot": {
+        "mean": 32.94263054320987,
+        "std": 36.76191506398298,
+        "nonblack": 0.5712037037037037,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B027_VS02",
+      "candidate_id": "B027_VS02:CANDIDATE_3",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 87.40336351431553,
+        "std": 62.52616773240578,
+        "nonblack": 0.9480150462962963
+      },
+      "visible_screenshot": {
+        "mean": 77.66177037037036,
+        "std": 65.32745291087618,
+        "nonblack": 0.8459876543209877,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B028_VS01",
+      "candidate_id": "B028_VS01:CANDIDATE_1",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%207.mp4",
+      "ready_state": 4,
+      "duration": 2837.942698,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 38.24790355990102,
+        "std": 30.482253826645202,
+        "nonblack": 0.7198958333333333
+      },
+      "visible_screenshot": {
+        "mean": 39.929788839506166,
+        "std": 33.15537657096236,
+        "nonblack": 0.764537037037037,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B029_VS01",
+      "candidate_id": "B029_VS01:CANDIDATE_1",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 83.45237170440687,
+        "std": 47.47266693328968,
+        "nonblack": 0.9336400462962963
+      },
+      "visible_screenshot": {
+        "mean": 61.08754867901234,
+        "std": 41.196821332942584,
+        "nonblack": 0.9326543209876543,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B029_VS01",
+      "candidate_id": "B029_VS01:CANDIDATE_2",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 35.262809941705676,
+        "std": 39.131779926996366,
+        "nonblack": 0.5247858796296296
+      },
+      "visible_screenshot": {
+        "mean": 32.737789456790125,
+        "std": 36.732661644731564,
+        "nonblack": 0.5703086419753086,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B029_VS01",
+      "candidate_id": "B029_VS01:CANDIDATE_3",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 87.40336351431553,
+        "std": 62.52616773240578,
+        "nonblack": 0.9480150462962963
+      },
+      "visible_screenshot": {
+        "mean": 77.35410007407407,
+        "std": 64.60092052710756,
+        "nonblack": 0.8548148148148148,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B029_VS02",
+      "candidate_id": "B029_VS02:CANDIDATE_1",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%207.mp4",
+      "ready_state": 4,
+      "duration": 2837.942698,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 68.63436117563627,
+        "std": 66.21207613346925,
+        "nonblack": 0.7304976851851852
+      },
+      "visible_screenshot": {
+        "mean": 58.14430948148148,
+        "std": 59.591664504785456,
+        "nonblack": 0.7411111111111112,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B029_VS02",
+      "candidate_id": "B029_VS02:CANDIDATE_2",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%207.mp4",
+      "ready_state": 4,
+      "duration": 2837.942698,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 27.914512572927276,
+        "std": 34.313643396844284,
+        "nonblack": 0.5115007716049382
+      },
+      "visible_screenshot": {
+        "mean": 26.49749635802469,
+        "std": 33.71609841993022,
+        "nonblack": 0.5509259259259259,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B029_VS02",
+      "candidate_id": "B029_VS02:CANDIDATE_3",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%207.mp4",
+      "ready_state": 4,
+      "duration": 2837.942698,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 60.47091107022423,
+        "std": 40.15245963881656,
+        "nonblack": 0.9073823302469136
+      },
+      "visible_screenshot": {
+        "mean": 53.110152660493824,
+        "std": 37.594039114028575,
+        "nonblack": 0.8501543209876543,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B030_VS02",
+      "candidate_id": "B030_VS02:CANDIDATE_1",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 83.45237170440687,
+        "std": 47.47266693328968,
+        "nonblack": 0.9336400462962963
+      },
+      "visible_screenshot": {
+        "mean": 61.5660435,
+        "std": 41.05588300713069,
+        "nonblack": 0.9384876543209877,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B030_VS02",
+      "candidate_id": "B030_VS02:CANDIDATE_2",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 35.262809941705676,
+        "std": 39.131779926996366,
+        "nonblack": 0.5247858796296296
+      },
+      "visible_screenshot": {
+        "mean": 32.92155856790123,
+        "std": 37.338025752828514,
+        "nonblack": 0.563641975308642,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B030_VS02",
+      "candidate_id": "B030_VS02:CANDIDATE_3",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 87.40336351431553,
+        "std": 62.52616773240578,
+        "nonblack": 0.9480150462962963
+      },
+      "visible_screenshot": {
+        "mean": 77.79431624074074,
+        "std": 65.36434558458204,
+        "nonblack": 0.8468518518518519,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B031_VS01",
+      "candidate_id": "B031_VS01:CANDIDATE_1",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%204%5CBreaking%20Bad%20Season%204%20Episode%205.mp4",
+      "ready_state": 4,
+      "duration": 2847.068299,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 28.71005781677277,
+        "std": 33.73205957167031,
+        "nonblack": 0.6256114969135802
+      },
+      "visible_screenshot": {
+        "mean": 29.470773320987654,
+        "std": 33.40239668801799,
+        "nonblack": 0.6820061728395062,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B031_VS01",
+      "candidate_id": "B031_VS01:CANDIDATE_2",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%204%5CBreaking%20Bad%20Season%204%20Episode%205.mp4",
+      "ready_state": 4,
+      "duration": 2847.068299,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 69.72091894866259,
+        "std": 41.05629618467613,
+        "nonblack": 0.9508275462962963
+      },
+      "visible_screenshot": {
+        "mean": 59.65754688888889,
+        "std": 38.234798496729425,
+        "nonblack": 0.9381481481481482,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B031_VS01",
+      "candidate_id": "B031_VS01:CANDIDATE_3",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%204%5CBreaking%20Bad%20Season%204%20Episode%205.mp4",
+      "ready_state": 4,
+      "duration": 2847.068299,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 44.688997366985234,
+        "std": 39.175109049757374,
+        "nonblack": 0.7879648919753086
+      },
+      "visible_screenshot": {
+        "mean": 44.13874074691358,
+        "std": 42.647692561778435,
+        "nonblack": 0.743641975308642,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B031_VS02",
+      "candidate_id": "B031_VS02:CANDIDATE_1",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%207.mp4",
+      "ready_state": 4,
+      "duration": 2837.942698,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 38.16481714899773,
+        "std": 30.634310882156228,
+        "nonblack": 0.7150250771604938
+      },
+      "visible_screenshot": {
+        "mean": 39.62423284567901,
+        "std": 33.04842815697039,
+        "nonblack": 0.764537037037037,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B031_VS02",
+      "candidate_id": "B031_VS02:CANDIDATE_2",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%207.mp4",
+      "ready_state": 4,
+      "duration": 2837.942698,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 75.25603008700811,
+        "std": 46.70313292605351,
+        "nonblack": 0.9730844907407408
+      },
+      "visible_screenshot": {
+        "mean": 63.387023080246905,
+        "std": 46.416804468411755,
+        "nonblack": 0.9291358024691359,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B031_VS02",
+      "candidate_id": "B031_VS02:CANDIDATE_3",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%207.mp4",
+      "ready_state": 4,
+      "duration": 2837.942698,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 85.8088744941067,
+        "std": 40.78315952133874,
+        "nonblack": 0.9731674382716049
+      },
+      "visible_screenshot": {
+        "mean": 68.08302050617283,
+        "std": 44.61736541638921,
+        "nonblack": 0.907746913580247,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B031_VS03",
+      "candidate_id": "B031_VS03:CANDIDATE_1",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 83.45237170440687,
+        "std": 47.47266693328968,
+        "nonblack": 0.9336400462962963
+      },
+      "visible_screenshot": {
+        "mean": 61.99751067901234,
+        "std": 40.71203105153612,
+        "nonblack": 0.9428395061728395,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B031_VS03",
+      "candidate_id": "B031_VS03:CANDIDATE_2",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 35.262809941705676,
+        "std": 39.131779926996366,
+        "nonblack": 0.5247858796296296
+      },
+      "visible_screenshot": {
+        "mean": 32.96057725925925,
+        "std": 36.93065513123463,
+        "nonblack": 0.5711728395061728,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B031_VS03",
+      "candidate_id": "B031_VS03:CANDIDATE_3",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 87.40336351431553,
+        "std": 62.52616773240578,
+        "nonblack": 0.9480150462962963
+      },
+      "visible_screenshot": {
+        "mean": 77.69251454938271,
+        "std": 64.84534537857824,
+        "nonblack": 0.8527160493827161,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B032_VS02",
+      "candidate_id": "B032_VS02:CANDIDATE_1",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 83.45237170440687,
+        "std": 47.47266693328968,
+        "nonblack": 0.9336400462962963
+      },
+      "visible_screenshot": {
+        "mean": 62.142496259259254,
+        "std": 40.649697844276666,
+        "nonblack": 0.9421296296296297,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B032_VS02",
+      "candidate_id": "B032_VS02:CANDIDATE_2",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 35.262809941705676,
+        "std": 39.131779926996366,
+        "nonblack": 0.5247858796296296
+      },
+      "visible_screenshot": {
+        "mean": 33.27047872839506,
+        "std": 36.678227782705996,
+        "nonblack": 0.5783641975308642,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B032_VS02",
+      "candidate_id": "B032_VS02:CANDIDATE_3",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 87.40336351431553,
+        "std": 62.52616773240578,
+        "nonblack": 0.9480150462962963
+      },
+      "visible_screenshot": {
+        "mean": 77.9340976728395,
+        "std": 65.03214744788933,
+        "nonblack": 0.8485493827160494,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B033_VS01",
+      "candidate_id": "B033_VS01:CANDIDATE_1",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 83.45237170440687,
+        "std": 47.47266693328968,
+        "nonblack": 0.9336400462962963
+      },
+      "visible_screenshot": {
+        "mean": 61.427757450617285,
+        "std": 41.34201766674538,
+        "nonblack": 0.9250308641975309,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B033_VS01",
+      "candidate_id": "B033_VS01:CANDIDATE_2",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 35.262809941705676,
+        "std": 39.131779926996366,
+        "nonblack": 0.5247858796296296
+      },
+      "visible_screenshot": {
+        "mean": 33.25493596913581,
+        "std": 37.12966187775752,
+        "nonblack": 0.5704320987654321,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B033_VS01",
+      "candidate_id": "B033_VS01:CANDIDATE_3",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 87.40336351431553,
+        "std": 62.52616773240578,
+        "nonblack": 0.9480150462962963
+      },
+      "visible_screenshot": {
+        "mean": 78.07646530864197,
+        "std": 65.34621303969809,
+        "nonblack": 0.8464814814814815,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B033_VS02",
+      "candidate_id": "B033_VS02:CANDIDATE_1",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 83.45237170440687,
+        "std": 47.47266693328968,
+        "nonblack": 0.9336400462962963
+      },
+      "visible_screenshot": {
+        "mean": 62.0086625308642,
+        "std": 40.8572374387327,
+        "nonblack": 0.9403703703703704,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B033_VS02",
+      "candidate_id": "B033_VS02:CANDIDATE_2",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 35.262809941705676,
+        "std": 39.131779926996366,
+        "nonblack": 0.5247858796296296
+      },
+      "visible_screenshot": {
+        "mean": 33.37102435185185,
+        "std": 36.803425748673774,
+        "nonblack": 0.5786111111111111,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B033_VS02",
+      "candidate_id": "B033_VS02:CANDIDATE_3",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 87.40336351431553,
+        "std": 62.52616773240578,
+        "nonblack": 0.9480150462962963
+      },
+      "visible_screenshot": {
+        "mean": 77.8694062037037,
+        "std": 64.37166467039299,
+        "nonblack": 0.8572530864197531,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B034_VS01",
+      "candidate_id": "B034_VS01:CANDIDATE_1",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%204%5CBreaking%20Bad%20Season%204%20Episode%204.mp4",
+      "ready_state": 4,
+      "duration": 2729.18059,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 54.894953520075916,
+        "std": 38.907684066568734,
+        "nonblack": 0.7805729166666666
+      },
+      "visible_screenshot": {
+        "mean": 50.32751072839506,
+        "std": 38.29261119225129,
+        "nonblack": 0.8062037037037038,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B034_VS01",
+      "candidate_id": "B034_VS01:CANDIDATE_2",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%204%5CBreaking%20Bad%20Season%204%20Episode%204.mp4",
+      "ready_state": 4,
+      "duration": 2729.18059,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 18.786054118450124,
+        "std": 22.14672800391225,
+        "nonblack": 0.4697087191358025
+      },
+      "visible_screenshot": {
+        "mean": 22.371565185185183,
+        "std": 29.106929966426076,
+        "nonblack": 0.4904320987654321,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B034_VS01",
+      "candidate_id": "B034_VS01:CANDIDATE_3",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%204%5CBreaking%20Bad%20Season%204%20Episode%204.mp4",
+      "ready_state": 4,
+      "duration": 2729.18059,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 14.88582523958853,
+        "std": 26.14226605086222,
+        "nonblack": 0.2179224537037037
+      },
+      "visible_screenshot": {
+        "mean": 18.181536543209877,
+        "std": 30.655669212434955,
+        "nonblack": 0.3185802469135802,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B034_VS02",
+      "candidate_id": "B034_VS02:CANDIDATE_1",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 57.276290091746574,
+        "std": 34.45355743290292,
+        "nonblack": 0.9453125
+      },
+      "visible_screenshot": {
+        "mean": 52.050590438271605,
+        "std": 38.09908963364534,
+        "nonblack": 0.8809259259259259,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B034_VS02",
+      "candidate_id": "B034_VS02:CANDIDATE_2",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 63.07836553829143,
+        "std": 47.70459212349477,
+        "nonblack": 0.8292746913580247
+      },
+      "visible_screenshot": {
+        "mean": 60.08646506172839,
+        "std": 48.863616442178454,
+        "nonblack": 0.8377469135802469,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B034_VS03",
+      "candidate_id": "B034_VS03:CANDIDATE_1",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 57.276290091746574,
+        "std": 34.45355743290292,
+        "nonblack": 0.9453125
+      },
+      "visible_screenshot": {
+        "mean": 52.011450234567896,
+        "std": 39.975861412574936,
+        "nonblack": 0.8720987654320987,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B034_VS03",
+      "candidate_id": "B034_VS03:CANDIDATE_2",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 63.07836553829143,
+        "std": 47.70459212349477,
+        "nonblack": 0.8292746913580247
+      },
+      "visible_screenshot": {
+        "mean": 60.07033079012345,
+        "std": 48.71820151356195,
+        "nonblack": 0.8389197530864198,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B035_VS01",
+      "candidate_id": "B035_VS01:CANDIDATE_1",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 83.45237170440687,
+        "std": 47.47266693328968,
+        "nonblack": 0.9336400462962963
+      },
+      "visible_screenshot": {
+        "mean": 60.93446329629629,
+        "std": 41.04655554781176,
+        "nonblack": 0.9246296296296296,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B035_VS01",
+      "candidate_id": "B035_VS01:CANDIDATE_2",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 35.262809941705676,
+        "std": 39.131779926996366,
+        "nonblack": 0.5247858796296296
+      },
+      "visible_screenshot": {
+        "mean": 32.72729097530864,
+        "std": 37.01430746616132,
+        "nonblack": 0.5637037037037037,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B035_VS01",
+      "candidate_id": "B035_VS01:CANDIDATE_3",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 87.40336351431553,
+        "std": 62.52616773240578,
+        "nonblack": 0.9480150462962963
+      },
+      "visible_screenshot": {
+        "mean": 77.59449935802468,
+        "std": 65.06117925763068,
+        "nonblack": 0.8489197530864198,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B035_VS02",
+      "candidate_id": "B035_VS02:CANDIDATE_1",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 83.45237170440687,
+        "std": 47.47266693328968,
+        "nonblack": 0.9336400462962963
+      },
+      "visible_screenshot": {
+        "mean": 61.685906024691356,
+        "std": 40.643753285141436,
+        "nonblack": 0.9417901234567901,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B035_VS02",
+      "candidate_id": "B035_VS02:CANDIDATE_2",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 35.262809941705676,
+        "std": 39.131779926996366,
+        "nonblack": 0.5247858796296296
+      },
+      "visible_screenshot": {
+        "mean": 32.71995845679012,
+        "std": 36.99196723958992,
+        "nonblack": 0.5637037037037037,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B035_VS02",
+      "candidate_id": "B035_VS02:CANDIDATE_3",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 87.40336351431553,
+        "std": 62.52616773240578,
+        "nonblack": 0.9480150462962963
+      },
+      "visible_screenshot": {
+        "mean": 77.4477307654321,
+        "std": 64.70737966905087,
+        "nonblack": 0.8519444444444444,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B036_VS02",
+      "candidate_id": "B036_VS02:CANDIDATE_1",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 83.45237170440687,
+        "std": 47.47266693328968,
+        "nonblack": 0.9336400462962963
+      },
+      "visible_screenshot": {
+        "mean": 61.7561879382716,
+        "std": 40.98731802912047,
+        "nonblack": 0.9382716049382716,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B036_VS02",
+      "candidate_id": "B036_VS02:CANDIDATE_2",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 35.262809941705676,
+        "std": 39.131779926996366,
+        "nonblack": 0.5247858796296296
+      },
+      "visible_screenshot": {
+        "mean": 33.01274187037037,
+        "std": 38.18770198080396,
+        "nonblack": 0.5600308641975309,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B036_VS02",
+      "candidate_id": "B036_VS02:CANDIDATE_3",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 87.40336351431553,
+        "std": 62.52616773240578,
+        "nonblack": 0.9480150462962963
+      },
+      "visible_screenshot": {
+        "mean": 77.82070680864197,
+        "std": 64.67154277798637,
+        "nonblack": 0.8522839506172839,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B037_VS01",
+      "candidate_id": "B037_VS01:CANDIDATE_1",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 83.45237170440687,
+        "std": 47.47266693328968,
+        "nonblack": 0.9336400462962963
+      },
+      "visible_screenshot": {
+        "mean": 62.31382186419753,
+        "std": 40.420411871752734,
+        "nonblack": 0.9442901234567901,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B037_VS01",
+      "candidate_id": "B037_VS01:CANDIDATE_2",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 35.262809941705676,
+        "std": 39.131779926996366,
+        "nonblack": 0.5247858796296296
+      },
+      "visible_screenshot": {
+        "mean": 33.05221622839506,
+        "std": 36.87069668141331,
+        "nonblack": 0.5710493827160494,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B037_VS01",
+      "candidate_id": "B037_VS01:CANDIDATE_3",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 87.40336351431553,
+        "std": 62.52616773240578,
+        "nonblack": 0.9480150462962963
+      },
+      "visible_screenshot": {
+        "mean": 77.80662942592592,
+        "std": 65.0483646345435,
+        "nonblack": 0.8486728395061729,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B037_VS02",
+      "candidate_id": "B037_VS02:CANDIDATE_1",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%209.mp4",
+      "ready_state": 4,
+      "duration": 2842.958231,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 29.575401757719142,
+        "std": 33.29319104197052,
+        "nonblack": 0.4962075617283951
+      },
+      "visible_screenshot": {
+        "mean": 34.60787581481482,
+        "std": 34.25550229593247,
+        "nonblack": 0.6233641975308643,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B037_VS02",
+      "candidate_id": "B037_VS02:CANDIDATE_2",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%209.mp4",
+      "ready_state": 4,
+      "duration": 2842.958231,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 29.677513056722592,
+        "std": 36.70167813734777,
+        "nonblack": 0.46009837962962963
+      },
+      "visible_screenshot": {
+        "mean": 33.2878622345679,
+        "std": 38.372402638627946,
+        "nonblack": 0.5379012345679013,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B038_VS01",
+      "candidate_id": "B038_VS01:CANDIDATE_1",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%209.mp4",
+      "ready_state": 4,
+      "duration": 2842.958231,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 58.615700267088265,
+        "std": 24.709627395139524,
+        "nonblack": 0.9907388117283951
+      },
+      "visible_screenshot": {
+        "mean": 47.427775296296296,
+        "std": 30.916872211758374,
+        "nonblack": 0.912283950617284,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B039_VS01",
+      "candidate_id": "B039_VS01:CANDIDATE_1",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 57.276290091746574,
+        "std": 34.45355743290292,
+        "nonblack": 0.9453125
+      },
+      "visible_screenshot": {
+        "mean": 51.96840566049382,
+        "std": 38.73709567851312,
+        "nonblack": 0.8761111111111111,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B039_VS01",
+      "candidate_id": "B039_VS01:CANDIDATE_2",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 63.07836553829143,
+        "std": 47.70459212349477,
+        "nonblack": 0.8292746913580247
+      },
+      "visible_screenshot": {
+        "mean": 60.54972875308641,
+        "std": 50.44562739564755,
+        "nonblack": 0.8310802469135803,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B039_VS02",
+      "candidate_id": "B039_VS02:CANDIDATE_1",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%204%5CBreaking%20Bad%20Season%204%20Episode%204.mp4",
+      "ready_state": 4,
+      "duration": 2729.18059,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 54.894953520075916,
+        "std": 38.907684066568734,
+        "nonblack": 0.7805729166666666
+      },
+      "visible_screenshot": {
+        "mean": 49.93145143209876,
+        "std": 40.07608063941027,
+        "nonblack": 0.7841666666666667,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B039_VS02",
+      "candidate_id": "B039_VS02:CANDIDATE_2",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%204%5CBreaking%20Bad%20Season%204%20Episode%204.mp4",
+      "ready_state": 4,
+      "duration": 2729.18059,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 18.786054118450124,
+        "std": 22.14672800391225,
+        "nonblack": 0.4697087191358025
+      },
+      "visible_screenshot": {
+        "mean": 22.457279666666665,
+        "std": 29.51808239924456,
+        "nonblack": 0.49,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B039_VS02",
+      "candidate_id": "B039_VS02:CANDIDATE_3",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%204%5CBreaking%20Bad%20Season%204%20Episode%204.mp4",
+      "ready_state": 4,
+      "duration": 2729.18059,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 14.88582523958853,
+        "std": 26.14226605086222,
+        "nonblack": 0.2179224537037037
+      },
+      "visible_screenshot": {
+        "mean": 18.196352845679012,
+        "std": 30.66631021330741,
+        "nonblack": 0.31864197530864197,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B040_VS01",
+      "candidate_id": "B040_VS01:CANDIDATE_1",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 83.45237170440687,
+        "std": 47.47266693328968,
+        "nonblack": 0.9336400462962963
+      },
+      "visible_screenshot": {
+        "mean": 61.88910959876543,
+        "std": 41.03937460017971,
+        "nonblack": 0.938395061728395,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B040_VS01",
+      "candidate_id": "B040_VS01:CANDIDATE_2",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 35.262809941705676,
+        "std": 39.131779926996366,
+        "nonblack": 0.5247858796296296
+      },
+      "visible_screenshot": {
+        "mean": 33.42118395061728,
+        "std": 36.88833202148077,
+        "nonblack": 0.5786111111111111,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B040_VS01",
+      "candidate_id": "B040_VS01:CANDIDATE_3",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 87.40336351431553,
+        "std": 62.52616773240578,
+        "nonblack": 0.9480150462962963
+      },
+      "visible_screenshot": {
+        "mean": 78.2387267345679,
+        "std": 65.9636334672448,
+        "nonblack": 0.8425308641975309,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B040_VS02",
+      "candidate_id": "B040_VS02:CANDIDATE_1",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 83.45237170440687,
+        "std": 47.47266693328968,
+        "nonblack": 0.9336400462962963
+      },
+      "visible_screenshot": {
+        "mean": 61.88910959876543,
+        "std": 41.03937460017971,
+        "nonblack": 0.938395061728395,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B040_VS02",
+      "candidate_id": "B040_VS02:CANDIDATE_2",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 35.262809941705676,
+        "std": 39.131779926996366,
+        "nonblack": 0.5247858796296296
+      },
+      "visible_screenshot": {
+        "mean": 33.42391332098765,
+        "std": 36.891427289191476,
+        "nonblack": 0.5785802469135802,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B040_VS02",
+      "candidate_id": "B040_VS02:CANDIDATE_3",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+      "ready_state": 4,
+      "duration": 2841.936531,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 87.40336351431553,
+        "std": 62.52616773240578,
+        "nonblack": 0.9480150462962963
+      },
+      "visible_screenshot": {
+        "mean": 77.9536284691358,
+        "std": 64.6715380101012,
+        "nonblack": 0.8524074074074074,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B041_VS01",
+      "candidate_id": "B041_VS01:CANDIDATE_1",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%204%5CBreaking%20Bad%20Season%204%20Episode%205.mp4",
+      "ready_state": 4,
+      "duration": 2847.068299,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 28.25744556756549,
+        "std": 33.6966114380733,
+        "nonblack": 0.6168692129629629
+      },
+      "visible_screenshot": {
+        "mean": 29.40565435802469,
+        "std": 32.911052241745544,
+        "nonblack": 0.6945370370370371,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B041_VS01",
+      "candidate_id": "B041_VS01:CANDIDATE_2",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%204%5CBreaking%20Bad%20Season%204%20Episode%205.mp4",
+      "ready_state": 4,
+      "duration": 2847.068299,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 69.7208579999729,
+        "std": 41.05656463482586,
+        "nonblack": 0.9508159722222222
+      },
+      "visible_screenshot": {
+        "mean": 57.877105672839505,
+        "std": 40.2686655162622,
+        "nonblack": 0.8923765432098766,
+        "size": "536x301"
+      }
+    },
+    {
+      "slot_id": "B041_VS01",
+      "candidate_id": "B041_VS01:CANDIDATE_3",
+      "PASS": true,
+      "media_type": "VIDEO",
+      "source": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%204%5CBreaking%20Bad%20Season%204%20Episode%205.mp4",
+      "ready_state": 4,
+      "duration": 2847.068299,
+      "dimensions": "1920x1080",
+      "canvas_pixels": {
+        "mean": 44.44889380139894,
+        "std": 38.96249061571607,
+        "nonblack": 0.7862037037037037
+      },
+      "visible_screenshot": {
+        "mean": 44.75196439506173,
+        "std": 38.74226437621935,
+        "nonblack": 0.8251234567901234,
+        "size": "536x301"
+      }
+    }
+  ],
+  "post_test_state_hash": "4f089a4c94020ca549369a96990283a351903e9edb56b76348e2a242f98eecd6",
+  "project_state_unchanged": true
+}

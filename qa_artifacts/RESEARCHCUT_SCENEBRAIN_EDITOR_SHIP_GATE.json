@@ -1,0 +1,59 @@
+﻿{
+    "reference_editor_reused":  true,
+    "walter_project_loaded":  true,
+    "media_bin_pass":  true,
+    "timeline_pass":  true,
+    "transport_pass":  true,
+    "play_pass":  true,
+    "pause_pass":  true,
+    "seek_pass":  true,
+    "continuous_playback_seconds":  120,
+    "boundaries_expected":  69,
+    "boundaries_passed":  69,
+    "trim_left_pass":  true,
+    "trim_right_pass":  true,
+    "duration_edit_pass":  true,
+    "source_in_pass":  true,
+    "replace_candidate_pass":  true,
+    "replace_project_media_pass":  true,
+    "crop_pass":  true,
+    "crop_reset_pass":  true,
+    "position_pass":  true,
+    "scale_pass":  true,
+    "rotation_pass":  true,
+    "opacity_pass":  true,
+    "fit_fill_pass":  true,
+    "split_pass":  true,
+    "delete_pass":  true,
+    "undo_redo_pass":  true,
+    "drag_pass":  true,
+    "timeline_zoom_pass":  true,
+    "persistence_reload_pass":  true,
+    "render_smoke_pass":  true,
+    "viewports":  [
+                      {
+                          "width":  1366,
+                          "height":  768,
+                          "pass":  true
+                      },
+                      {
+                          "width":  1440,
+                          "height":  900,
+                          "pass":  true
+                      },
+                      {
+                          "width":  1920,
+                          "height":  1080,
+                          "pass":  true
+                      }
+                  ],
+    "console_errors":  0,
+    "failed_requests":  0,
+    "pre_test_hash":  "8e160fa8797b0d655832e42a1b616350c5717bc5059a94ae7573fd5efb46c84b",
+    "PASS":  true,
+    "post_restore_hash":  "8e160fa8797b0d655832e42a1b616350c5717bc5059a94ae7573fd5efb46c84b",
+    "state_restored":  true,
+    "regression_tests_passed":  172,
+    "researchcut_integration_tests_pass":  true,
+    "render_smoke_output":  "runtime/researchcut_integration/production/tests/.render-store"
+}

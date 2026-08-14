@@ -1,0 +1,22 @@
+{
+  "guided": true,
+  "single": true,
+  "franchise": true,
+  "custom": true,
+  "clue_prompt": true,
+  "copy_ready_prompt": true,
+  "analysis": true,
+  "custom_persistence": true,
+  "character_manage": true,
+  "play_visible": true,
+  "play_sync": true,
+  "pause_sync": true,
+  "scrub": true,
+  "auto_switch": true,
+  "thumbnails": true,
+  "gap": true,
+  "encoding": true,
+  "console_errors": 0,
+  "failed_requests": 0,
+  "PASS": true
+}

@@ -1,0 +1,11 @@
+{
+  "version": "sprint9-dev-v2-freeze/1.0",
+  "source_sha256": "141c12db5d5d28048d7407fa07063c86deb1f9bf37afb3c306b3dd1413cc52c9",
+  "dev_v2_sha256": "ea6810431593da63a2e1a588442df7d152e3a70ee10e11f66be8737371515929",
+  "rows": 19,
+  "multiple_occurrence_requests": [
+    "S9D15A",
+    "S9D32A"
+  ],
+  "holdout_accessed": false
+}

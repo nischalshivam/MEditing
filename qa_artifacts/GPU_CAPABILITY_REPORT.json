@@ -1,0 +1,50 @@
+{
+  "gpu_detected": true,
+  "gpu_name": "Quadro P1000",
+  "driver": "582.16",
+  "vram_mib": 4096,
+  "uuid": "GPU-a70cfa40-74fb-ce83-c56a-6ee1ddc68740",
+  "pci_bus_id": "00000000:01:00.0",
+  "torch": {
+    "installed": true,
+    "cuda_available": true,
+    "device_count": 1,
+    "devices": [
+      "Quadro P1000"
+    ],
+    "runtime_compatible": false,
+    "runtime_error": "AcceleratorError"
+  },
+  "ctranslate2": {
+    "installed": true,
+    "cuda_devices": 1,
+    "version": "4.8.1"
+  },
+  "opencv": {
+    "installed": true,
+    "version": "5.0.0",
+    "cuda": false,
+    "cudnn": false
+  },
+  "ffmpeg_hwaccels": "Hardware acceleration methods:\ncuda\nvaapi\ndxva2\nqsv\nd3d11va\nopencl\nvulkan\nd3d12va\namf",
+  "cuda_device_rule": "match runtime GPU name/UUID/PCI; never Windows Task Manager index",
+  "whisper_cpu_benchmark": {
+    "audio_seconds": 20,
+    "runtime_seconds": 2.2484,
+    "pass": true,
+    "compute_type": "int8"
+  },
+  "whisper_cuda_benchmark": {
+    "pass": false,
+    "error": "float16 unsupported; alternative CUDA compute modes did not complete reliably",
+    "selected_backend": "CPU"
+  },
+  "ffmpeg_software_benchmark": {
+    "seconds": 0.3908,
+    "pass": true
+  },
+  "ffmpeg_nvenc_benchmark": {
+    "pass": false,
+    "error": "driver 582.16 exposes NVENC API 13.0 but installed FFmpeg requires 13.1 / driver >=610"
+  }
+}

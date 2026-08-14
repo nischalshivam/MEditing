@@ -1,0 +1,23 @@
+{
+  "project": "walter_book_project",
+  "PASS": true,
+  "timeline_slots": 70,
+  "slot_id_tested": "B002_VS01",
+  "candidate_count_backend": 2,
+  "candidate_cards_rendered": 2,
+  "thumbnail_loaded": true,
+  "thumbnail_dimensions": "480x270",
+  "preview_src_present": true,
+  "preview_ready_state": 4,
+  "preview_duration": 2841.936531,
+  "preview_dimensions": "1920x1080",
+  "playback_time_advanced": true,
+  "approval_state_changed": true,
+  "needs_choice_before": 64,
+  "needs_choice_after": 63,
+  "approval_persisted_after_reload": true,
+  "ssd_persistence_verified": true,
+  "manual_slot_verified": true,
+  "console_errors": 0,
+  "failed_requests": 0
+}

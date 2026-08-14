@@ -1,0 +1,18 @@
+{
+  "name": "research-cut-editor",
+  "version": "2.1.0",
+  "private": true,
+  "description": "Local-first clip editor with automated transitions, framing, VText and overnight rendering",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js --no-open",
+    "test": "node tests/integration.js",
+    "test:render": "node tests/render-integration.js",
+    "test:vtext": "node tests/vtext-integration.js",
+    "test:4k": "node tests/render-4k-smoke.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

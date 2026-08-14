@@ -1,0 +1,23 @@
+{
+  "version": "production-editor-real-browser-qa/1.0",
+  "entry_point": "START_SCENE_BRAIN.bat",
+  "url": "http://127.0.0.1:8780/",
+  "backend_health": "PASS",
+  "connection_state": "CONNECTED - E:\\Movies",
+  "library_loaded": true,
+  "library_title_count": 6,
+  "navigation_library": true,
+  "navigation_projects": true,
+  "navigation_new_project": true,
+  "navigation_editor": true,
+  "rescan_drive": "PASS: 619 sources checked; 619 unchanged",
+  "projects_loaded": 2,
+  "skyler_project_open": true,
+  "timeline_loaded": {"composition_slots": 145, "manual_markers": 2},
+  "playback_test": {"status": "PASS", "seconds_played": 2.95, "media_ready_state": 4, "duration_seconds": 887.3},
+  "scrub_test": {"status": "PASS", "position_after_scrub_seconds": 11.75},
+  "save_reload_test": {"status": "PASS", "project": "skyler_money_production_copy_qa_copy", "before_slots": 145, "saved_and_reloaded_slots": 146},
+  "console_error_count": 0,
+  "automated_tests": "139 passed",
+  "frozen_skyler_project_modified": false
+}

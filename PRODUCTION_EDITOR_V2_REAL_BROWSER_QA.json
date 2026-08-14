@@ -1,0 +1,39 @@
+{
+  "version": "production-editor-v2-browser-qa/1.0",
+  "launcher": "START_SCENE_BRAIN.bat",
+  "connected": true,
+  "new_project": {
+    "native_script_file_input_present": true,
+    "native_voiceover_file_input_present": true,
+    "paste_script_present": true,
+    "managed_upload_backend_verified": true,
+    "auto_clue_default_visible": true,
+    "franchise_mode": true,
+    "custom_multi_title_mode": true,
+    "sheldon_universe_readiness": {
+      "The Big Bang Theory": "0/279 - NEEDS PREPARATION",
+      "Young Sheldon": "139/141 - READY / PARTIALLY READY"
+    }
+  },
+  "editor": {
+    "duplicate_skyler_opened": true,
+    "initial_slots": 145,
+    "split_slots": 146,
+    "undo_slots": 145,
+    "redo_slots": 146,
+    "replacement_drawer_opened": true,
+    "replacement_candidates": 8,
+    "manual_issue_jump": "B002",
+    "manual_replace_drawer_opened": true,
+    "timeline_zoom": "FIT -> 1.5x",
+    "ripple_persistence_test": true,
+    "save_reload_disk_authority": true,
+    "preview_ready": true,
+    "waveform_track_visible": true
+  },
+  "console_errors": 0,
+  "tests": "141 passed",
+  "frozen_retrieval_sha256": "08428494d51f7d6f9e75208dd6e2c8ca2007e2641d28ee4d975008392dc1d4e5",
+  "mass_transcript_jobs_started": 0,
+  "mass_rich_jobs_started": 0
+}

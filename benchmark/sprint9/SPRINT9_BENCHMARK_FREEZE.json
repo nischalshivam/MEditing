@@ -1,0 +1,12 @@
+{
+  "version": "sprint9-exact-benchmark/1.0",
+  "source_path": "C:\\Users\\Dell\\Documents\\Codex\\2026-07-30\\m-ek-automation-tool-banwa-rha\\film_tv_scene_brain_v2\\benchmark\\development\\MOMENT_RESOLVER_V2_DEV.jsonl",
+  "source_sha256": "32e101f8a97fa08e0a2712542bec005e17f80af47ae5e46451ffde5f3fef7ebe",
+  "dev_count": 19,
+  "holdout_count": 17,
+  "dev_sha256": "141c12db5d5d28048d7407fa07063c86deb1f9bf37afb3c306b3dd1413cc52c9",
+  "holdout_sha256": "a4da9f8e878fae6539b48ad5012f0a914399ec40c12ef5da3c23d19b9fe57aac",
+  "split": "category-stratified alternating, immutable",
+  "limitation": "Derived from an earlier human-reviewed S04E01 pool; episode-independent holdout is impossible with the currently authorized one-episode scope.",
+  "fingerprint": "f0407d4559dc85e5113b0ae30ed1cf96bf367c391cddf2110b57a1126dbf8506"
+}

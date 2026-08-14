@@ -1,0 +1,55 @@
+{
+  "version": "gpu-runtime-proof/1.0",
+  "gpu_name": "Quadro P1000",
+  "cuda_device_seen_by_framework": "cuda:0",
+  "windows_task_manager_index_not_used": true,
+  "workloads": [
+    {
+      "workload": "torch tensor",
+      "backend": "CUDA",
+      "pass": false,
+      "reason": "AcceleratorError"
+    },
+    {
+      "workload": "faster-whisper 20s",
+      "backend": "CPU int8",
+      "runtime_seconds": 2.2484,
+      "pass": true
+    },
+    {
+      "workload": "faster-whisper 20s",
+      "backend": "CUDA",
+      "pass": false,
+      "reason": "P1000 float16 not efficient; alternative modes unstable"
+    },
+    {
+      "workload": "OpenCV face validation",
+      "backend": "CPU",
+      "pass": true,
+      "reason": "installed OpenCV has no CUDA DNN"
+    },
+    {
+      "workload": "FFmpeg encode",
+      "backend": "software libx264",
+      "runtime_seconds": 0.3908,
+      "pass": true
+    },
+    {
+      "workload": "FFmpeg NVENC",
+      "backend": "h264_nvenc",
+      "pass": false,
+      "reason": "driver API 13.0 older than FFmpeg required 13.1"
+    }
+  ],
+  "gpu_workloads_accelerated": 0,
+  "selected_profile": "AUTO",
+  "auto_policy": {
+    "profile": "AUTO",
+    "cpu_workers": 4,
+    "gpu_workers": 1,
+    "min_vram_headroom_mib": 768,
+    "heavy_gpu_concurrency": 1
+  },
+  "result": "CPU FALLBACK SELECTED; GPU acceleration unavailable with current compatible runtime stack",
+  "pass": true
+}

@@ -1,0 +1,8 @@
+{
+  "schema_version": "moment-holdout-freeze/2.0",
+  "path": "C:\\Users\\Dell\\Documents\\Codex\\2026-07-30\\m-ek-automation-tool-banwa-rha\\film_tv_scene_brain_v2\\benchmark\\frozen\\S04E01_MOMENT_HOLDOUT_V2.jsonl",
+  "sha256": "bd161cac6b81fc3fe678c6666a7b1c0f219f76c373f76fccf1ad6dfc7169175c",
+  "count": 36,
+  "frozen_before_v2_final_evaluation": true,
+  "prior_sprint4_holdout_not_reused": true
+}

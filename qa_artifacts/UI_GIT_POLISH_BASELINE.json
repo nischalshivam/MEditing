@@ -1,0 +1,28 @@
+{
+  "captured_at": "2026-08-14T00:00:00+05:30",
+  "git_status": "NO_LOCAL_GIT_REPOSITORY",
+  "git_branch": null,
+  "git_remote": null,
+  "target_remote": "https://github.com/nischalshivam/MEditing",
+  "target_remote_refs": 0,
+  "regression_count": 187,
+  "regression_pass": true,
+  "app_version": "2.1.0",
+  "title_count": 6,
+  "project_count": 8,
+  "known_ui_defects": [
+    "visible mojibake in editor labels and icon controls",
+    "transport controls are too small and ambiguous",
+    "franchise and custom multi-title scopes are not functionally distinct",
+    "Clue V4 prompt is not discoverable in product intake",
+    "character cards do not expose add/trust/reject management",
+    "gap state lacks direct SceneBrain candidate action",
+    "media thumbnail errors are not explicit"
+  ],
+  "launcher": "START_SCENE_BRAIN.bat",
+  "storage_roots": {
+    "portable": "E:\\Movies\\.scene_brain",
+    "editor": "%LOCALAPPDATA%\\ResearchCut Editor",
+    "repository": "film_tv_scene_brain_v2"
+  }
+}

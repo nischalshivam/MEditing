@@ -1,0 +1,78 @@
+{
+  "project": "walter_book_project",
+  "pre_test_state_hash": "73d48c8a327ab5659bd2dcc6942b3733a01bdf74acaceb6ac7c51dc538ce87fd",
+  "PASS": true,
+  "visible_video_element_count": 1,
+  "all_video_elements": 1,
+  "target_video_current_src": "http://127.0.0.1:8780/media?path=E%3A%5CMovies%5CBreaking%20Bad%5CBreaking%20Bad%20Season%205%5CBreaking%20Bad%20Season%205%20Episode%208.mp4",
+  "target_video_rect": {
+    "x": 513,
+    "y": 137.875,
+    "width": 536,
+    "height": 301.5
+  },
+  "display": "block",
+  "visibility": "visible",
+  "opacity": 1.0,
+  "element_at_preview_center": "VIDEO#player",
+  "object_fit": "contain",
+  "parent_visibility": "visible",
+  "parent_opacity": "1",
+  "parent_clipping": "visible",
+  "preview_container_classes": "preview",
+  "video_frame_samples": [
+    {
+      "time": 437.454008,
+      "mean_luminance": 99.73111818146047,
+      "std_luminance": 75.78711655571446,
+      "nonblack_ratio": 0.7948244598765432,
+      "above30_ratio": 0.731923225308642
+    },
+    {
+      "time": 438.921259,
+      "mean_luminance": 97.88878218184207,
+      "std_luminance": 75.33000027023039,
+      "nonblack_ratio": 0.7868306327160494,
+      "above30_ratio": 0.7245466820987654
+    },
+    {
+      "time": 440.417043,
+      "mean_luminance": 98.90905489016015,
+      "std_luminance": 75.69108828852477,
+      "nonblack_ratio": 0.7935050154320987,
+      "above30_ratio": 0.7294135802469136
+    }
+  ],
+  "visible_screenshot_samples": [
+    {
+      "file": "C:\\Users\\Dell\\Documents\\Codex\\2026-07-30\\m-ek-automation-tool-banwa-rha\\film_tv_scene_brain_v2\\qa_artifacts\\walter_visible_preview_1.png",
+      "mean_luminance": 85.27583986458333,
+      "std_luminance": 73.25290315969673,
+      "nonblack_ratio": 0.7921006944444444,
+      "dimensions": "536x301"
+    },
+    {
+      "file": "C:\\Users\\Dell\\Documents\\Codex\\2026-07-30\\m-ek-automation-tool-banwa-rha\\film_tv_scene_brain_v2\\qa_artifacts\\walter_visible_preview_2.png",
+      "mean_luminance": 83.93581748263888,
+      "std_luminance": 73.84539996529938,
+      "nonblack_ratio": 0.7740104166666667,
+      "dimensions": "536x301"
+    },
+    {
+      "file": "C:\\Users\\Dell\\Documents\\Codex\\2026-07-30\\m-ek-automation-tool-banwa-rha\\film_tv_scene_brain_v2\\qa_artifacts\\walter_visible_preview_3.png",
+      "mean_luminance": 84.92261240972222,
+      "std_luminance": 73.24519226989241,
+      "nonblack_ratio": 0.7869965277777777,
+      "dimensions": "536x301"
+    }
+  ],
+  "video_pixels_nonblack": true,
+  "human_visible_preview_nonblack": true,
+  "preview_playback_visible": true,
+  "approval_mutation_pass": true,
+  "reload_persistence_pass": true,
+  "console_errors": 0,
+  "failed_requests": 0,
+  "post_restore_state_hash": "73d48c8a327ab5659bd2dcc6942b3733a01bdf74acaceb6ac7c51dc538ce87fd",
+  "test_mutations_restored": true
+}

@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "film-tv-scene-brain-v2"
+version = "0.1.0"
+description = "Evidence-first local film/TV media indexing foundation"
+requires-python = ">=3.11"
+dependencies = [
+  "Pillow>=11,<13",
+  "pydantic>=2.10,<3",
+]
+
+[project.optional-dependencies]
+asr = ["faster-whisper>=1.1,<2"]
+gemini = ["google-genai>=1.30,<2"]
+vision = ["opencv-contrib-python>=4.10,<5", "numpy>=2,<3"]
+dev = []
+
+[project.scripts]
+scene-brain = "scenebrain.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

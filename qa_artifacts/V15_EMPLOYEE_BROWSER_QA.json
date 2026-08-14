@@ -1,0 +1,8 @@
+{
+  "library": true,
+  "analysis": true,
+  "editor": true,
+  "operations": true,
+  "console_errors": 0,
+  "PASS": true
+}

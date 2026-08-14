@@ -1,0 +1,15 @@
+﻿{
+  "name": "S04E01_VISUAL_HOLDOUT_V1",
+  "path": "C:\\Users\\Dell\\Documents\\Codex\\2026-07-30\\m-ek-automation-tool-banwa-rha\\film_tv_scene_brain_v2\\benchmark\\frozen\\S04E01_VISUAL_HOLDOUT_V1.jsonl",
+  "sha256": "e362338e034a07bc3411de2eff19d05c03ce8ee033d5ffa86cdb33a56938c396",
+  "questions": 30,
+  "categories": {
+    "CONFUSING_SIMILAR": 2,
+    "EXACT_VISIBLE_EVENT": 12,
+    "NEGATIVE_NONE": 3,
+    "OBJECT_ACTION": 5,
+    "REACTION": 4,
+    "SCENE_CONTEXT": 4
+  },
+  "frozen_before_sprint3": true
+}
