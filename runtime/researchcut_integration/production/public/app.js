@@ -22,6 +22,9 @@ let toastTimer = null;
 let cropEditingId = null;
 let previewVolume = 1;
 let previewMuted = false;
+const previewPrepared = new Map();
+let previewTransition = 0;
+window.__previewMetrics = { preloadMissCount: 0, events: [] };
 let automationCatalog = null;
 let automateDraft = null;
 let automationPreviewClipId = null;
@@ -66,12 +69,12 @@ function migrateClient(value) {
   const defaults = [
     { id: 'V3', kind: 'video', name: 'Overlay 2', muted: false, locked: false, magnetic: false },
     { id: 'V2', kind: 'video', name: 'Overlay 1', muted: false, locked: false, magnetic: false },
-    { id: 'V1', kind: 'video', name: 'Main video', muted: true, locked: false, magnetic: false },
+    { id: 'V1', kind: 'video', name: 'Main Visual', muted: true, locked: false, magnetic: false },
     { id: 'A1', kind: 'audio', name: 'Voiceover', muted: false, locked: false, magnetic: false },
     { id: 'A2', kind: 'audio', name: 'Music & SFX', muted: false, locked: false, magnetic: false }
   ];
   const current = Array.isArray(value.tracks) ? value.tracks : [];
-  const base = defaults.map(d => ({ ...d, ...current.find(t => t.id === d.id) }));
+  const base = defaults.map(d => { const merged={...d,...current.find(t => t.id === d.id)}; if(d.id==='V1'&&['Main video','Main Visual'].includes(merged.name))merged.name='Main Visual'; return merged; });
   const extras = current.filter(t => !defaults.some(d => d.id === t.id) && /^[VA]\d+$/.test(t.id)).map(t => ({ ...t, kind: t.id.startsWith('A') ? 'audio' : 'video', magnetic: false }));
   value.tracks = [...extras.filter(t => t.kind === 'video').sort((a,b) => Number(b.id.slice(1)) - Number(a.id.slice(1))), ...base.filter(t => t.kind === 'video'), ...base.filter(t => t.kind === 'audio'), ...extras.filter(t => t.kind === 'audio').sort((a,b) => Number(a.id.slice(1)) - Number(b.id.slice(1)))];
   value.clips = (value.clips || []).map(c => ({ ...c, transform: { x: 0, y: 0, scale: 1, rotation: 0, fit: 'fill', opacity: 1, ...(c.transform || {}), crop: { top: 0, right: 0, bottom: 0, left: 0, ...(c.transform?.crop || {}) } } }));
@@ -150,7 +153,7 @@ function relative(date) {
   const sec = Math.max(0, (Date.now() - new Date(date).getTime()) / 1000); if (sec < 60) return 'just now'; if (sec < 3600) return `${Math.floor(sec / 60)}m ago`; if (sec < 86400) return `${Math.floor(sec / 3600)}h ago`; return `${Math.floor(sec / 86400)}d ago`;
 }
 function openProject(value) {
-  project = migrateClient(value); serverRevision = value.revision; selectedId = null; cropEditingId = null; currentTime = 0; undoStack = []; redoStack = [];
+  previewPrepared.clear();previewTransition=0;window.__previewMetrics={preloadMissCount:0,events:[]};project = migrateClient(value); serverRevision = value.revision; selectedId = null; cropEditingId = null; currentTime = 0; undoStack = []; redoStack = [];
   const recovery = localStorage.getItem(`researchcut:${project.id}`);
   if (recovery) {
     try { const local = JSON.parse(recovery); if (local.project.updatedAt > project.updatedAt) { project = migrateClient(local.project); serverRevision = value.revision; toast('Recovered unsaved work from the last session'); markDirty(); } } catch {}
@@ -261,7 +264,7 @@ function nextFreeStart(trackId, start, length, ignoreId = null) {
 }
 function renderTracks() {
   const labels = $('#trackLabels'); if (!labels) return;
-  labels.innerHTML = `<div style="height:26px"></div>` + project.tracks.map(t => `<div class="track-label"><span class="track-badge">${t.id}</span><span class="name">${esc(t.name)}</span>${t.id === 'V1' ? `<button class="track-toggle ${t.magnetic ? 'locked' : ''}" data-magnet="${t.id}" title="Magnetic main track">MAG</button>` : ''}<button class="track-toggle ${t.muted ? 'on' : ''}" data-mute="${t.id}" title="Mute track">${t.muted ? 'MUTE' : 'AUDIO'}</button><button class="track-toggle ${t.locked ? 'locked' : ''}" data-lock="${t.id}" title="Lock track">${t.locked ? 'LOCKED' : 'LOCK'}</button></div>`).join('');
+  labels.innerHTML = `<div style="height:26px"></div>` + project.tracks.map(t => `<div class="track-label"><span class="track-badge">${t.id}</span><span class="name" title="${esc(t.name)}">${esc(t.name)}</span><span class="track-controls">${t.id === 'V1' ? `<button class="track-toggle ${t.magnetic ? 'locked' : ''}" data-magnet="${t.id}" title="Magnetic main track" aria-label="Magnetic main track">M</button>` : ''}<button class="track-toggle ${t.muted ? 'on' : ''}" data-mute="${t.id}" title="${t.muted?'Unmute':'Mute'} track" aria-label="${t.muted?'Unmute':'Mute'} ${esc(t.name)}">${t.muted ? 'X' : 'A'}</button><button class="track-toggle ${t.locked ? 'locked' : ''}" data-lock="${t.id}" title="${t.locked?'Unlock':'Lock'} track" aria-label="${t.locked?'Unlock':'Lock'} ${esc(t.name)}">${t.locked ? 'L' : 'O'}</button></span>${t.muted?'<span class="muted-pill">MUTED</span>':''}</div>`).join('');
   $$('[data-mute]').forEach(b => b.onclick = () => { remember(); track(b.dataset.mute).muted = !track(b.dataset.mute).muted; markDirty(); renderTracks(); renderTimeline(); syncMedia(true); });
   $$('[data-lock]').forEach(b => b.onclick = () => { remember(); track(b.dataset.lock).locked = !track(b.dataset.lock).locked; markDirty(); renderTracks(); });
   $$('[data-magnet]').forEach(b => b.onclick = () => { remember(); track('V1').magnetic = !track('V1').magnetic; normalizeMagnetic(); markDirty(); renderTracks(); renderTimeline(); });
@@ -294,7 +297,8 @@ function renderTimeline() {
     const a = asset(c.assetId), row = $(`.track-row[data-track="${c.trackId}"]`, content); if (!a || !row) continue;
     const node = document.createElement('div'); node.className = `clip ${a.kind}${(selectedId === c.id ? ' selected' : '')}${(c.muted || track(c.trackId).muted) ? ' muted' : ''}`; node.dataset.clip = c.id;
     node.style.left = `${c.start * pxPerSec}px`; node.style.width = `${Math.max(4, c.duration * pxPerSec)}px`; if(c.sceneBrain?.status)node.dataset.status=c.sceneBrain.status;if (a.kind !== 'audio') node.style.backgroundImage = `url('${thumbUrl(a)}')`;
-    node.innerHTML = `<canvas class="wave-canvas"></canvas><div class="clip-title">${esc(a.name)}</div><span class="trim left"></span><span class="trim right"></span>`; row.append(node);
+    const compact=compactAssetLabel(a,c); node.title=`${a.name}\n${compact}\n${fmt(c.sourceIn,true)} - ${fmt(c.sourceIn+c.duration,true)}${c.sceneBrain?.status?'\n'+c.sceneBrain.status:''}`;
+    node.innerHTML = `<canvas class="wave-canvas"></canvas><div class="clip-title">${esc(compact)}</div><span class="trim left"></span><span class="trim right"></span>`; row.append(node);
     node.onclick = e => { e.stopPropagation(); selectClip(c.id); }; node.onpointerdown = e => beginClipDrag(e, c, node);
     $('.trim.left', node).onpointerdown = e => beginTrim(e, c, node, 'left'); $('.trim.right', node).onpointerdown = e => beginTrim(e, c, node, 'right');
     if (a.kind === 'audio') loadWave(a, node, c);
@@ -308,6 +312,7 @@ function renderTimeline() {
   $('.ruler', content).onclick = e => seek(Math.max(0, (e.clientX - $('.ruler', content).getBoundingClientRect().left) / pxPerSec));
   scroll.scrollLeft = oldLeft; scroll.scrollTop = oldTop; const labels = $('#trackLabels'); if (labels) labels.scrollTop = oldTop; const slider = $('#zoom'); if (slider) slider.value = zoomValue(); updatePlayhead();
 }
+function compactAssetLabel(a,c){const raw=`${a.name||''} ${a.externalPath||''}`,m=raw.match(/(?:S(?:eason)?\s*0*(\d{1,2})[^0-9A-Z]*E(?:pisode)?\s*0*(\d{1,3})|S(\d{1,2})E(\d{1,3}))/i);let prefix=/better\s*call\s*saul|\bBCS\b/i.test(raw)?'BCS':/breaking\s*bad|\bBB\b/i.test(raw)?'BB':String(a.name||'Media');if(m){const s=m[1]||m[3],e=m[2]||m[4];prefix=`${prefix} S${String(s).padStart(2,'0')}E${String(e).padStart(2,'0')}`}const detail=c.sceneBrain?.label||c.sceneBrain?.candidateLabel||a.sceneLabel;return detail?`${prefix} - ${detail}`:prefix}
 async function loadWave(a, node, c) {
   let data = waveCache.get(a.id);
   if (!data) {
@@ -357,23 +362,26 @@ function splitSelected() {
   const c = clip(); if (!c || track(c.trackId).locked || currentTime <= c.start + .05 || currentTime >= c.start + c.duration - .05) return toast('Place the playhead inside the selected clip');
   remember(); const leftDuration = currentTime - c.start, right = JSON.parse(JSON.stringify(c)); right.id = 'c_' + cryptoId(); right.start = currentTime; right.duration = c.duration - leftDuration; if (asset(c.assetId).kind !== 'image') right.sourceIn = c.sourceIn + leftDuration; c.duration = leftDuration; project.clips.push(right); selectedId = right.id; markDirty(); renderEditorParts();
 }
+function prepareVisual(c){if(!c)return null;const a=asset(c.assetId);if(!a||!['video','image'].includes(a.kind))return null;let p=previewPrepared.get(c.id);if(p&&p.assetId===a.id)return p;const media=document.createElement(a.kind==='video'?'video':'img');p={clipId:c.id,assetId:a.id,media,ready:false,error:false,promise:null};previewPrepared.set(c.id,p);media.dataset.preparedClip=c.id;media.src=mediaUrl(a);if(a.kind==='video'){media.playsInline=true;media.preload='auto';media.muted=true;p.promise=new Promise(resolve=>{let finished=false;const done=()=>{if(finished)return;finished=true;p.ready=!p.error;window.__previewMetrics.events.push({type:'prepared',clipId:c.id,at:performance.now(),ready:p.ready});resolve(p)};media.addEventListener('loadedmetadata',()=>{window.__previewMetrics.events.push({type:'metadata',clipId:c.id,at:performance.now()});try{media.currentTime=Math.min(Math.max(0,c.sourceIn),Math.max(0,(media.duration||c.sourceIn+.1)-.05))}catch{}if(media.readyState>=3)done()},{once:true});media.addEventListener('seeked',done,{once:true});media.addEventListener('canplay',done,{once:true});media.addEventListener('error',()=>{p.error=true;done()},{once:true});media.load()})}else{p.promise=(typeof media.decode==='function'?media.decode():new Promise((resolve,reject)=>{media.onload=resolve;media.onerror=reject})).then(()=>{p.ready=true;window.__previewMetrics.events.push({type:'prepared',clipId:c.id,at:performance.now(),ready:true});return p}).catch(()=>{p.error=true;return p})}return p}
+function prewarmUpcoming(){if(!project)return;project.clips.filter(c=>c.trackId.startsWith('V')&&c.start>=currentTime&&c.start-currentTime<=5).forEach(prepareVisual)}
+function buildVisualLayer(c,p){const a=asset(c.assetId),layer=document.createElement('div');layer.className='stage-layer'+(selectedId===c.id?' selected':'');layer.dataset.clip=c.id;applyLayerTransform(layer,c);const media=p.media;media.style.objectFit=c.transform.fit==='fit'?'contain':'cover';applyMediaCrop(media,c);media.onerror=()=>{layer.innerHTML='<div class="stage-empty media-error"><b>MEDIA ERROR</b><span>Source could not be loaded.</span><button class="btn">Retry</button></div>';layer.querySelector('button').onclick=()=>{previewPrepared.delete(c.id);renderStage(true)}};if(a.kind==='video'){media.muted=previewMuted||track(c.trackId).muted||c.muted||!a.hasAudio;media.volume=Math.min(1,c.volume*previewVolume)}layer.append(media);const resize=document.createElement('span');resize.className='resize-handle';layer.append(resize);if(selectedId===c.id&&cropEditingId===c.id)layer.append(makeCropOverlay(c,media));layer.onpointerdown=e=>beginStageDrag(e,c,layer);resize.onpointerdown=e=>beginStageResize(e,c,layer);return layer}
+function renderUnavailableVisual(stage,c){
+  const status=String(c?.sceneBrain?.status||c?.status||'').toUpperCase();
+  let title='MEDIA ERROR',detail='The assigned source is unavailable.',className='media-error';
+  if(status==='MANUAL_REQUIRED'||status==='MANUAL_FIX'){title='MANUAL VISUAL REQUIRED';detail='Choose a local visual or mark this slot for later.';className='manual-state'}
+  else if(status==='NEEDS_CHOICE'){title='CHOOSE VISUAL';detail='Review the generated choices for this slot.';className='choice-state'}
+  stage.innerHTML=`<div class="stage-empty ${className}"><b>${title}</b><span>${detail}</span></div>`;
+}
 function renderStage(force = false) {
-  const stage = $('#stage'); if (!stage) return; const active = project.clips.filter(c => c.trackId.startsWith('V') && currentTime >= c.start && currentTime < c.start + c.duration).sort((a, b) => trackOrderValue(a.trackId) - trackOrderValue(b.trackId));
-  const signature = active.map(c => c.id).join('|') + ':' + selectedId + ':' + cropEditingId; if (!force && signature === activeSignature) return syncMedia(); activeSignature = signature;
+  const stage=$('#stage');if(!stage)return;const active=project.clips.filter(c=>c.trackId.startsWith('V')&&currentTime>=c.start&&currentTime<c.start+c.duration).sort((a,b)=>trackOrderValue(a.trackId)-trackOrderValue(b.trackId));
+  const signature=active.map(c=>c.id).join('|')+':'+selectedId+':'+cropEditingId;if(!force&&signature===activeSignature){prewarmUpcoming();return syncMedia()}activeSignature=signature;prewarmUpcoming();
   const nextVisual=project.clips.filter(c=>c.trackId==='V1'&&c.start>currentTime).sort((a,b)=>a.start-b.start)[0],gapSeconds=nextVisual?Math.max(0,nextVisual.start-currentTime):0;
-  stage.innerHTML = active.length ? '' : `<div class="stage-empty explicit-gap"><b>EMPTY VISUAL GAP</b><span>Duration: ${gapSeconds.toFixed(1)} sec</span><div><button class="btn primary" id="gapAddMedia">Add Media</button><button class="btn" id="gapProjectMedia">Project Media</button><button class="btn" id="gapCandidates">SceneBrain Candidates</button></div></div>`;
-  $('#gapAddMedia')?.addEventListener('click',()=>$('#fileInput')?.click());
-  $('#gapProjectMedia')?.addEventListener('click',()=>{$('.media-panel')?.scrollIntoView({behavior:'smooth'});toast('Choose or import media from Project Media')});
-  $('#gapCandidates')?.addEventListener('click',()=>toast('Select a NEEDS_CHOICE timeline slot to review its stored candidates'));
-  for (const c of active) {
-    const a = asset(c.assetId), layer = document.createElement('div'); layer.className = 'stage-layer' + (selectedId === c.id ? ' selected' : ''); layer.dataset.clip = c.id; applyLayerTransform(layer, c);
-    const media = document.createElement(a.kind === 'video' ? 'video' : 'img'); media.src = mediaUrl(a);media.onerror=()=>{layer.innerHTML='<div class="stage-empty media-error"><b>MEDIA ERROR</b><span>Source could not be loaded.</span><button class="btn">Retry</button></div>';layer.querySelector('button').onclick=()=>renderStage(true)}; if (a.kind === 'video') { media.playsInline = true; media.preload = 'auto'; media.muted = track(c.trackId).muted || c.muted || !a.hasAudio; media.volume = Math.min(1, c.volume); }
-    media.style.objectFit = c.transform.fit === 'fit' ? 'contain' : 'cover'; applyMediaCrop(media, c); layer.append(media);
-    const resize = document.createElement('span'); resize.className = 'resize-handle'; layer.append(resize);
-    if (selectedId === c.id && cropEditingId === c.id) layer.append(makeCropOverlay(c, media));
-    stage.append(layer); layer.onpointerdown = e => beginStageDrag(e, c, layer); resize.onpointerdown = e => beginStageResize(e, c, layer);
-  }
-  syncMedia(true);
+  if(!active.length){stage.innerHTML=`<div class="stage-empty explicit-gap"><b>EMPTY VISUAL GAP</b><span>Duration: ${gapSeconds.toFixed(1)} sec</span><div><button class="btn primary" id="gapAddMedia">Add Media</button><button class="btn" id="gapProjectMedia">Project Media</button><button class="btn" id="gapCandidates">SceneBrain Candidates</button></div></div>`;$('#gapAddMedia')?.addEventListener('click',()=>$('#fileInput')?.click());$('#gapProjectMedia')?.addEventListener('click',()=>{$('.media-panel')?.scrollIntoView({behavior:'smooth'});toast('Choose or import media from Project Media')});$('#gapCandidates')?.addEventListener('click',()=>toast('Select a NEEDS_CHOICE timeline slot to review its stored candidates'));syncAudio(true);return}
+  const unavailable=active.find(c=>!asset(c.assetId)||!['video','image'].includes(asset(c.assetId)?.kind));
+  if(unavailable){renderUnavailableVisual(stage,unavailable);syncAudio(true);return}
+  const prepared=active.map(c=>[c,prepareVisual(c)]),ready=prepared.every(([,p])=>p?.ready);
+  if(ready){stage.replaceChildren(...prepared.map(([c,p])=>buildVisualLayer(c,p)));window.__previewMetrics.events.push({type:'visible-swap',clipIds:active.map(c=>c.id),at:performance.now()});syncMedia(true);return}
+  const transition=++previewTransition;if(!stage.querySelector('.stage-layer'))window.__previewMetrics.preloadMissCount++;let note=stage.querySelector('.preload-note');if(!note){note=document.createElement('div');note.className='preload-note';note.textContent='Preparing next clip...';stage.append(note)}Promise.all(prepared.map(([,p])=>p.promise)).then(()=>{if(transition===previewTransition)renderStage(true)});syncAudio(true)
 }
 function applyLayerTransform(layer, c) { layer.style.transform = `translate(${c.transform.x}%,${c.transform.y}%) scale(${c.transform.scale}) rotate(${c.transform.rotation}deg)`; layer.style.opacity = c.transform.opacity; }
 function cropValues(c) { return c.transform.crop || (c.transform.crop = { top: 0, right: 0, bottom: 0, left: 0 }); }
@@ -455,7 +463,7 @@ function seek(time) { currentTime = Math.max(0, Math.min(duration(), time)); ren
 function togglePlay() { if (!project.clips.length) return; playing = !playing; lastFrame = performance.now(); const b=$('#playBtn');b.innerHTML=playing?icon.pause:icon.play;b.ariaLabel=playing?'Pause':'Play';b.title=playing?'Pause (Space)':'Play (Space)'; syncMedia(true); }
 function frame(now) {
   if (!project || !$('#playhead')) return;
-  if (playing) { const dt = Math.min(.1, (now - lastFrame) / 1000); currentTime += dt; if (currentTime >= duration()) { currentTime = duration(); playing = false;const b=$('#playBtn');b.innerHTML=icon.play;b.ariaLabel='Play';b.title='Play (Space)'; } renderStage(); syncMedia(); updateTimeUI(); }
+  if (playing) { const dt = Math.min(.1, (now - lastFrame) / 1000); currentTime += dt; prewarmUpcoming(); if (currentTime >= duration()) { currentTime = duration(); playing = false;const b=$('#playBtn');b.innerHTML=icon.play;b.ariaLabel='Play';b.title='Play (Space)'; } renderStage(); syncMedia(); updateTimeUI(); }
   lastFrame = now; requestAnimationFrame(frame);
 }
 function paintPlayerRange() {

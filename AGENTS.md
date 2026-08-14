@@ -2,6 +2,8 @@
 
 Before editing, read `SCENE_BRAIN_MASTER_HANDOFF.md`, `SCENE_BRAIN_CURRENT_STATE.md`, and `SCENE_BRAIN_REGRESSION_CONSTITUTION.md`.
 
+Every completed coding update must be committed and pushed to MEditing after its required tests pass. Do not leave successful local-only code as the new source of truth.
+
 - Film/TV source media is read-only. Never push media, credentials, runtime databases, caches, character images, voiceovers, or machine profiles.
 - Local source times and physical evidence are authority. Never accept guessed/model timestamps.
 - Weak evidence becomes review/manual; never manufacture confidence.

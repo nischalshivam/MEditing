@@ -15,3 +15,8 @@ def test_word_mismatch_and_scope_fail_closed():
 def test_self_declared_validation_is_not_trusted():
  value=clue("Different words.");value["validation"]={"all_narration_covered_once":True}
  assert not validate_clue("Original words.",value,["Breaking Bad"])["valid"]
+
+def test_production_schema_and_exact_narration_aliases():
+ value={"schema":"production-clue-script/4.0","canonical_events":[],"beats":[{"beat_id":"B001","exact_narration":"Mike enters.","evidence_class":"EXACT_EVENT"}]}
+ result=validate_clue("Mike enters.",value,["Breaking Bad"])
+ assert result["valid"] and result["comparison"]=="EXACT_MATCH"

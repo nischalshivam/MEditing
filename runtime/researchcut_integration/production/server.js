@@ -80,14 +80,14 @@ function mediaKind(name, declared = '') {
 const TRACK_DEFAULTS = [
   { id: 'V3', kind: 'video', name: 'Overlay 2', muted: false, locked: false, magnetic: false },
   { id: 'V2', kind: 'video', name: 'Overlay 1', muted: false, locked: false, magnetic: false },
-  { id: 'V1', kind: 'video', name: 'Main video', muted: true, locked: false, magnetic: false },
+  { id: 'V1', kind: 'video', name: 'Main Visual', muted: true, locked: false, magnetic: false },
   { id: 'A1', kind: 'audio', name: 'Voiceover', muted: false, locked: false, magnetic: false },
   { id: 'A2', kind: 'audio', name: 'Music & SFX', muted: false, locked: false, magnetic: false }
 ];
 function migrateProject(project) {
   project.schemaVersion = 3;
   const existingTracks = Array.isArray(project.tracks) ? project.tracks : [];
-  const defaults = TRACK_DEFAULTS.map(track => ({ ...track, ...existingTracks.find(t => t.id === track.id) }));
+  const defaults = TRACK_DEFAULTS.map(track => { const merged={...track,...existingTracks.find(t=>t.id===track.id)};if(track.id==='V1'&&['Main video','Main Visual'].includes(merged.name))merged.name='Main Visual';return merged });
   const extraTracks = existingTracks.filter(t => !TRACK_DEFAULTS.some(d => d.id === t.id) && /^[VA]\d+$/.test(t.id)).map(t => ({
     id: t.id, kind: t.id.startsWith('A') ? 'audio' : 'video', name: String(t.name || t.id).slice(0, 40),
     muted: !!t.muted, locked: !!t.locked, magnetic: false
@@ -264,8 +264,8 @@ async function handler(req, res) {
     return json(res,200,{ok:true,name:path.basename(file),text:await fsp.readFile(file,'utf8')});
   }
   if (url.pathname === '/api/scene-brain/validate-clue' && req.method === 'POST') {
-    const input=await bodyJson(req),root=path.resolve(APP_DIR,'../../..'),code=`import json,sys\nsys.path.insert(0,r'${root.replaceAll('\\','\\\\')}\\src')\nfrom scenebrain.clue_intake import validate_clue\nprint(json.dumps(validate_clue(${JSON.stringify(String(input.clean_script||''))},${JSON.stringify(input.clue||{})},${JSON.stringify(input.selected_titles||[])})))`;
-    return json(res,200,{ok:true,validation:JSON.parse(execFileSync('python',['-c',code],{encoding:'utf8',maxBuffer:8*1024*1024}))});
+    const input=await bodyJson(req),root=path.resolve(APP_DIR,'../../..'),code=`import json,sys\nsys.path.insert(0,r'${root.replaceAll('\\','\\\\')}\\src')\nfrom scenebrain.clue_intake import validate_clue\np=json.load(sys.stdin)\nprint(json.dumps(validate_clue(str(p.get('clean_script','')),p.get('clue') or {},p.get('selected_titles') or [])))`;
+    return json(res,200,{ok:true,validation:JSON.parse(execFileSync('python',['-c',code],{input:JSON.stringify(input),encoding:'utf8',maxBuffer:8*1024*1024}))});
   }
   if (url.pathname === '/api/scene-brain/gpu' && req.method === 'GET') {
     const root=path.resolve(APP_DIR,'../../..'),cap=path.join(root,'qa_artifacts','GPU_CAPABILITY_REPORT.json'),proof=path.join(root,'qa_artifacts','GPU_RUNTIME_PROOF.json');
@@ -346,6 +346,13 @@ async function handler(req, res) {
       scopeMode: String(input.intake.scopeMode || 'single'),
       titleIds: [...new Set((Array.isArray(input.intake.titleIds) ? input.intake.titleIds : []).map(cleanId))].slice(0, 20),
       titleNames: [...new Set((Array.isArray(input.intake.titleNames) ? input.intake.titleNames : []).map(x => String(x).slice(0, 120)))].slice(0, 20),
+      clue: input.intake.clue && typeof input.intake.clue === 'object' ? {
+        filename: safeName(input.intake.clue.filename), size: Math.max(0, Number(input.intake.clue.size) || 0),
+        schema: String(input.intake.clue.schema || '').slice(0, 100), beatCount: Math.max(0, Number(input.intake.clue.beatCount) || 0),
+        subject: String(input.intake.clue.subject || '').slice(0, 160),
+        sourceScope: (Array.isArray(input.intake.clue.sourceScope) ? input.intake.clue.sourceScope : []).map(x => String(x).slice(0, 120)).slice(0, 20),
+        document: input.intake.clue.document && typeof input.intake.clue.document === 'object' ? input.intake.clue.document : null
+      } : null,
       preparedAt: iso()
     };
     await fsp.mkdir(assetDir(project.id), { recursive: true }); await fsp.mkdir(cacheDir(project.id), { recursive: true }); await saveProject(project, false);
