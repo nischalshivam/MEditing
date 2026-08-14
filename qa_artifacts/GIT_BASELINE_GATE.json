@@ -1,0 +1,18 @@
+{
+  "repo": "https://github.com/nischalshivam/MEditing",
+  "branch": "main",
+  "commit": "f93e040f3922f5d6e123a5ddf1aac3832acb725c",
+  "files_committed": 281,
+  "files_intentionally_excluded": [
+    "credentials and .env files",
+    "canonical runtime state and databases",
+    "source and rendered media",
+    "disposable caches and logs",
+    "browser profiles",
+    "Python and Node generated dependencies",
+    "QA screenshots and media evidence"
+  ],
+  "secrets_scan_result": "PASS",
+  "large_file_scan_result": "PASS",
+  "push_verified": true
+}
